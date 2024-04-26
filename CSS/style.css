@@ -97,6 +97,12 @@ a:hover {
     padding: 2rem;
 }
 
+.featuredProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 footer {
     background-color: #000000;
     border-top: 0.2rem solid #FFFFFF;
