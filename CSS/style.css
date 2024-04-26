@@ -51,8 +51,24 @@ nav {
     width: 100%;
 }
 
-a {
+.currentPage {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+}
 
+a {
+    font-family: "HeroicCondensed-Medium";
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: "HeroicCondensed-Medium";
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
 }
 
 /* a {
