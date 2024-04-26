@@ -51,11 +51,29 @@ nav {
     width: 100%;
 }
 
-/*     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-image: url(../images/NAVBAR.png);
-    background-size: contain;
-    position: fixed;
-    top: 0;
-    width: 100%; */
+a {
+
+}
+
+/* a {
+    color: #FFFFFF;
+    font-family: "HeroicCondensed-Medium";
+    font-size: 3rem;
+    text-decoration: none;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+}
+
+a:hover {
+    color: #FFFFFF;
+    font-family: "HeroicCondensed-Medium";
+    font-size: 3rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+} */
