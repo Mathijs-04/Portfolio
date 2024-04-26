@@ -13,5 +13,7 @@ body {
 }
 
 h1 {
-
+    font-family: "HeroicCondensed-Medium";
+    color: #FFFFFF;
+    font-size: 8rem;
 }
