@@ -10,6 +10,7 @@ body {
     background-image: url(/IMG/WALLPAPER.jpg);
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
 }
 
 main {
@@ -49,6 +50,8 @@ nav {
     background-size: contain;
     display: flex;
     flex-direction: row;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -62,7 +65,7 @@ nav {
 
 a {
     font-family: "HeroicCondensed-Medium";
-    font-size: 2rem;
+    font-size: 3rem;
     color: #FFFFFF;
     text-decoration: none;
     padding: 2rem;
@@ -71,7 +74,7 @@ a {
 
 a:hover {
     font-family: "HeroicCondensed-Medium";
-    font-size: 2rem;
+    font-size: 3rem;
     color: #FFFFFF;
     text-decoration: underline;
     text-decoration-color: #FFFFFF;
