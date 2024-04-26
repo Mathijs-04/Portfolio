@@ -8,4 +8,6 @@
 
 body {
     background-image: url(/IMG/BACKGROUND.webp);
+    background-attachment: fixed;
+    background-size: cover;
 }
