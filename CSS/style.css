@@ -16,4 +16,12 @@ h1 {
     font-family: "HeroicCondensed-Medium";
     color: #FFFFFF;
     font-size: 8rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: "HeroicCondensed-Medium";
+    color: #FFFFFF;
+    font-size: 6rem;
+    text-align: center;
 }
