@@ -41,5 +41,21 @@ p {
 }
 
 nav {
-
+    background-image: url(/IMG/NAVBAR.png);
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+
+/*     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../images/NAVBAR.png);
+    background-size: contain;
+    position: fixed;
+    top: 0;
+    width: 100%; */
