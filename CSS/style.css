@@ -5,3 +5,7 @@
     src: url("https://db.onlinewebfonts.com/t/953e30bac9020d26a8d0ffd0c9fe5ebb.eot");
     src: url("https://db.onlinewebfonts.com/t/953e30bac9020d26a8d0ffd0c9fe5ebb.eot?#iefix")format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/953e30bac9020d26a8d0ffd0c9fe5ebb.woff2")format("woff2"), url("https://db.onlinewebfonts.com/t/953e30bac9020d26a8d0ffd0c9fe5ebb.woff")format("woff"), url("https://db.onlinewebfonts.com/t/953e30bac9020d26a8d0ffd0c9fe5ebb.ttf")format("truetype"), url("https://db.onlinewebfonts.com/t/953e30bac9020d26a8d0ffd0c9fe5ebb.svg#HeroicCondensed-Medium")format("svg");
 }
+
+main {
+    background-image: url(/IMG/BACKGROUND.webp);
+}
