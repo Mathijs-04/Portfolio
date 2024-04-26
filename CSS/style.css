@@ -12,6 +12,10 @@ body {
     background-size: cover;
 }
 
+main {
+    padding-top: 2rem;
+}
+
 h1 {
     font-family: "HeroicCondensed-Medium";
     color: #FFFFFF;
@@ -73,6 +77,14 @@ a:hover {
     text-decoration-color: #FFFFFF;
     padding: 2rem;
     margin-bottom: 1rem;
+}
+
+.title{
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 0;
 }
 
 /* a {
