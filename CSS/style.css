@@ -94,9 +94,6 @@ footer {
     background-color: #000000;
     border-top: 0.2rem solid #FFFFFF;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .gLogo {
