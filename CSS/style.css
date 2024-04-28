@@ -144,3 +144,20 @@ footer {
 .footerLink:hover {
     padding-left: 0;
 }
+
+.corner1 {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 20rem;
+    margin-top: -10rem;
+    margin-bottom: -30rem;
+}
+
+.corner2 {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 80rem;
+    margin-top: -30rem;
+    margin-bottom: -10rem;
+    transform: rotate(180deg);
+}
