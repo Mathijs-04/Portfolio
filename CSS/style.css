@@ -115,12 +115,14 @@ a:hover {
 .arrowLeft {
     width: 2rem;
     height: 2rem;
-    transform: rotate(180deg)
+    transform: rotate(180deg);
+    margin-top: 20vw;
 }
 
 .arrowRight {
     width: 2rem;
     height: 2rem;
+    margin-top: 20vw;
 }
 
 footer {
