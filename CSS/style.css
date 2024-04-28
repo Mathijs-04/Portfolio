@@ -112,6 +112,17 @@ a:hover {
     justify-content: space-between;
 }
 
+.arrowLeft {
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(180deg)
+}
+
+.arrowRight {
+    width: 2rem;
+    height: 2rem;
+}
+
 footer {
     background-color: #000000;
     border-top: 0.2rem solid #FFFFFF;
