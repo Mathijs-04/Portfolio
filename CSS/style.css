@@ -98,6 +98,14 @@ a:hover {
     padding: 2rem;
 }
 
+.featuredProjectsTitle {
+    margin-bottom: 0;
+}
+
+.featuredProjectsSection {
+    margin-top: 25rem;
+}
+
 .featuredProjects {
     display: flex;
     flex-direction: row;
