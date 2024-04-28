@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/IMG/WALLPAPER.webp);
+    background-image: url(../IMG/WALLPAPER.webp);
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
@@ -46,7 +46,7 @@ p {
 }
 
 nav {
-    background-image: url(/IMG/NAVBAR.webp);
+    background-image: url(../IMG/NAVBAR.webp);
     background-size: contain;
     display: flex;
     flex-direction: row;
