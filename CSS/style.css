@@ -166,6 +166,17 @@ a:hover {
     justify-content: space-between;
 }
 
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about p{
+    margin: -5rem 20rem 5rem 20rem;
+}
+
 footer {
     background-color: #000000;
     border-top: 0.2rem solid #FFFFFF;
