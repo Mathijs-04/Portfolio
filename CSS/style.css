@@ -177,6 +177,26 @@ a:hover {
     margin: -5rem 20rem 5rem 20rem;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.contact img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.contactRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 footer {
     background-color: #000000;
     border-top: 0.2rem solid #FFFFFF;
