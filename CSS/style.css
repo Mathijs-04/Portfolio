@@ -104,6 +104,18 @@ a:hover {
     margin-top: 0;
 }
 
+.corner1 {
+    width: 8rem;
+    height: 8rem;
+}
+
+.corner2 {
+    width: 8rem;
+    height: 8rem;
+    transform: rotate(180deg);
+    margin-top: 32rem;
+}
+
 .project {
     display: flex;
     flex-direction: column;
@@ -138,6 +150,17 @@ a:hover {
     margin-top: 20vw;
 }
 
+.allProjects {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 footer {
     background-color: #000000;
     border-top: 0.2rem solid #FFFFFF;
@@ -158,14 +181,3 @@ footer {
     padding-left: 0;
 }
 
-.corner1 {
-    width: 8rem;
-    height: 8rem;
-}
-
-.corner2 {
-    width: 8rem;
-    height: 8rem;
-    transform: rotate(180deg);
-    margin-top: 32rem;
-}
