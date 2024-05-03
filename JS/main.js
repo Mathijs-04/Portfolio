@@ -7,47 +7,47 @@ function init() {
 let projects = [
     {
         projectTitle: "Gobbo Quest",
-        projectDescription: "This is the description for Project 1.",
+        projectDescription: "This is the description for Gobbo Quest.",
         projectImage: "./IMG/IMG1.webp"
     },
     {
         projectTitle: "Game Magazine",
-        projectDescription: "This is the description for Project 2.",
+        projectDescription: "This is the description for Game Magazine.",
         projectImage: "./IMG/IMG2.webp"
     },
     {
         projectTitle: "Denise Kookt!",
-        projectDescription: "This is the description for Project 3.",
+        projectDescription: "This is the description for Denise Kookt!.",
         projectImage: "./IMG/IMG3.webp"
     },
     {
         projectTitle: "Reis Rust",
-        projectDescription: "This is the description for Project 4.",
+        projectDescription: "This is the description for Reis Rust.",
         projectImage: "./IMG/IMG4.webp"
     },
     {
         projectTitle: "Gabber Gandalf",
-        projectDescription: "This is the description for Project 5.",
+        projectDescription: "This is the description for Gabber Gandalf.",
         projectImage: "./IMG/IMG5.webp"
     },
     {
         projectTitle: "Game Database",
-        projectDescription: "This is the description for Project 6.",
+        projectDescription: "This is the description for Game Database.",
         projectImage: "./IMG/IMG6.webp"
     },
     {
         projectTitle: "Asus Rog Ally",
-        projectDescription: "This is the description for Project 7.",
+        projectDescription: "This is the description for Asus Rog Ally.",
         projectImage: "./IMG/IMG7.webp"
     },
     {
         projectTitle: "Temp Tracker",
-        projectDescription: "This is the description for Project 8.",
+        projectDescription: "This is the description for Temp Tracker.",
         projectImage: "./IMG/IMG8.webp"
     },
     {
         projectTitle: "CLE4 Game",
-        projectDescription: "This is the description for Project 9.",
+        projectDescription: "This is the description for CLE4 Game.",
         projectImage: "./IMG/IMG9.webp"
     },
 ];
