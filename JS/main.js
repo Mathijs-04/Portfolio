@@ -1,3 +1,9 @@
+
+
+function init() {
+    fillDivs();
+}
+
 let projects = [
     {
         projectTitle: "Gobbo Quest",
@@ -45,3 +51,21 @@ let projects = [
         projectImage: "./IMG/IMG9.webp"
     },
 ];
+
+function fillDivs() {
+
+};
+
+window.onload = function() {
+    let projectDivs = document.querySelectorAll('.project');
+
+    for (let i = 0; i < projects.length; i++) {
+        let projectTitleElement = projectDivs[i].querySelector('.projectTitle');
+        let projectDescriptionElement = projectDivs[i].querySelector('.projectDescription');
+        let projectImageElement = projectDivs[i].querySelector('.projectImage');
+
+        projectTitleElement.textContent = projects[i].projectTitle;
+        projectDescriptionElement.textContent = projects[i].projectDescription;
+        projectImageElement.src = projects[i].projectImage;
+    }
+}
