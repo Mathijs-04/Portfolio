@@ -15,7 +15,7 @@ let projects = [
         image: "./IMG/IMG3.webp"
     },
     {
-        title: "ReisRust",
+        title: "Reis Rust",
         description: "This is the description for Project 4.",
         image: "./IMG/IMG4.webp"
     },
