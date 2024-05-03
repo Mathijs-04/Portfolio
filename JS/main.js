@@ -1,4 +1,4 @@
-
+window.addEventListener('load', init);
 
 function init() {
     fillDivs();
@@ -53,10 +53,6 @@ let projects = [
 ];
 
 function fillDivs() {
-
-};
-
-window.onload = function() {
     let projectDivs = document.querySelectorAll('.project');
 
     for (let i = 0; i < projects.length; i++) {
@@ -68,4 +64,4 @@ window.onload = function() {
         projectDescriptionElement.textContent = projects[i].projectDescription;
         projectImageElement.src = projects[i].projectImage;
     }
-}
+};
