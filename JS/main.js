@@ -1,47 +1,47 @@
 let projects = [
     {
-        title: "Gobbo Quest",
-        description: "This is the description for Project 1.",
-        image: "./IMG/IMG1.webp"
+        projectTitle: "Gobbo Quest",
+        projectDescription: "This is the description for Project 1.",
+        projectImage: "./IMG/IMG1.webp"
     },
     {
-        title: "Game Magazine",
-        description: "This is the description for Project 2.",
-        image: "./IMG/IMG2.webp"
+        projectTitle: "Game Magazine",
+        projectDescription: "This is the description for Project 2.",
+        projectImage: "./IMG/IMG2.webp"
     },
     {
-        title: "Denise Kookt!",
-        description: "This is the description for Project 3.",
-        image: "./IMG/IMG3.webp"
+        projectTitle: "Denise Kookt!",
+        projectDescription: "This is the description for Project 3.",
+        projectImage: "./IMG/IMG3.webp"
     },
     {
-        title: "Reis Rust",
-        description: "This is the description for Project 4.",
-        image: "./IMG/IMG4.webp"
+        projectTitle: "Reis Rust",
+        projectDescription: "This is the description for Project 4.",
+        projectImage: "./IMG/IMG4.webp"
     },
     {
-        title: "Gabber Gandalf",
-        description: "This is the description for Project 5.",
-        image: "./IMG/IMG5.webp"
+        projectTitle: "Gabber Gandalf",
+        projectDescription: "This is the description for Project 5.",
+        projectImage: "./IMG/IMG5.webp"
     },
     {
-        title: "Game Database",
-        description: "This is the description for Project 6.",
-        image: "./IMG/IMG6.webp"
+        projectTitle: "Game Database",
+        projectDescription: "This is the description for Project 6.",
+        projectImage: "./IMG/IMG6.webp"
     },
     {
-        title: "Asus Rog Ally",
-        description: "This is the description for Project 7.",
-        image: "./IMG/IMG7.webp"
+        projectTitle: "Asus Rog Ally",
+        projectDescription: "This is the description for Project 7.",
+        projectImage: "./IMG/IMG7.webp"
     },
     {
-        title: "Temp Tracker",
-        description: "This is the description for Project 8.",
-        image: "./IMG/IMG8.webp"
+        projectTitle: "Temp Tracker",
+        projectDescription: "This is the description for Project 8.",
+        projectImage: "./IMG/IMG8.webp"
     },
     {
-        title: "CLE4 Game",
-        description: "This is the description for Project 9.",
-        image: "./IMG/IMG9.webp"
+        projectTitle: "CLE4 Game",
+        projectDescription: "This is the description for Project 9.",
+        projectImage: "./IMG/IMG9.webp"
     },
 ];
