@@ -24,46 +24,46 @@ let projects = [
     {
         title: "Project 1",
         description: "This is the description for Project 1.",
-        image: "images/project1.jpg"
+        image: "./IMG/IMG1.webp"
     },
     {
         title: "Project 2",
         description: "This is the description for Project 2.",
-        image: "images/project2.jpg"
+        image: "./IMG/IMG2.webp"
     },
     {
         title: "Project 3",
         description: "This is the description for Project 3.",
-        image: "images/project3.jpg"
+        image: "./IMG/IMG3.webp"
     },
     {
         title: "Project 4",
         description: "This is the description for Project 4.",
-        image: "images/project4.jpg"
+        image: "./IMG/IMG4.webp"
     },
     {
         title: "Project 5",
         description: "This is the description for Project 5.",
-        image: "images/project5.jpg"
+        image: "./IMG/IMG5.webp"
     },
     {
         title: "Project 6",
         description: "This is the description for Project 6.",
-        image: "images/project1.jpg"
+        image: "./IMG/IMG6.webp"
     },
     {
         title: "Project 7",
         description: "This is the description for Project 7.",
-        image: "images/project2.jpg"
+        image: "./IMG/IMG7.webp"
     },
     {
         title: "Project 8",
         description: "This is the description for Project 8.",
-        image: "images/project3.jpg"
+        image: "./IMG/IMG8.webp"
     },
     {
         title: "Project 9",
         description: "This is the description for Project 9.",
-        image: "images/project4.jpg"
+        image: "./IMG/IMG9.webp"
     },
 ];
