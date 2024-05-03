@@ -19,3 +19,51 @@
 // Step 5: Add event listeners to the arrow images
 // Use document.querySelector() to select the arrow images. Then, use addEventListener() to attach click event listeners to these images.
 // Inside the event listener, increment or decrement the current project index, then call your function to update the project information.
+
+let projects = [
+    {
+        title: "Project 1",
+        description: "This is the description for Project 1.",
+        image: "images/project1.jpg"
+    },
+    {
+        title: "Project 2",
+        description: "This is the description for Project 2.",
+        image: "images/project2.jpg"
+    },
+    {
+        title: "Project 3",
+        description: "This is the description for Project 3.",
+        image: "images/project3.jpg"
+    },
+    {
+        title: "Project 4",
+        description: "This is the description for Project 4.",
+        image: "images/project4.jpg"
+    },
+    {
+        title: "Project 5",
+        description: "This is the description for Project 5.",
+        image: "images/project5.jpg"
+    },
+    {
+        title: "Project 6",
+        description: "This is the description for Project 6.",
+        image: "images/project1.jpg"
+    },
+    {
+        title: "Project 7",
+        description: "This is the description for Project 7.",
+        image: "images/project2.jpg"
+    },
+    {
+        title: "Project 8",
+        description: "This is the description for Project 8.",
+        image: "images/project3.jpg"
+    },
+    {
+        title: "Project 9",
+        description: "This is the description for Project 9.",
+        image: "images/project4.jpg"
+    },
+];
