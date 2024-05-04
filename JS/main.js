@@ -1,6 +1,6 @@
 window.addEventListener('load', init);
 
-let index = 0;
+let projectIndex = 0;
 
 function init() {
     fillDivs();
@@ -67,29 +67,29 @@ function fillDivs() {
         projectDescriptionElement.textContent = projects[i].projectDescription;
         projectImageElement.src = projects[i].projectImage;
     }
-};
+}
 
 function updateFeaturedProjects() {
     let projectDivs = document.querySelectorAll('.project');
 
     for (let i = 0; i < 3; i++) {
-        let projectIndex = (index + i) % projects.length;
+        let currentIndex = (projectIndex + i) % projects.length;
         let projectTitleElement = projectDivs[i].querySelector('.projectTitle');
         let projectDescriptionElement = projectDivs[i].querySelector('.projectDescription');
         let projectImageElement = projectDivs[i].querySelector('.projectImage');
 
-        projectTitleElement.textContent = projects[index].projectTitle;
-        projectDescriptionElement.textContent = projects[index].projectDescription;
-        projectImageElement.src = projects[index].projectImage;
+        projectTitleElement.textContent = projects[currentIndex].projectTitle;
+        projectDescriptionElement.textContent = projects[currentIndex].projectDescription;
+        projectImageElement.src = projects[currentIndex].projectImage;
     }
 }
 
 function moveRight() {
-    index = (index + 1) % projects.length;
+    projectIndex = (projectIndex + 1) % projects.length;
     updateFeaturedProjects();
 }
 
 function moveLeft() {
-    index = (index - 1 + projects.length) % projects.length;
+    projectIndex = (projectIndex - 1 + projects.length) % projects.length;
     updateFeaturedProjects();
 }
