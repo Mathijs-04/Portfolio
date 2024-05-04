@@ -1,7 +1,10 @@
 window.addEventListener('load', init);
 
+let index = 0;
+
 function init() {
     fillDivs();
+    updateFeaturedProjects();
 }
 
 let projects = [
@@ -65,3 +68,28 @@ function fillDivs() {
         projectImageElement.src = projects[i].projectImage;
     }
 };
+
+function updateFeaturedProjects() {
+    let projectDivs = document.querySelectorAll('.project');
+
+    for (let i = 0; i < 3; i++) {
+        let projectIndex = (index + i) % projects.length;
+        let projectTitleElement = projectDivs[i].querySelector('.projectTitle');
+        let projectDescriptionElement = projectDivs[i].querySelector('.projectDescription');
+        let projectImageElement = projectDivs[i].querySelector('.projectImage');
+
+        projectTitleElement.textContent = projects[index].projectTitle;
+        projectDescriptionElement.textContent = projects[index].projectDescription;
+        projectImageElement.src = projects[index].projectImage;
+    }
+}
+
+function moveRight() {
+    index = (index + 1) % projects.length;
+    updateFeaturedProjects();
+}
+
+function moveLeft() {
+    index = (index - 1 + projects.length) % projects.length;
+    updateFeaturedProjects();
+}
