@@ -66,6 +66,10 @@ function fillDivs() {
         projectTitleElement.textContent = projects[i].projectTitle;
         projectDescriptionElement.textContent = projects[i].projectDescription;
         projectImageElement.src = projects[i].projectImage;
+
+        projectDivs[i].addEventListener('click', function() {
+            window.location.href = 'projects.html';
+        });
     }
 }
 
