@@ -67,9 +67,11 @@ function fillDivs() {
         projectDescriptionElement.textContent = projects[i].projectDescription;
         projectImageElement.src = projects[i].projectImage;
 
-        projectDivs[i].addEventListener('click', function() {
-            window.location.href = 'projects.html';
-        });
+        if (window.location.pathname.endsWith('index.html')) {
+            projectDivs[i].addEventListener('click', function () {
+                window.location.href = 'projects.html';
+            });
+        }
     }
 }
 
