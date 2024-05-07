@@ -167,6 +167,11 @@ a:hover {
     justify-content: space-between;
 }
 
+.profile {
+    margin-top: -5rem;
+    margin-bottom: 10rem;
+}
+
 .about {
     display: flex;
     flex-direction: column;
