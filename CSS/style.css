@@ -116,6 +116,15 @@ a:hover {
     margin-top: 32rem;
 }
 
+.description {
+    margin: 30rem 20rem 10rem 20rem;
+    font-size: 2.5rem;
+}
+
+.line {
+    color: #FFFFFF;
+}
+
 .project {
     display: flex;
     flex-direction: column;
