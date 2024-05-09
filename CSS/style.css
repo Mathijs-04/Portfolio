@@ -125,18 +125,18 @@ a:hover {
 .text-link {
     font-family: "HeroicCondensed-Medium";
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    text-decoration: underline;
+    font-weight: bold;
     padding: 0;
 }
 
 .text-link:hover {
     font-family: "HeroicCondensed-Medium";
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    text-decoration: underline;
+    font-weight: bold;
     padding: 0;
     cursor: pointer;
 }
