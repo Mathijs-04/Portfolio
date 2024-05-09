@@ -119,7 +119,10 @@ a:hover {
 
 .description {
     margin: 30rem 20rem 10rem 20rem;
-    font-size: 2.5rem;
+}
+
+.description-text {
+    font-size: 3rem;
 }
 
 .text-link {
