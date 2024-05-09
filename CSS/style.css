@@ -121,6 +121,14 @@ a:hover {
     font-size: 2.5rem;
 }
 
+.text-link {
+    font-family: "HeroicCondensed-Medium";
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
 .line {
     color: #FFFFFF;
 }
