@@ -80,6 +80,7 @@ a:hover {
     text-decoration-color: #FFFFFF;
     padding: 2rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 
@@ -127,6 +128,15 @@ a:hover {
     font-size: 2rem;
     text-align: center;
     text-decoration: underline;
+}
+
+.text-link:hover {
+    font-family: "HeroicCondensed-Medium";
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .line {
@@ -240,4 +250,5 @@ footer {
 
 .footerLink:hover {
     padding-left: 0;
+    cursor: pointer;
 }
