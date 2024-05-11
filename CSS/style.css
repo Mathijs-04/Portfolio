@@ -191,6 +191,12 @@ a:hover {
     margin-top: 20vw;
 }
 
+.arrowDown {
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(225deg);
+}
+
 .allProjects {
     display: flex;
     flex-direction: column;
