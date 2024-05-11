@@ -147,6 +147,8 @@ a:hover {
 
 .line {
     color: #FFFFFF;
+    background-color: #FFFFFF;
+    height: 0.25rem;
 }
 
 .project {
