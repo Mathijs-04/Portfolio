@@ -192,9 +192,10 @@ a:hover {
 }
 
 .arrowDown {
-    width: 2rem;
-    height: 2rem;
-    transform: rotate(225deg);
+    width: 5rem;
+    height: 5rem;
+    transform: rotate(90deg);
+    margin-top: 10rem;
 }
 
 .allProjects {
