@@ -29,17 +29,13 @@
     <a href="https://github.com/Mathijs-04" target="_blank" class="footerLink">GitHub</a>
 </footer>
 <script>
-    window.onload = function() {
-        // Get the URL parameters
+    window.onload = function () {
         let params = new URLSearchParams(window.location.search);
 
-        // Get the project index from the URL parameters
         let projectIndex = params.get('project');
 
-        // Get the project information
         let project = projects[projectIndex];
 
-        // Display the project information
         document.querySelector('main h1').textContent = project.projectTitle;
         document.querySelector('main img').src = project.projectImage;
         document.querySelector('main p').textContent = project.projectDescription;
