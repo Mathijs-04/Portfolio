@@ -209,6 +209,16 @@ a:hover {
     flex-direction: column;
 }
 
+.allProjects .project {
+    border: 0.4rem solid #FFFFFF;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.allProjects .project:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
 .row {
     display: flex;
     flex-direction: row;
