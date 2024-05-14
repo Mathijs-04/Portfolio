@@ -28,19 +28,6 @@
     <img src="./IMG/GITHUB.webp" alt="GitHub Logo" class="gLogo">
     <a href="https://github.com/Mathijs-04" target="_blank" class="footerLink">GitHub</a>
 </footer>
-<script>
-    window.onload = function () {
-        let params = new URLSearchParams(window.location.search);
-
-        let projectIndex = params.get('project');
-
-        let project = projects[projectIndex];
-
-        document.querySelector('main h1').textContent = project.projectTitle;
-        document.querySelector('main img').src = project.projectImage;
-        document.querySelector('main p').textContent = project.projectDescription;
-    }
-</script>
 </body>
 </html>
 
