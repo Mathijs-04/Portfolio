@@ -239,8 +239,19 @@ a:hover {
 }
 
 .about p {
-    margin: -5rem 20rem 5rem 20rem;
-    font-size: 2.5rem;
+    margin: -5rem 15rem 5rem 15rem;
+    font-size: 3rem;
+}
+
+.corner3 {
+    width: 8rem;
+    height: 8rem;
+}
+
+.corner4 {
+    width: 8rem;
+    height: 8rem;
+    transform: rotate(180deg);
 }
 
 .contact {
