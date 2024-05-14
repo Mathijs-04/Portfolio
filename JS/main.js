@@ -75,7 +75,7 @@ function fillDivs() {
 
         if (window.location.pathname.endsWith('projects.html')) {
             projectDivs[i].addEventListener('click', function () {
-                window.location.href = 'project.html';
+                window.location.href = 'project.html?project=' + i;
             });
         }
     }
@@ -94,9 +94,7 @@ function updateFeaturedProjects() {
         projectDescriptionElement.textContent = projects[currentIndex].projectDescription;
         projectImageElement.src = projects[currentIndex].projectImage;
 
-        // Add event listener to each project
-        projectDivs[i].addEventListener('click', function() {
-            // Redirect to the project.html page with the project index as a URL parameter
+        projectDivs[i].addEventListener('click', function () {
             window.location.href = 'project.html?project=' + currentIndex;
         });
     }
@@ -110,4 +108,18 @@ function moveRight() {
 function moveLeft() {
     projectIndex = (projectIndex - 1 + projects.length) % projects.length;
     updateFeaturedProjects();
+}
+
+if (window.location.pathname.endsWith('project.html')) {
+    window.onload = function () {
+        let params = new URLSearchParams(window.location.search);
+
+        let projectIndex = params.get('project');
+
+        let project = projects[projectIndex];
+
+        document.querySelector('main h1').textContent = project.projectTitle;
+        document.querySelector('main img').src = project.projectImage;
+        document.querySelector('main p').textContent = project.projectDescription;
+    }
 }
