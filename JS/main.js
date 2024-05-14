@@ -72,6 +72,12 @@ function fillDivs() {
                 window.location.href = 'projects.html';
             });
         }
+
+        if (window.location.pathname.endsWith('projects.html')) {
+            projectDivs[i].addEventListener('click', function () {
+                window.location.href = 'project.html';
+            });
+        }
     }
 }
 
