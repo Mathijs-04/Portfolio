@@ -10,48 +10,57 @@ function init() {
 let projects = [
     {
         projectTitle: "Gobbo Quest",
+        projectImage: "./IMG/IMG1.webp",
         projectDescription: "This is the description for Gobbo Quest.",
-        projectImage: "./IMG/IMG1.webp"
+        projectText: "This is the text for Gobbo Quest."
     },
     {
         projectTitle: "Game Magazine",
+        projectImage: "./IMG/IMG2.webp",
         projectDescription: "This is the description for Game Magazine.",
-        projectImage: "./IMG/IMG2.webp"
+        projectText: "This is the text for Game Magazine."
     },
     {
         projectTitle: "Denise Kookt!",
+        projectImage: "./IMG/IMG3.webp",
         projectDescription: "This is the description for Denise Kookt!.",
-        projectImage: "./IMG/IMG3.webp"
+        projectText: "This is the text for Denise Kookt!."
     },
     {
         projectTitle: "Reis Rust",
+        projectImage: "./IMG/IMG4.webp",
         projectDescription: "This is the description for Reis Rust.",
-        projectImage: "./IMG/IMG4.webp"
+        projectText: "This is the text for Reis Rust."
     },
     {
         projectTitle: "Gabber Gandalf",
+        projectImage: "./IMG/IMG5.webp",
         projectDescription: "This is the description for Gabber Gandalf.",
-        projectImage: "./IMG/IMG5.webp"
+        projectText: "This is the text for Gabber Gandalf."
     },
     {
         projectTitle: "Game Database",
+        projectImage: "./IMG/IMG6.webp",
         projectDescription: "This is the description for Game Database.",
-        projectImage: "./IMG/IMG6.webp"
+        projectText: "This is the text for Game Database."
     },
     {
         projectTitle: "Asus Rog Ally",
+        projectImage: "./IMG/IMG7.webp",
         projectDescription: "This is the description for Asus Rog Ally.",
-        projectImage: "./IMG/IMG7.webp"
+        projectText: "This is the text for Asus Rog Ally."
     },
     {
         projectTitle: "Temp Tracker",
+        projectImage: "./IMG/IMG8.webp",
         projectDescription: "This is the description for Temp Tracker.",
-        projectImage: "./IMG/IMG8.webp"
+        projectText: "This is the text for Temp Tracker."
     },
     {
         projectTitle: "CLE4 Game",
+        projectImage: "./IMG/IMG9.webp",
         projectDescription: "This is the description for CLE4 Game.",
-        projectImage: "./IMG/IMG9.webp"
+        projectText: "This is the text for CLE4 Game."
     },
 ];
 
