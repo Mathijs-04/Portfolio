@@ -93,6 +93,12 @@ function updateFeaturedProjects() {
         projectTitleElement.textContent = projects[currentIndex].projectTitle;
         projectDescriptionElement.textContent = projects[currentIndex].projectDescription;
         projectImageElement.src = projects[currentIndex].projectImage;
+
+        // Add event listener to each project
+        projectDivs[i].addEventListener('click', function() {
+            // Redirect to the project.html page with the project index as a URL parameter
+            window.location.href = 'project.html?project=' + currentIndex;
+        });
     }
 }
 
