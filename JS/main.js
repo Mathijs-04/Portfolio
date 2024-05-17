@@ -78,7 +78,7 @@ function fillDivs() {
 
         if (window.location.pathname.endsWith('index.html')) {
             projectDivs[i].addEventListener('click', function () {
-                window.location.href = 'projects.html';
+                window.location.href = 'project.html?project=' + i;
             });
         }
 
