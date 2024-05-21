@@ -51,10 +51,10 @@ let projects = [
         projectText: "This is the text for Asus Rog Ally."
     },
     {
-        projectTitle: "Temp Tracker",
+        projectTitle: "Dungeon Defender",
         projectImage: "./IMG/IMG8.webp",
-        projectDescription: "This is the description for Temp Tracker.",
-        projectText: "This is the text for Temp Tracker."
+        projectDescription: "This is the description for Dungeon Defender.",
+        projectText: "This is the text for Dungeon Defender."
     },
     {
         projectTitle: "CLE4 Game",
@@ -130,5 +130,6 @@ if (window.location.pathname.endsWith('project.html')) {
         document.querySelector('main h1').textContent = project.projectTitle;
         document.querySelector('main img').src = project.projectImage;
         document.querySelector('main p').textContent = project.projectDescription;
+        document.querySelector('main .projectText').textContent = project.projectText;
     }
 }
