@@ -179,6 +179,12 @@ a:hover {
     justify-content: space-between;
 }
 
+.projectImage {
+    width: 32rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+
 .arrowLeft {
     width: 2rem;
     height: 2rem;
@@ -297,6 +303,12 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+}
+
+#projectImage {
+    width: 48rem;
+    height: 27rem;
+    border-radius: 1rem;
 }
 
 footer {
