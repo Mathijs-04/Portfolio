@@ -12,7 +12,7 @@ let projects = [
         projectTitle: "Dungeon Defender",
         projectImage: "./IMG/IMG1.webp",
         projectDescription: "A 2D Arcade Game made in Excalibur.js",
-        projectText: "Dungeon Defender is a 2D Arcade Game made with JavaScript in Excalibur.js for the course Programming 4. In Dungeon Defender, the goal is to fight off as much enemies as possible and defend the dungeon. Killing enemies gives you more points. When you are hit three times, you die and will have to try again. Excalibur.js games run in your browser, so no downloads are required.",
+        projectText: "Dungeon Defender is a 2D Arcade Game made with JavaScript in Excalibur.js for the course Programming 4. In Dungeon Defender, the goal is to fight off as many enemies as possible and defend the dungeon. Killing enemies gives you more points. When you are hit three times, you die and will have to try again. Excalibur.js games run in your browser, so no downloads are required.",
         projectLink1: "https://mathijs-04.github.io/Dungeon-Defender/",
         projectLink2: "https://github.com/Mathijs-04/Dungeon-Defender"
     },
@@ -20,21 +20,21 @@ let projects = [
         projectTitle: "Gobbo Quest",
         projectImage: "./IMG/IMG2.webp",
         projectDescription: "A Top-Down Arcade Game made in Makecode Arcade",
-        projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defead the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
+        projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defeat the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
         projectLink1: "https://makecode.com/_2qvTbVe5JAd3",
         projectLink2: "https://github.com/Mathijs-04/Gobbo-Quest-V2"
     },
     {
         projectTitle: "Game Magazine",
         projectImage: "./IMG/IMG3.webp",
-        projectDescription: "An Online Game Magazine made in HTML,CSS and JS",
-        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourte system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the a PHP server is hosted, so unfortunately it is not active at the moment."
+        projectDescription: "An Online Game Magazine made in HTML, CSS and JS",
+        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment."
     },
     {
         projectTitle: "Denise Kookt!",
         projectImage: "./IMG/IMG4.webp",
         projectDescription: "An Online Reservation System using a Database",
-        projectText: "Denise Kookt! is an Online Reservation System using a Database. This project was made with a team of four students and it was out first ever project for a client. The Reservation System features a login system, admin panel, admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This Website only works while the a PHP server is hosted, so unfortunately it is not active at the moment.",
+        projectText: "Denise Kookt! is an Online Reservation System using a Database. This project was made with a team of four students, and it was out first ever project for a client. The Reservation System features a login system, admin panel, admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
         projectLink1: "https://github.com/SEVerhaak/CLE2",
     },
     {
@@ -56,7 +56,7 @@ let projects = [
         projectTitle: "Game Database",
         projectImage: "./IMG/IMG7.webp",
         projectDescription: "A Game Database using a Login System",
-        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as Admin, you can view, add, edit and delete games from the Database. This Website only works while the a PHP server is hosted, so unfortunately it is not active at the moment.",
+        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
     },
     {
         projectTitle: "Asus Rog Ally",
@@ -70,7 +70,7 @@ let projects = [
         projectTitle: "CLE4 Game",
         projectImage: "./IMG/IMG9.webp",
         projectDescription: "A 2D Game made with a team of students",
-        projectText: "This project is still work in progress. I will update this page when the project is finished."
+        projectText: "This project is still a work in progress. I will update this page when the project is finished."
     },
 ];
 
