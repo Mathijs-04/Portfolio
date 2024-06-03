@@ -40,25 +40,28 @@ let projects = [
     {
         projectTitle: "Reis Rust",
         projectImage: "./IMG/IMG5.webp",
-        projectDescription: "A simplified route planner for public transport",
-        projectText: "This is the text for Reis Rust."
+        projectDescription: "A simplified Route Planner for Public Transport",
+        projectText: "Reis Rust is a simplified Route Planner designed for people with intellectual disabilities. This Web Application was made with a team and was the result of various tests we did with our Target Audience. Reis Rust uses local storage to store your saved routes. It also features a Settings page on which you can change the Color Scheme of the Application.",
+        projectLink1: "https://mathijs-04.github.io/CLE3-APP/",
+        projectLink2: "https://github.com/Mathijs-04/CLE3-APP"
     },
     {
         projectTitle: "Gabber Gandalf",
         projectImage: "./IMG/IMG6.webp",
-        projectDescription: "A fun side project for a fictional artist",
-        projectText: "This is the text for Gabber Gandalf."
+        projectDescription: "A fun Side Project for a Fictional Artist",
+        projectText: "This Website was a short side project made in a single day. It was made to experiment with CSS Frameworks. The website features the fictional artist Gabber Gandalf. The website also contains a merchandise page.",
+        projectLink1: "https://mathijs-04.github.io/Gabber-Gandalf/"
     },
     {
         projectTitle: "Game Database",
         projectImage: "./IMG/IMG7.webp",
-        projectDescription: "A game Database using a login system",
+        projectDescription: "A Game Database using a Login System",
         projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as Admin, you can view, add, edit and delete games from the Database. This Website only works while the a PHP server is hosted, so unfortunately it is not active at the moment.",
     },
     {
         projectTitle: "Asus Rog Ally",
         projectImage: "./IMG/IMG8.webp",
-        projectDescription: "A product page for the Asus Rog Ally",
+        projectDescription: "A Product Page for the Asus Rog Ally",
         projectText: "This product page for the Asus Rog Ally was one of the first ever websites I made. It was made for the course Front-End Development using only HTML and CSS. There are two versions of this page. The first one is a bit simpler, the second one is more advanced and works on Mobile as well.",
         projectLink1: "https://mathijs-04.github.io/Frontend-Tussenopdracht/",
         projectLink2: "https://mathijs-04.github.io/Frontend-Eindopdracht/"
