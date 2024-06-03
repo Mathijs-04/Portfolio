@@ -248,8 +248,8 @@ a:hover {
 .about p {
     margin: -5rem 15rem 5rem 15rem;
     font-size: 3rem;
-    text-align:justify;
-    text-align-last:justify;
+    /*text-align:justify;*/
+    /*text-align-last:justify;*/
 }
 
 .corner3 {
