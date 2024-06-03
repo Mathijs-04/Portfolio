@@ -303,6 +303,12 @@ a:hover {
     padding: 2rem;
 }
 
+.projectText {
+    font-size: 3rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
 #projectImage {
     width: 48rem;
     height: 27rem;

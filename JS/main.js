@@ -12,7 +12,9 @@ let projects = [
         projectTitle: "Dungeon Defender",
         projectImage: "./IMG/IMG1.webp",
         projectDescription: "A 2D Arcade Game made in Excalibur.js",
-        projectText: "This is the text for Dungeon Defender."
+        projectText: "Dungeon Defender is a 2D Arcade Game made with JavaScript in Excalibur.js for the course Programming 4. In Dungeon Defender, the goal is to fight off as much enemies as possible and defend the dungeon. Excalibur.js games run in your browser, so no downloads are required.",
+        projectLink1: "https://mathijs-04.github.io/Dungeon-Defender/",
+        projectLink2: "https://github.com/Mathijs-04/Dungeon-Defender"
     },
     {
         projectTitle: "Gobbo Quest",
@@ -130,6 +132,14 @@ window.onload = function () {
         document.querySelector('main h1').textContent = project.projectTitle;
         document.querySelector('main img').src = project.projectImage;
         document.querySelector('main p').textContent = project.projectDescription;
-        document.querySelector('main .projectText').textContent = project.projectText;
+
+        let projectTextElement = document.querySelector('main .projectText');
+        projectTextElement.innerHTML = project.projectText;
+        if (project.projectLink1) {
+            projectTextElement.innerHTML += '<br><br> <p>Link 1: </p><a href="' + project.projectLink1 + '" target="_blank">' + project.projectLink1 + '</a>';
+        }
+        if (project.projectLink2) {
+            projectTextElement.innerHTML += '<br><br> <p>Link 2: </p><a href="' + project.projectLink2 + '" target="_blank">' + project.projectLink2 + '</a>';
+        }
     }
 }
