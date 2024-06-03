@@ -59,7 +59,9 @@ let projects = [
         projectTitle: "Asus Rog Ally",
         projectImage: "./IMG/IMG8.webp",
         projectDescription: "A product page for the Asus Rog Ally",
-        projectText: "This is the text for Asus Rog Ally."
+        projectText: "This product page for the Asus Rog Ally was one of the first ever websites I made. It was made for the course Front-End Development using only HTML and CSS. There are two versions of this page. The first one is a bit simpler, the second one is more advanced and works on Mobile as well.",
+        projectLink1: "https://mathijs-04.github.io/Frontend-Tussenopdracht/",
+        projectLink2: "https://mathijs-04.github.io/Frontend-Eindopdracht/"
     },
     {
         projectTitle: "CLE4 Game",
