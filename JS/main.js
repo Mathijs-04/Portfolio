@@ -20,13 +20,15 @@ let projects = [
         projectTitle: "Gobbo Quest",
         projectImage: "./IMG/IMG2.webp",
         projectDescription: "A Top-Down Arcade Game made in Makecode Arcade",
-        projectText: "This is the text for Gobbo Quest."
+        projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defead the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
+        projectLink1: "https://makecode.com/_2qvTbVe5JAd3",
+        projectLink2: "https://github.com/Mathijs-04/Gobbo-Quest-V2"
     },
     {
         projectTitle: "Game Magazine",
         projectImage: "./IMG/IMG3.webp",
         projectDescription: "An Online Game Magazine made in HTML,CSS and JS",
-        projectText: "This is the text for Game Magazine."
+        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS and JavaScript. This Game Magazine features different games and has a favourte system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the a PHP server is hosted, so unfortunately it is not active at the moment."
     },
     {
         projectTitle: "Denise Kookt!",
