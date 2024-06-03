@@ -17,7 +17,7 @@ let projects = [
     {
         projectTitle: "Gobbo Quest",
         projectImage: "./IMG/IMG2.webp",
-        projectDescription: "A Top-Down RPG made in Makecode Arcade",
+        projectDescription: "A Top-Down Arcade Game made in Makecode Arcade",
         projectText: "This is the text for Gobbo Quest."
     },
     {
