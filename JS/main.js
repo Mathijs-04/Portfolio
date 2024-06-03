@@ -12,7 +12,7 @@ let projects = [
         projectTitle: "Dungeon Defender",
         projectImage: "./IMG/IMG1.webp",
         projectDescription: "A 2D Arcade Game made in Excalibur.js",
-        projectText: "Dungeon Defender is a 2D Arcade Game made with JavaScript in Excalibur.js for the course Programming 4. In Dungeon Defender, the goal is to fight off as much enemies as possible and defend the dungeon. Excalibur.js games run in your browser, so no downloads are required.",
+        projectText: "Dungeon Defender is a 2D Arcade Game made with JavaScript in Excalibur.js for the course Programming 4. In Dungeon Defender, the goal is to fight off as much enemies as possible and defend the dungeon. Killing enemies gives you more points. When you are hit three times, you die and will have to try again. Excalibur.js games run in your browser, so no downloads are required.",
         projectLink1: "https://mathijs-04.github.io/Dungeon-Defender/",
         projectLink2: "https://github.com/Mathijs-04/Dungeon-Defender"
     },
