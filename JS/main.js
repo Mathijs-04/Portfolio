@@ -28,13 +28,14 @@ let projects = [
         projectTitle: "Game Magazine",
         projectImage: "./IMG/IMG3.webp",
         projectDescription: "An Online Game Magazine made in HTML,CSS and JS",
-        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS and JavaScript. This Game Magazine features different games and has a favourte system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the a PHP server is hosted, so unfortunately it is not active at the moment."
+        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourte system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the a PHP server is hosted, so unfortunately it is not active at the moment."
     },
     {
         projectTitle: "Denise Kookt!",
         projectImage: "./IMG/IMG4.webp",
         projectDescription: "An Online Reservation System using a Database",
-        projectText: "This is the text for Denise Kookt!."
+        projectText: "Denise Kookt! is an Online Reservation System using a Database. This project was made with a team of four students and it was out first ever project for a client. The Reservation System features a login system, admin panel, admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This Website only works while the a PHP server is hosted, so unfortunately it is not active at the moment.",
+        projectLink1: "https://github.com/SEVerhaak/CLE2",
     },
     {
         projectTitle: "Reis Rust",
@@ -64,7 +65,7 @@ let projects = [
         projectTitle: "CLE4 Game",
         projectImage: "./IMG/IMG9.webp",
         projectDescription: "A 2D Game made with a team of students",
-        projectText: "This is the text for CLE4 Game."
+        projectText: "This project is still work in progress. I will update this page when the project is finished."
     },
 ];
 
