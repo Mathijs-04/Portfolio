@@ -20,7 +20,7 @@ let projects = [
         projectTitle: "Gobbo Quest",
         projectImage: "./IMG/IMG2.webp",
         projectDescription: "A Top-Down Arcade Game made in Makecode Arcade",
-        projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defeat the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
+        projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to the course Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defeat the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
         projectLink1: "https://makecode.com/_2qvTbVe5JAd3",
         projectLink2: "https://github.com/Mathijs-04/Gobbo-Quest-V2"
     },
