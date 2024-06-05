@@ -86,7 +86,7 @@ function fillDivs() {
         projectDescriptionElement.textContent = projects[i].projectDescription;
         projectImageElement.src = projects[i].projectImage;
 
-        if (window.location.pathname.endsWith('index.html')) {
+        if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/Portfolio/')) {
             projectDivs[i].addEventListener('click', function () {
                 window.location.href = 'project.html?project=' + i;
             });
@@ -130,7 +130,7 @@ function moveLeft() {
 }
 
 window.onload = function () {
-    if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('projects.html')) {
+    if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/Portfolio/')) {
         let arrowDowns = document.querySelectorAll('.arrowDown');
 
         arrowDowns.forEach(function(arrowDown) {
