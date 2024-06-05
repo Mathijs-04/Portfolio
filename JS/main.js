@@ -130,6 +130,17 @@ function moveLeft() {
 }
 
 window.onload = function () {
+        let arrowDowns = document.querySelectorAll('.arrowDown');
+
+        arrowDowns.forEach(function(arrowDown) {
+            arrowDown.addEventListener('click', function() {
+                window.scrollTo({
+                    top: window.scrollY + 1080,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
     if (window.location.pathname.endsWith('project.html')) {
         let params = new URLSearchParams(window.location.search);
 
