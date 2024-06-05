@@ -112,7 +112,8 @@ a:hover {
     width: 8rem;
     height: 8rem;
     transform: rotate(180deg);
-    margin-top: 32rem;
+    margin-top: 28rem;
+    margin-left: -2rem;
 }
 
 .description {
