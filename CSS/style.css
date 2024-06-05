@@ -16,28 +16,28 @@ main {
 }
 
 h1 {
-    font-family: "HeroicCondensed-Medium";
+    font-family: "HeroicCondensed-Medium", sans-serif;
     color: #FFFFFF;
     font-size: 8rem;
     text-align: center;
 }
 
 h2 {
-    font-family: "HeroicCondensed-Medium";
+    font-family: "HeroicCondensed-Medium", sans-serif;
     color: #FFFFFF;
     font-size: 6rem;
     text-align: center;
 }
 
 h3 {
-    font-family: "HeroicCondensed-Medium";
+    font-family: "HeroicCondensed-Medium", sans-serif;
     color: #FFFFFF;
     font-size: 4rem;
     text-align: center;
 }
 
 p {
-    font-family: "HeroicCondensed-Medium";
+    font-family: "HeroicCondensed-Medium", sans-serif;
     color: #FFFFFF;
     font-size: 2rem;
     text-align: center;
@@ -62,7 +62,7 @@ nav {
 }
 
 a {
-    font-family: "HeroicCondensed-Medium";
+    font-family: "HeroicCondensed-Medium", sans-serif;
     font-size: 3rem;
     color: #FFFFFF;
     text-decoration: none;
@@ -71,7 +71,7 @@ a {
 }
 
 a:hover {
-    font-family: "HeroicCondensed-Medium";
+    font-family: "HeroicCondensed-Medium", sans-serif;
     font-size: 3rem;
     color: #FFFFFF;
     text-decoration: underline;
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .text-link {
-    font-family: "HeroicCondensed-Medium";
+    font-family: "HeroicCondensed-Medium", sans-serif;
     color: #FFFFFF;
     font-size: 3rem;
     text-align: center;
@@ -134,7 +134,7 @@ a:hover {
 }
 
 .text-link:hover {
-    font-family: "HeroicCondensed-Medium";
+    font-family: "HeroicCondensed-Medium", sans-serif;
     color: #FFFFFF;
     font-size: 3rem;
     text-align: center;
