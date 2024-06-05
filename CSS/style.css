@@ -207,6 +207,11 @@ a:hover {
     height: 5rem;
     transform: rotate(90deg);
     margin-top: 10rem;
+    transition: all 0.25s ease-out;
+}
+
+.arrowDown:hover {
+    transform: scale(1.25) rotate(90deg);
 }
 
 .arrowDownSection {
