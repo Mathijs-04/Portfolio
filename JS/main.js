@@ -17,18 +17,25 @@ let projects = [
         projectLink2: "https://github.com/Mathijs-04/Dungeon-Defender"
     },
     {
+        projectTitle: "Game Magazine",
+        projectImage: "./IMG/IMG3.webp",
+        projectDescription: "An Online Game Magazine made in HTML, CSS and JS",
+        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment."
+    },
+    {
+        projectTitle: "Gabber Gandalf",
+        projectImage: "./IMG/IMG6.webp",
+        projectDescription: "A fun Side Project for a Fictional Artist",
+        projectText: "This Website was a short side project made in a single day. It was made to experiment with CSS Frameworks. The website features the fictional artist Gabber Gandalf. The website also contains a merchandise page.",
+        projectLink1: "https://mathijs-04.github.io/Gabber-Gandalf/"
+    },
+    {
         projectTitle: "Gobbo Quest",
         projectImage: "./IMG/IMG2.webp",
         projectDescription: "A Top-Down Arcade Game made in Makecode Arcade",
         projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to the course Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defeat the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
         projectLink1: "https://makecode.com/_2qvTbVe5JAd3",
         projectLink2: "https://github.com/Mathijs-04/Gobbo-Quest-V2"
-    },
-    {
-        projectTitle: "Game Magazine",
-        projectImage: "./IMG/IMG3.webp",
-        projectDescription: "An Online Game Magazine made in HTML, CSS and JS",
-        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment."
     },
     {
         projectTitle: "Denise Kookt!",
@@ -44,13 +51,6 @@ let projects = [
         projectText: "Reis Rust is a simplified Route Planner designed for people with intellectual disabilities. This Web Application was made with a team and was the result of various tests we did with our Target Audience. Reis Rust uses local storage to store your saved routes. It also features a Settings page on which you can change the Color Scheme of the Application.",
         projectLink1: "https://mathijs-04.github.io/CLE3-APP/",
         projectLink2: "https://github.com/Mathijs-04/CLE3-APP"
-    },
-    {
-        projectTitle: "Gabber Gandalf",
-        projectImage: "./IMG/IMG6.webp",
-        projectDescription: "A fun Side Project for a Fictional Artist",
-        projectText: "This Website was a short side project made in a single day. It was made to experiment with CSS Frameworks. The website features the fictional artist Gabber Gandalf. The website also contains a merchandise page.",
-        projectLink1: "https://mathijs-04.github.io/Gabber-Gandalf/"
     },
     {
         projectTitle: "Game Database",
