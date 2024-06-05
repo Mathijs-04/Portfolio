@@ -130,6 +130,7 @@ function moveLeft() {
 }
 
 window.onload = function () {
+    if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('projects.html')) {
         let arrowDowns = document.querySelectorAll('.arrowDown');
 
         arrowDowns.forEach(function(arrowDown) {
@@ -140,6 +141,7 @@ window.onload = function () {
                 });
             });
         });
+    }
 
     if (window.location.pathname.endsWith('project.html')) {
         let params = new URLSearchParams(window.location.search);
