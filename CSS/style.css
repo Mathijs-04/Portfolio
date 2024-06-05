@@ -153,7 +153,12 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    width: 25%;
+    height: 50%;
+
     padding: 2rem;
+    margin: 2rem;
     transition: all 0.25s ease-out;
 }
 
@@ -175,6 +180,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .projectImage {
@@ -248,8 +254,6 @@ a:hover {
 .about p {
     margin: -5rem 15rem 5rem 15rem;
     font-size: 3rem;
-    /*text-align:justify;*/
-    /*text-align-last:justify;*/
 }
 
 .corner3 {
