@@ -131,10 +131,11 @@ function moveLeft() {
 
 window.onload = function () {
     if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/Portfolio/')) {
-        let arrowDowns = document.querySelectorAll('.arrowDown');
+        let arrowDowns = document.querySelectorAll('.arrowDown, .arrowDown2');
 
         arrowDowns.forEach(function(arrowDown) {
             arrowDown.addEventListener('click', function() {
+                // Scroll the page down by 1080px smoothly
                 window.scrollTo({
                     top: window.scrollY + 1080,
                     behavior: 'smooth'
