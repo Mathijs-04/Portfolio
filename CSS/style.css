@@ -187,8 +187,6 @@ a:hover {
 }
 
 .projectImage {
-    width: 32rem;
-    height: 18rem;
     border-radius: 1rem;
 }
 
@@ -335,9 +333,9 @@ a:hover {
 }
 
 #projectImage {
+    border-radius: 1rem;
     width: 48rem;
     height: 27rem;
-    border-radius: 1rem;
 }
 
 footer {
@@ -367,7 +365,13 @@ footer {
     }
     .contact {
         margin-bottom: 30rem;
-    }}
+    }
+
+    .projectImage {
+        width: 24rem;
+        height: 13.5rem;
+    }
+}
 
 @media only screen and (min-width: 1201px) and (max-width: 1824px) {
     body {
@@ -375,6 +379,11 @@ footer {
     }
     .contact {
         margin-bottom: 18rem;
+    }
+
+    .projectImage {
+        width: 24rem;
+        height: 13.5rem;
     }
 }
 
@@ -384,5 +393,9 @@ footer {
     }
     .contact {
         margin-bottom: 12rem;
+    }
+    .projectImage {
+        width: 32rem;
+        height: 18rem;
     }
 }
