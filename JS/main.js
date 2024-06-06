@@ -134,11 +134,19 @@ window.onload = function () {
         let arrowDowns = document.querySelectorAll('.arrowDown, .arrowDown2');
 
         let scrollDistanceLarge = 1080;
+        let scrollDistanceMedium = 880;
         let scrollDistanceSmall = 680;
 
         arrowDowns.forEach(function(arrowDown) {
             arrowDown.addEventListener('click', function() {
-                let scrollDistance = window.matchMedia('(max-width: 1200px)').matches ? scrollDistanceSmall : scrollDistanceLarge;
+                let scrollDistance;
+                if (window.matchMedia('(max-width: 1200px)').matches) {
+                    scrollDistance = scrollDistanceSmall;
+                } else if (window.matchMedia('(min-width: 1201px) and (max-width: 1825px)').matches) {
+                    scrollDistance = scrollDistanceMedium;
+                } else {
+                    scrollDistance = scrollDistanceLarge;
+                }
 
                 window.scrollTo({
                     top: window.scrollY + scrollDistance,
