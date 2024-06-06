@@ -215,6 +215,18 @@ a:hover {
     transform: scale(1.25) rotate(90deg);
 }
 
+.arrowDown2 {
+    width: 5rem;
+    height: 5rem;
+    transform: rotate(90deg);
+    margin-top: -4rem;
+    transition: all 0.25s ease-out;
+}
+
+.arrowDown2:hover {
+    transform: scale(1.25) rotate(90deg);
+}
+
 .arrowDownSection {
     display: flex;
     flex-direction: row;
