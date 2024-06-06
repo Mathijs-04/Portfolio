@@ -281,8 +281,6 @@ a:hover {
     z-index: -1;
     width: 5rem;
     height: 5rem;
-    margin-left: -85rem;
-    margin-top: -50rem;
 }
 
 .corner4 {
@@ -291,8 +289,6 @@ a:hover {
     width: 5rem;
     height: 5rem;
     transform: rotate(180deg);
-    margin-left: 85rem;
-    margin-top: 30rem;
 }
 
 .contact {
@@ -371,6 +367,16 @@ footer {
         width: 24rem;
         height: 13.5rem;
     }
+
+    .corner3 {
+        margin-left: -80rem;
+        margin-top: -65rem;
+    }
+
+    .corner4 {
+        margin-left: 80rem;
+        margin-top: 40rem;
+    }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1824px) {
@@ -385,6 +391,16 @@ footer {
         width: 24rem;
         height: 13.5rem;
     }
+
+    .corner3 {
+        margin-left: -80rem;
+        margin-top: -60rem;
+    }
+
+    .corner4 {
+        margin-left: 80rem;
+        margin-top: 40rem;
+    }
 }
 
 @media only screen and (min-width: 1825px) {
@@ -397,5 +413,15 @@ footer {
     .projectImage {
         width: 32rem;
         height: 18rem;
+    }
+
+    .corner3 {
+        margin-left: -85rem;
+        margin-top: -50rem;
+    }
+
+    .corner4 {
+        margin-left: 85rem;
+        margin-top: 30rem;
     }
 }
