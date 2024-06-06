@@ -361,3 +361,21 @@ footer {
     padding-left: 0;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1200px) {
+    body {
+        zoom: 0.55;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1824px) {
+    body {
+        zoom: 0.75;
+    }
+}
+
+@media only screen and (min-width: 1825px) {
+    body {
+        zoom: 1;
+    }
+}
