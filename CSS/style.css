@@ -302,7 +302,6 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding: -1rem 2rem 2rem 2rem;
-    margin-bottom: 15rem;
 }
 
 .contact img {
@@ -366,16 +365,24 @@ footer {
     body {
         zoom: 0.65;
     }
-}
+    .contact {
+        margin-bottom: 30rem;
+    }}
 
 @media only screen and (min-width: 1201px) and (max-width: 1824px) {
     body {
         zoom: 0.75;
+    }
+    .contact {
+        margin-bottom: 18rem;
     }
 }
 
 @media only screen and (min-width: 1825px) {
     body {
         zoom: 1;
+    }
+    .contact {
+        margin-bottom: 12rem;
     }
 }
