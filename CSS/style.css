@@ -203,6 +203,16 @@ a:hover {
     margin-top: 20vw;
 }
 
+.arrowLeft:hover {
+    transform: rotate(180deg) scaleY(1.25);
+    cursor: pointer;
+}
+
+.arrowRight:hover {
+    transform: scaleY(1.25);
+    cursor: pointer;
+}
+
 .arrowDown {
     width: 5rem;
     height: 5rem;
@@ -213,6 +223,7 @@ a:hover {
 
 .arrowDown:hover {
     transform: scale(1.25) rotate(90deg);
+    cursor: pointer;
 }
 
 .arrowDown2 {
@@ -225,6 +236,7 @@ a:hover {
 
 .arrowDown2:hover {
     transform: scale(1.25) rotate(90deg);
+    cursor: pointer;
 }
 
 .arrowDownSection {
