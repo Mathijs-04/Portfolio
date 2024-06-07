@@ -156,12 +156,12 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 25%;
     height: 50%;
-
     padding: 2rem;
     margin: 2rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #FFFFFF;
     transition: all 0.25s ease-out;
 }
 
