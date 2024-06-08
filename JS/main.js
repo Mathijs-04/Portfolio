@@ -56,7 +56,7 @@ let projects = [
         projectTitle: "Game Database",
         projectImage: "./IMG/IMG7.webp",
         projectDescription: "A Game Database using a Login System",
-        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
+        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
     },
     {
         projectTitle: "Asus Rog Ally",
