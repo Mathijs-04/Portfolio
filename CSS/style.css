@@ -327,6 +327,12 @@ a:hover {
     font-size: 2.5rem;
 }
 
+#contact-text-link a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    cursor: pointer;
+}
+
 .projectMain {
     display: flex;
     flex-direction: column;
