@@ -3,8 +3,16 @@ window.addEventListener('load', init);
 let projectIndex = 0;
 
 function init() {
+    preloadImages();
     fillDivs();
     updateFeaturedProjects();
+}
+
+function preloadImages() {
+    for (let i = 0; i < projects.length; i++) {
+        let img = new Image();
+        img.src = projects[i].projectImage;
+    }
 }
 
 let projects = [
