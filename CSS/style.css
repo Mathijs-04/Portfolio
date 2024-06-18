@@ -378,7 +378,6 @@ footer {
 }
 
 .footerLink:hover {
-    margin-top: -0.2rem;
     padding-left: 0;
     cursor: pointer;
 }
