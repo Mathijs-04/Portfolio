@@ -188,6 +188,7 @@ a:hover {
 
 .projectImage {
     border-radius: 1rem;
+    border: 0.1rem solid #FFFFFF;
 }
 
 .arrowLeft {
