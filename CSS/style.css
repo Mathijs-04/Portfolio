@@ -384,6 +384,10 @@ footer {
     margin-bottom: -0.2rem;
 }
 
+#linkedInImage {
+    margin-bottom: -0.15rem;
+}
+
 @media only screen and (max-width: 1200px) {
     body {
         zoom: 0.65;
