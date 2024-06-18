@@ -367,16 +367,18 @@ footer {
 }
 
 .footerImage {
-    width: 2.2rem;
-    height: 2.2rem;
-    margin-top: -2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: -1.5rem;
 }
 
 .footerLink {
+    margin-top: -0.2rem;
     padding-left: 0;
 }
 
 .footerLink:hover {
+    margin-top: -0.2rem;
     padding-left: 0;
     cursor: pointer;
 }
