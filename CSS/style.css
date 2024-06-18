@@ -380,6 +380,10 @@ footer {
     cursor: pointer;
 }
 
+#mailImage {
+    margin-bottom: -0.2rem;
+}
+
 @media only screen and (max-width: 1200px) {
     body {
         zoom: 0.65;
