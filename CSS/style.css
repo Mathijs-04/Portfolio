@@ -362,11 +362,14 @@ footer {
     border-top: 0.2rem solid #FFFFFF;
     text-align: center;
     padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .footerImage {
     width: 2.2rem;
     height: 2.2rem;
+    margin-top: -2rem;
 }
 
 .footerLink {
