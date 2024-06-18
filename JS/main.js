@@ -145,8 +145,8 @@ window.onload = function () {
         let scrollDistanceMedium = 880;
         let scrollDistanceSmall = 680;
 
-        arrowDowns.forEach(function(arrowDown) {
-            arrowDown.addEventListener('click', function() {
+        arrowDowns.forEach(function (arrowDown) {
+            arrowDown.addEventListener('click', function () {
                 let scrollDistance;
                 if (window.matchMedia('(max-width: 1200px)').matches) {
                     scrollDistance = scrollDistanceSmall;
