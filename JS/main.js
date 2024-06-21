@@ -75,10 +75,12 @@ let projects = [
         projectLink2: "https://mathijs-04.github.io/Frontend-Eindopdracht/"
     },
     {
-        projectTitle: "CLE4 Game",
+        projectTitle: "Punchpark",
         projectImage: "./IMG/IMG9.webp",
-        projectDescription: "A 2D Game made with a team of students",
-        projectText: "This project is still a work in progress. I will update this page when the project is finished."
+        projectDescription: "A 2D Boxing Game made with a team of students",
+        projectText: "Punchpark is a 2D Boxing Game made in Excalibur.js. This Game was made in a team of eight students during our Game Development Project. Every student has their own boss in the game. The Game is made to be played on an Arcade Machine. It also works on PC if you use a controller.",
+        projectLink1: "https://vincentbenders.github.io/CLE4/",
+        projectLink2: "https://github.com/VincentBenders/CLE4"
     },
 ];
 
