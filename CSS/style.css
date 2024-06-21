@@ -347,6 +347,8 @@ a:hover {
     font-size: 3rem;
     margin-left: 12rem;
     margin-right: 12rem;
+    text-align: justify;
+    text-align-last: center;
 }
 
 #projectImage {
