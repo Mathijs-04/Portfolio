@@ -78,7 +78,7 @@ let projects = [
         projectTitle: "Punchpark",
         projectImage: "./IMG/IMG9.webp",
         projectDescription: "A 2D Boxing Game made with a team of students",
-        projectText: "Punchpark is a 2D Boxing Game made in Excalibur.js. This Game was made in a team of eight students during our Game Development Project. Every student has their own boss in the game. The Game is made to be played on an Arcade Machine. It also works on PC if you use a controller.",
+        projectText: "Punchpark is a 2D Boxing Game made in Excalibur.js. This Game was made with JavaScript in a team of eight students during our latest Game Development Project. Every student has their own personal bossfight in the game. Punchpark is made to be played on an Arcade Machine, butt also works on PC if you connect a controller.",
         projectLink1: "https://vincentbenders.github.io/CLE4/",
         projectLink2: "https://github.com/VincentBenders/CLE4"
     },
