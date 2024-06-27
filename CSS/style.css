@@ -313,12 +313,6 @@ a:hover {
     padding: -1rem 2rem 2rem 2rem;
 }
 
-.contact img {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 1rem;
-}
-
 .contactRow {
     display: flex;
     flex-direction: row;
@@ -334,6 +328,13 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: #FFFFFF;
     cursor: pointer;
+}
+
+.contactImage {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+    transform: translateY(1rem);
 }
 
 .projectMain {
