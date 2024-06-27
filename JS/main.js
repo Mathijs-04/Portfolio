@@ -38,12 +38,12 @@ let projects = [
         projectLink1: "https://mathijs-04.github.io/Gabber-Gandalf/"
     },
     {
-        projectTitle: "Gobbo Quest",
-        projectImage: "./IMG/IMG2.webp",
-        projectDescription: "A Top-Down Arcade Game made in Makecode Arcade",
-        projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to the course Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defeat the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
-        projectLink1: "https://makecode.com/_2qvTbVe5JAd3",
-        projectLink2: "https://github.com/Mathijs-04/Gobbo-Quest-V2"
+        projectTitle: "Punchpark",
+        projectImage: "./IMG/IMG9.webp",
+        projectDescription: "A 2D Boxing Game made with a team of students",
+        projectText: "Punchpark is a 2D Boxing Game made in Excalibur.js. This Game was made with JavaScript in a team of eight students during our latest Game Development Project. Every student has their own personal bossfight in the game. Punchpark is made to be played on an Arcade Machine, but also works on PC if you connect a controller. You can find out more about Punchpark on the Instagram-page @punchpark.game",
+        projectLink1: "https://vincentbenders.github.io/CLE4/",
+        projectLink2: "https://github.com/VincentBenders/CLE4"
     },
     {
         projectTitle: "Denise Kookt!",
@@ -61,10 +61,12 @@ let projects = [
         projectLink2: "https://github.com/Mathijs-04/CLE3-APP"
     },
     {
-        projectTitle: "Game Database",
-        projectImage: "./IMG/IMG7.webp",
-        projectDescription: "A Game Database using a Login System",
-        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
+        projectTitle: "Gobbo Quest",
+        projectImage: "./IMG/IMG2.webp",
+        projectDescription: "A Top-Down Arcade Game made in Makecode Arcade",
+        projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to the course Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defeat the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
+        projectLink1: "https://makecode.com/_2qvTbVe5JAd3",
+        projectLink2: "https://github.com/Mathijs-04/Gobbo-Quest-V2"
     },
     {
         projectTitle: "Asus Rog Ally",
@@ -75,12 +77,10 @@ let projects = [
         projectLink2: "https://mathijs-04.github.io/Frontend-Eindopdracht/"
     },
     {
-        projectTitle: "Punchpark",
-        projectImage: "./IMG/IMG9.webp",
-        projectDescription: "A 2D Boxing Game made with a team of students",
-        projectText: "Punchpark is a 2D Boxing Game made in Excalibur.js. This Game was made with JavaScript in a team of eight students during our latest Game Development Project. Every student has their own personal bossfight in the game. Punchpark is made to be played on an Arcade Machine, but also works on PC if you connect a controller. You can find out more about Punchpark on the Instagram-page @punchpark.game",
-        projectLink1: "https://vincentbenders.github.io/CLE4/",
-        projectLink2: "https://github.com/VincentBenders/CLE4"
+        projectTitle: "Game Database",
+        projectImage: "./IMG/IMG7.webp",
+        projectDescription: "A Game Database using a Login System",
+        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
     },
 ];
 
