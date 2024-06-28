@@ -27,7 +27,7 @@ let projects = [
     {
         projectTitle: "Game Magazine",
         projectImage: "./IMG/IMG3.webp",
-        projectDescription: "An Online Game Magazine made in HTML, CSS and JS",
+        projectDescription: "A Game Magazine made in HTML, CSS and JS",
         projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment."
     },
     {
@@ -40,7 +40,7 @@ let projects = [
     {
         projectTitle: "Punchpark",
         projectImage: "./IMG/IMG9.webp",
-        projectDescription: "A 2D Boxing Game made with a team of students",
+        projectDescription: "A 2D Arcade Boxing Game",
         projectText: "Punchpark is a 2D Boxing Game made in Excalibur.js. This Game was made with JavaScript in a team of eight students during our latest Game Development Project. Every student has their own personal bossfight in the game. Punchpark is made to be played on an Arcade Machine, but also works on PC if you connect a controller. You can find out more about Punchpark on the Instagram-page @punchpark.game",
         projectLink1: "https://vincentbenders.github.io/CLE4/",
         projectLink2: "https://github.com/VincentBenders/CLE4"
@@ -63,7 +63,7 @@ let projects = [
     {
         projectTitle: "Gobbo Quest",
         projectImage: "./IMG/IMG2.webp",
-        projectDescription: "A Top-Down Arcade Game made in Makecode Arcade",
+        projectDescription: "A Top-Down Arcade RPG",
         projectText: "Gobbo Quest is a Top-Down Arcade Game made with Makecode Arcade. This Game was made in a few hours with three other students as an introduction to the course Game Development. Gobbo Quest is a short Top Down Dungeon Crawler in which you have to explore a dungeon, kill enemies and defeat the Boss. Gobbo Quest works on both PC and Mobile and runs in the browser.",
         projectLink1: "https://makecode.com/_2qvTbVe5JAd3",
         projectLink2: "https://github.com/Mathijs-04/Gobbo-Quest-V2"
