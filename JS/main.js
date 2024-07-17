@@ -46,6 +46,14 @@ let projects = [
         projectLink2: "https://github.com/VincentBenders/CLE4"
     },
     {
+        projectTitle: "Warhammer Dice Roller",
+        projectImage: "./IMG/IMG10.webp",
+        projectDescription: "A website to roll your Warhammer Dice",
+        projectText: "Warhammer Dice Roller is a simple online tool to roll dice. It was created because of my own frustrations during the Warhammer Tabletop Game. During this game, players have to roll a lot of dice, and it can be quite time-consuming. I wanted to make this easier by creating a simple website to roll a lot of dice at once. This website works both on PC and Mobile.",
+        projectLink1: "https://mathijs-04.github.io/Dice-Roller/",
+        projectLink2: "https://github.com/Mathijs-04/Dice-Roller"
+    },
+    {
         projectTitle: "Denise Kookt!",
         projectImage: "./IMG/IMG4.webp",
         projectDescription: "An Online Reservation System using a Database",
@@ -81,14 +89,6 @@ let projects = [
         projectImage: "./IMG/IMG7.webp",
         projectDescription: "A Game Database using a Login System",
         projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
-    },
-    {
-        projectTitle: "Warhammer Dice Roller",
-        projectImage: "./IMG/IMG10.webp",
-        projectDescription: "...",
-        projectText: "...",
-        projectLink1: "https://mathijs-04.github.io/Dice-Roller/",
-        projectLink2: "https://github.com/Mathijs-04/Dice-Roller"
     },
     {
         projectTitle: "Coming Soon",
