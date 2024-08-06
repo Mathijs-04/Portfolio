@@ -91,16 +91,17 @@ let projects = [
         projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
     },
     {
-        projectTitle: "Coming Soon",
+        projectTitle: "Unreal Engine 5",
         projectImage: "./IMG/IMG11.webp",
-        projectDescription: "A new project will be added soon",
-        projectText: "A new project will be added soon.",
+        projectDescription: "This project will be updated soon",
+        projectText: "This Unreal Engine 5 environment is my first ever project in Unreal Engine. I wanted to learn more about Unreal Engine 5 and 3D-Development, so I built a forest environment with a castle in it. While making this environment I experimented with various tools and techniques in Unreal Engine 5, like Nanite, Lumen, Landscaping and the Blueprint system. During this project I followed the Unreal Engine 5 Beginner Tutorial by Unreal Sensei. More Information and images will be added when the project is finished.",
+        projectLink1: "https://www.youtube.com/watch?v=k-zMkzmduqI",
     },
     {
         projectTitle: "Coming Soon",
         projectImage: "./IMG/IMG12.webp",
         projectDescription: "A new project will be added soon",
-        projectText: "A new project will be added soon.",
+        projectText: "A new project will be added in the near future.",
     },
 ];
 
