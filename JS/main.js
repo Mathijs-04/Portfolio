@@ -109,6 +109,8 @@ function fillDivs() {
     let projectDivs = document.querySelectorAll('.project');
 
     for (let i = 0; i < projects.length; i++) {
+        if (i >= projectDivs.length) break;
+
         let projectTitleElement = projectDivs[i].querySelector('.projectTitle');
         let projectDescriptionElement = projectDivs[i].querySelector('.projectDescription');
         let projectImageElement = projectDivs[i].querySelector('.projectImage');
@@ -135,6 +137,8 @@ function updateFeaturedProjects() {
     let projectDivs = document.querySelectorAll('.project');
 
     for (let i = 0; i < 3; i++) {
+        if (i >= projectDivs.length) break;
+
         let currentIndex = (projectIndex + i) % projects.length;
         let projectTitleElement = projectDivs[i].querySelector('.projectTitle');
         let projectDescriptionElement = projectDivs[i].querySelector('.projectDescription');
@@ -167,11 +171,14 @@ window.onload = function () {
         let scrollDistanceLarge = 1080;
         let scrollDistanceMedium = 880;
         let scrollDistanceSmall = 680;
+        let scrollDistanceMobile = 200;
 
         arrowDowns.forEach(function (arrowDown) {
             arrowDown.addEventListener('click', function () {
                 let scrollDistance;
-                if (window.matchMedia('(max-width: 1200px)').matches) {
+                if (window.matchMedia('(min-width: 100px) and (max-width: 800px)').matches) {
+                    scrollDistance = scrollDistanceMobile;
+                } else if (window.matchMedia('(min-width: 801px) and (max-width: 1200px)').matches) {
                     scrollDistance = scrollDistanceSmall;
                 } else if (window.matchMedia('(min-width: 1201px) and (max-width: 1825px)').matches) {
                     scrollDistance = scrollDistanceMedium;

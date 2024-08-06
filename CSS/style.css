@@ -391,7 +391,8 @@ footer {
     margin-bottom: -0.3rem;
 }
 
-@media only screen and (max-width: 1200px) {
+/* LAPTOP QUERIES */
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
     body {
         zoom: 0.65;
     }
@@ -466,7 +467,392 @@ footer {
     }
 }
 
-/* MOBILE */
+/* MOBILE QUERIES */
 @media only screen and (max-width: 800px) {
-    /* MOBILE CSS */
+    body {
+        background-image: url(../IMG/WALLPAPER.webp);
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    main {
+        padding-top: 2rem;
+    }
+
+    h1 {
+        font-family: "HeroicCondensed-Medium", sans-serif;
+        color: #FFFFFF;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: "HeroicCondensed-Medium", sans-serif;
+        color: #FFFFFF;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: "HeroicCondensed-Medium", sans-serif;
+        color: #FFFFFF;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    p {
+        font-family: "HeroicCondensed-Medium", sans-serif;
+        color: #FFFFFF;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    nav {
+        background-image: url(../IMG/NAVBAR.webp);
+        background-size: contain;
+        display: flex;
+        flex-direction: row;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .currentPage {
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    }
+
+    a {
+        font-family: "HeroicCondensed-Medium", sans-serif;
+        font-size: 2rem;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    a:hover {
+        font-family: "HeroicCondensed-Medium", sans-serif;
+        font-size: 2rem;
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+        padding: 2rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        margin-top: 10rem;
+        margin-bottom: 0;
+    }
+
+    .subtitle {
+        margin-top: 0;
+    }
+
+    .corner1 {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .corner2 {
+        width: 4rem;
+        height: 4rem;
+        transform: rotate(180deg);
+        margin-top: 15rem;
+        margin-left: -2rem;
+    }
+
+    .description {
+        margin: 8rem 4rem 8rem 4rem;
+    }
+
+    .description-text {
+        font-size: 2.5rem;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .text-link {
+        font-family: "HeroicCondensed-Medium", sans-serif;
+        color: #FFFFFF;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .text-link:hover {
+        font-family: "HeroicCondensed-Medium", sans-serif;
+        color: #FFFFFF;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .line {
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        height: 0.25rem;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+        height: 50%;
+        padding: 2rem;
+        margin: 2rem;
+        border-radius: 1rem;
+        border: 0.2rem solid #FFFFFF;
+        transition: all 0.25s ease-out;
+    }
+
+    .project:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 1rem;
+    }
+
+    .featuredProjectsTitle {
+        margin-bottom: 0;
+    }
+
+    .featuredProjectsSection {
+        margin-top: 25rem;
+    }
+
+    .featuredProjects {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .projectImage {
+        border-radius: 1rem;
+        border: 0.1rem solid #FFFFFF;
+    }
+
+    .arrowLeft {
+        width: 2rem;
+        height: 2rem;
+        transform: rotate(180deg);
+        margin-top: 20vw;
+    }
+
+    .arrowRight {
+        width: 2rem;
+        height: 2rem;
+        margin-top: 20vw;
+    }
+
+    .arrowLeft:hover {
+        transform: rotate(180deg) scaleY(1.25) scaleX(1.1);
+        cursor: pointer;
+    }
+
+    .arrowRight:hover {
+        transform: scaleY(1.25) scaleX(1.1);
+        cursor: pointer;
+    }
+
+    .arrowDown {
+        width: 5rem;
+        height: 5rem;
+        transform: rotate(90deg);
+        margin-top: 5rem;
+        transition: all 0.25s ease-out;
+    }
+
+    .arrowDown:hover {
+        transform: scale(1.25) rotate(90deg);
+        cursor: pointer;
+    }
+
+    .arrowDown2 {
+        width: 5rem;
+        height: 5rem;
+        transform: rotate(90deg);
+        margin-top: -4rem;
+        transition: all 0.25s ease-out;
+    }
+
+    .arrowDown2:hover {
+        transform: scale(1.25) rotate(90deg);
+        cursor: pointer;
+    }
+
+    .arrowDownSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .allProjects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allProjects .project {
+        border: 0.4rem solid #FFFFFF;
+        border-radius: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .allProjects .project:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .profile {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 10rem;
+        margin-top: -3rem;
+        margin-bottom: 10rem;
+        border: 0.2rem solid #FFFFFF;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .about p {
+        margin: -5rem 15rem 5rem 15rem;
+        font-size: 2.5rem;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .corner3 {
+        position: absolute;
+        z-index: -1;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .corner4 {
+        position: absolute;
+        z-index: -1;
+        width: 5rem;
+        height: 5rem;
+        transform: rotate(180deg);
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: -1rem 2rem 2rem 2rem;
+    }
+
+    .contactRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .contactText {
+        font-size: 2.5rem;
+    }
+
+    #contact-text-link a:hover {
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .contactImage {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1rem;
+        transform: translateY(1rem);
+    }
+
+    .projectMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .projectText {
+        font-size: 3rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    #projectImage {
+        border-radius: 1rem;
+        width: 48rem;
+        height: 27rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        background-color: #000000;
+        border-top: 0.2rem solid #FFFFFF;
+        text-align: center;
+        padding: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footerImage {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .footerLink {
+        padding-left: 0;
+    }
+
+    .footerLink:hover {
+        padding-left: 0;
+        cursor: pointer;
+    }
+
+    #mailImage {
+        margin-bottom: -0.2rem;
+    }
+
+    #linkedInImage {
+        margin-bottom: -0.3rem;
+    }
 }
