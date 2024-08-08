@@ -171,7 +171,7 @@ window.onload = function () {
         let scrollDistanceLarge = 1080;
         let scrollDistanceMedium = 880;
         let scrollDistanceSmall = 680;
-        let scrollDistanceMobile = 200;
+        let scrollDistanceMobile = 530;
 
         arrowDowns.forEach(function (arrowDown) {
             arrowDown.addEventListener('click', function () {

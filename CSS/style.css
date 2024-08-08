@@ -484,14 +484,15 @@ footer {
     h1 {
         font-family: "HeroicCondensed-Medium", sans-serif;
         color: #FFFFFF;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         text-align: center;
+        z-index: 1;
     }
 
     h2 {
         font-family: "HeroicCondensed-Medium", sans-serif;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -514,8 +515,8 @@ footer {
         background-size: contain;
         display: flex;
         flex-direction: row;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 0;
+        padding-right: 0;
         justify-content: space-between;
         position: fixed;
         top: 0;
@@ -529,24 +530,23 @@ footer {
 
     a {
         font-family: "HeroicCondensed-Medium", sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #FFFFFF;
         text-decoration: none;
-        padding: 2rem;
-        margin-bottom: 1rem;
+        padding: 0.5rem;
+        margin: 0.5rem 0 0.5rem 0;
     }
 
     a:hover {
         font-family: "HeroicCondensed-Medium", sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #FFFFFF;
         text-decoration: underline;
         text-decoration-color: #FFFFFF;
-        padding: 2rem;
-        margin-bottom: 1rem;
+        padding: 0.5rem;
+        margin: 0.5rem 0 0.5rem 0;
         cursor: pointer;
     }
-
 
     .head {
         display: flex;
@@ -558,6 +558,7 @@ footer {
     .name {
         display: flex;
         flex-direction: column;
+        margin-left: -1rem;
     }
 
     .title {
@@ -572,6 +573,7 @@ footer {
     .corner1 {
         width: 4rem;
         height: 4rem;
+        z-index: -1;
     }
 
     .corner2 {
@@ -580,14 +582,15 @@ footer {
         transform: rotate(180deg);
         margin-top: 15rem;
         margin-left: -2rem;
+        z-index: -1;
     }
 
     .description {
-        margin: 8rem 4rem 8rem 4rem;
+        margin: 9rem 4rem 8rem 4rem;
     }
 
     .description-text {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         text-align: justify;
         text-align-last: center;
     }
@@ -595,7 +598,7 @@ footer {
     .text-link {
         font-family: "HeroicCondensed-Medium", sans-serif;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 1.5rem;
         text-align: center;
         font-weight: bold;
         padding: 0;
@@ -604,7 +607,7 @@ footer {
     .text-link:hover {
         font-family: "HeroicCondensed-Medium", sans-serif;
         color: #FFFFFF;
-        font-size: 3rem;
+        font-size: 1.5rem;
         text-align: center;
         font-weight: bold;
         text-decoration: none;
@@ -642,7 +645,7 @@ footer {
     }
 
     .featuredProjectsSection {
-        margin-top: 25rem;
+        margin-top: 0rem;
     }
 
     .featuredProjects {
