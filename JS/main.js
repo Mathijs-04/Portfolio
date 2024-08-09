@@ -140,6 +140,11 @@ function updateFeaturedProjects() {
         if (i >= projectDivs.length) break;
 
         let currentIndex = (projectIndex + i) % projects.length;
+
+        if (window.matchMedia('(min-width: 100px) and (max-width: 800px)').matches) {
+            currentIndex = projectIndex;
+        }
+
         let projectTitleElement = projectDivs[i].querySelector('.projectTitle');
         let projectDescriptionElement = projectDivs[i].querySelector('.projectDescription');
         let projectImageElement = projectDivs[i].querySelector('.projectImage');

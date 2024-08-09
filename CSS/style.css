@@ -506,8 +506,9 @@ footer {
     h3 {
         font-family: "HeroicCondensed-Medium", sans-serif;
         color: #FFFFFF;
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
+        margin: 0 0 1rem 0;
     }
 
     p {
@@ -632,8 +633,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
-        height: 80%;
+        width: 60vw;
+        height: 45vh;
         padding: 2rem;
         margin: 1rem;
         border-radius: 1rem;
@@ -652,12 +653,12 @@ footer {
     }
 
     .featuredProjectsSection {
-        margin-top: 0;
+        margin-top: 10rem;
     }
 
     .featuredProjects {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         width: 100%;
     }
@@ -665,30 +666,30 @@ footer {
     .projectImage {
         border-radius: 1rem;
         border: 0.1rem solid #FFFFFF;
-        width: 12rem;
-        height: 6.25rem;
+        width: 16rem;
+        height: 9rem;
     }
 
     .arrowLeft {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
         transform: rotate(180deg);
         margin-top: 20vw;
     }
 
     .arrowRight {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
         margin-top: 20vw;
     }
 
     .arrowLeft:hover {
-        transform: rotate(180deg) scaleY(1.25) scaleX(1.1);
+        transform: rotate(180deg) scaleY(1.5) scaleX(1.5);
         cursor: pointer;
     }
 
     .arrowRight:hover {
-        transform: scaleY(1.25) scaleX(1.1);
+        transform: scaleY(1.5) scaleX(1.5);
         cursor: pointer;
     }
 
@@ -852,19 +853,25 @@ footer {
     }
 
     .footerLink {
+        font-size: 2rem;
         padding-left: 0;
     }
 
     .footerLink:hover {
+        font-size: 2rem;
         padding-left: 0;
         cursor: pointer;
     }
 
     #mailImage {
-        margin-bottom: -0.2rem;
+        margin-bottom: -0.5rem;
+    }
+
+    #gitHubImage {
+        margin-bottom: -0.5rem;
     }
 
     #linkedInImage {
-        margin-bottom: -0.3rem;
+        margin-bottom: -0.5rem;
     }
 }
