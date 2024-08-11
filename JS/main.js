@@ -93,8 +93,8 @@ let projects = [
     {
         projectTitle: "Unreal Engine 5",
         projectImage: "./IMG/IMG11.webp",
-        projectDescription: "This project will be updated soon",
-        projectText: "This Unreal Engine 5 environment is my first project in Unreal Engine. I wanted to learn more about Unreal Engine 5 and 3D-Development, so I built a forest environment with a castle in it. While making this environment I experimented with various tools and techniques in Unreal Engine 5, like Nanite, Lumen, Landscaping and the Blueprint system. During this project I followed the Unreal Engine 5 Beginner Tutorial by Unreal Sensei. More Information and images will be added when the project is finished.",
+        projectDescription: "Unreal Engine 5 Castle Environment",
+        projectText: "This Unreal Engine 5 environment is my first project in Unreal Engine. I wanted to learn more about Unreal Engine 5 and 3D-Development, so I built a forest environment with a castle in it. While making this environment I experimented with various tools and techniques in Unreal Engine 5, like Nanite, Lumen, Landscaping and the Blueprint system. During this project I followed the Unreal Engine 5 Beginner Tutorial by Unreal Sensei.",
         projectLink1: "https://www.youtube.com/watch?v=k-zMkzmduqI",
     },
     {
