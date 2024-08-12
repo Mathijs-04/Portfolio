@@ -31,6 +31,13 @@ let projects = [
         projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment."
     },
     {
+        projectTitle: "Unreal Engine 5",
+        projectImage: "./IMG/IMG11.webp",
+        projectDescription: "Unreal Engine 5 Castle Environment",
+        projectText: "This Unreal Engine 5 environment is my first project in Unreal Engine. I wanted to learn more about Unreal Engine 5 and 3D-Development, so I built this forest environment with castles in it. While making this environment I experimented with various tools and techniques in Unreal Engine 5, like Nanite, Lumen, Landscaping and the Blueprint system. During this project I followed the Unreal Engine 5 Beginner Tutorial by Unreal Sensei.",
+        projectLink1: "https://www.youtube.com/watch?v=k-zMkzmduqI",
+    },
+    {
         projectTitle: "Gabber Gandalf",
         projectImage: "./IMG/IMG6.webp",
         projectDescription: "A fun Side Project about a Fictional Artist",
@@ -89,13 +96,6 @@ let projects = [
         projectImage: "./IMG/IMG7.webp",
         projectDescription: "A Game Database using a Login System",
         projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
-    },
-    {
-        projectTitle: "Unreal Engine 5",
-        projectImage: "./IMG/IMG11.webp",
-        projectDescription: "Unreal Engine 5 Castle Environment",
-        projectText: "This Unreal Engine 5 environment is my first project in Unreal Engine. I wanted to learn more about Unreal Engine 5 and 3D-Development, so I built this forest environment with castles in it. While making this environment I experimented with various tools and techniques in Unreal Engine 5, like Nanite, Lumen, Landscaping and the Blueprint system. During this project I followed the Unreal Engine 5 Beginner Tutorial by Unreal Sensei.",
-        projectLink1: "https://www.youtube.com/watch?v=k-zMkzmduqI",
     },
     {
         projectTitle: "Coming Soon",
