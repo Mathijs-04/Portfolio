@@ -213,10 +213,10 @@ window.onload = function () {
         let projectTextElement = document.querySelector('main .projectText');
         projectTextElement.innerHTML = project.projectText;
         if (project.projectLink1) {
-            projectTextElement.innerHTML += '<br><br> <p>Link 1: </p><a href="' + project.projectLink1 + '" target="_blank">' + project.projectLink1 + '</a>';
+            projectTextElement.innerHTML += '<br><br> <p>Link 1: </p><a href="' + project.projectLink1 + '" target="_blank" class="projectLink">' + project.projectLink1 + '</a>';
         }
         if (project.projectLink2) {
-            projectTextElement.innerHTML += '<br><br> <p>Link 2: </p><a href="' + project.projectLink2 + '" target="_blank">' + project.projectLink2 + '</a>';
+            projectTextElement.innerHTML += '<br><br> <p>Link 2: </p><a href="' + project.projectLink2 + '" target="_blank" class="projectLink">' + project.projectLink2 + '</a>';
         }
     }
 }
