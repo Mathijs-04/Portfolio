@@ -41,7 +41,7 @@ let projects = [
         projectTitle: "Gabber Gandalf",
         projectImage: "./IMG/IMG6.webp",
         projectDescription: "A fun Side Project about a Fictional Artist",
-        projectText: "This Website was a short side project made in a single day. It was made to experiment with CSS Frameworks. The website features the fictional artist Gabber Gandalf. The website also contains a merchandise page.",
+        projectText: "Gabber Gandalf was a short side project made in a single day. It was made to experiment with CSS Frameworks. The website features the fictional artist Gabber Gandalf. The website also contains a merchandise page.",
         projectLink1: "https://mathijs-04.github.io/Gabber-Gandalf/"
     },
     {
