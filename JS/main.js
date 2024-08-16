@@ -101,7 +101,7 @@ let projects = [
         projectTitle: "Coming Soon",
         projectImage: "./IMG/IMG12.webp",
         projectDescription: "A new project will be added soon",
-        projectText: "A new project will be added in the near future.",
+        projectText: "A new project will be added here in the near future.",
     },
 ];
 
