@@ -102,35 +102,26 @@ let projects = [
         projectImage: "./IMG/IMG12.webp",
         projectDescription: "A new project will be added soon",
         projectText: "A new project will be added here in the near future.",
-    },
-];
+    },];
 
 function fillDivs() {
     let projectDivs = document.querySelectorAll('.project');
 
-    for (let i = 0; i < projects.length; i++) {
-        if (i >= projectDivs.length) break;
+    projectDivs.forEach((projectDiv, index) => {
+        if (index < projects.length) {
+            let projectTitleElement = projectDiv.querySelector('.projectTitle');
+            let projectDescriptionElement = projectDiv.querySelector('.projectDescription');
+            let projectImageElement = projectDiv.querySelector('.projectImage');
 
-        let projectTitleElement = projectDivs[i].querySelector('.projectTitle');
-        let projectDescriptionElement = projectDivs[i].querySelector('.projectDescription');
-        let projectImageElement = projectDivs[i].querySelector('.projectImage');
+            projectTitleElement.textContent = projects[index].projectTitle;
+            projectDescriptionElement.textContent = projects[index].projectDescription;
+            projectImageElement.src = projects[index].projectImage;
 
-        projectTitleElement.textContent = projects[i].projectTitle;
-        projectDescriptionElement.textContent = projects[i].projectDescription;
-        projectImageElement.src = projects[i].projectImage;
-
-        if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/Portfolio/')) {
-            projectDivs[i].addEventListener('click', function () {
-                window.location.href = 'project.html?project=' + i;
+            projectDiv.addEventListener('click', function () {
+                window.location.href = 'project.html?project=' + index;
             });
         }
-
-        if (window.location.pathname.endsWith('projects.html')) {
-            projectDivs[i].addEventListener('click', function () {
-                window.location.href = 'project.html?project=' + i;
-            });
-        }
-    }
+    });
 }
 
 function updateFeaturedProjects() {
@@ -139,10 +130,11 @@ function updateFeaturedProjects() {
     for (let i = 0; i < 3; i++) {
         if (i >= projectDivs.length) break;
 
-        let currentIndex = (projectIndex + i) % projects.length;
-
+        let currentIndex;
         if (window.matchMedia('(min-width: 100px) and (max-width: 800px)').matches) {
-            currentIndex = projectIndex;
+            currentIndex = (projectIndex + i) % projects.length;
+        } else {
+            currentIndex = (projectIndex + i) % projects.length;
         }
 
         let projectTitleElement = projectDivs[i].querySelector('.projectTitle');

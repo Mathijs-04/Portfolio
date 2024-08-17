@@ -480,6 +480,7 @@ footer {
         background-attachment: fixed;
         background-size: cover;
         margin: 0;
+        width: 100%;
         overflow-x: hidden;
     }
 
