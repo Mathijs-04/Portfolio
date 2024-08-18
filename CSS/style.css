@@ -470,8 +470,8 @@ footer {
 /* MOBILE QUERIES */
 @media only screen and (max-width: 800px) {
 
-    .featuredProjects .project:nth-child(2),
-    .featuredProjects .project:nth-child(3) {
+    .featuredProjects .project:nth-child(0),
+    .featuredProjects .project:nth-child(1) {
         display: none;
     }
 
