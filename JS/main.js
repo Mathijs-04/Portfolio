@@ -102,23 +102,24 @@ let projects = [
         projectImage: "./IMG/IMG12.webp",
         projectDescription: "A new project will be added soon",
         projectText: "A new project will be added here in the near future.",
-    },];
+    },
+];
 
 function fillDivs() {
     let projectDivs = document.querySelectorAll('.project');
 
-    projectDivs.forEach((projectDiv, index) => {
-        if (index < projects.length) {
+    projectDivs.forEach((projectDiv, i) => {
+        if (i < projects.length) {
             let projectTitleElement = projectDiv.querySelector('.projectTitle');
             let projectDescriptionElement = projectDiv.querySelector('.projectDescription');
             let projectImageElement = projectDiv.querySelector('.projectImage');
 
-            projectTitleElement.textContent = projects[index].projectTitle;
-            projectDescriptionElement.textContent = projects[index].projectDescription;
-            projectImageElement.src = projects[index].projectImage;
+            projectTitleElement.textContent = projects[i].projectTitle;
+            projectDescriptionElement.textContent = projects[i].projectDescription;
+            projectImageElement.src = projects[i].projectImage;
 
             projectDiv.addEventListener('click', function () {
-                window.location.href = 'project.html?project=' + index;
+                window.location.href = 'project.html?project=' + i;
             });
         }
     });
