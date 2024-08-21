@@ -474,106 +474,41 @@ footer {
     }
 
     body {
-        background-image: url(../IMG/WALLPAPER.webp);
-        background-attachment: fixed;
-        background-size: cover;
-        margin: 0;
         width: 100%;
-        overflow-x: hidden;
-    }
-
-    main {
-        padding-top: 2rem;
     }
 
     h1 {
-        font-family: "HeroicCondensed-Medium", sans-serif;
-        color: #FFFFFF;
         font-size: 2.5rem;
-        text-align: center;
         z-index: 1;
     }
 
     h2 {
-        font-family: "HeroicCondensed-Medium", sans-serif;
-        color: #FFFFFF;
         font-size: 2rem;
-        text-align: center;
     }
 
     h3 {
-        font-family: "HeroicCondensed-Medium", sans-serif;
-        color: #FFFFFF;
         font-size: 2rem;
-        text-align: center;
         margin: 0 0 1rem 0;
     }
 
-    p {
-        font-family: "HeroicCondensed-Medium", sans-serif;
-        color: #FFFFFF;
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    nav {
-        background-image: url(../IMG/NAVBAR.webp);
-        background-size: contain;
-        display: flex;
-        flex-direction: row;
-        padding-left: 0;
-        padding-right: 0;
-        justify-content: space-between;
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    .currentPage {
-        text-decoration: underline;
-        text-decoration-color: #FFFFFF;
-    }
-
     a {
-        font-family: "HeroicCondensed-Medium", sans-serif;
         font-size: 1.5rem;
-        color: #FFFFFF;
-        text-decoration: none;
         padding: 0.5rem;
         margin: 0.5rem 0 0.5rem 0;
     }
 
     a:hover {
-        font-family: "HeroicCondensed-Medium", sans-serif;
         font-size: 1.5rem;
-        color: #FFFFFF;
-        text-decoration: underline;
-        text-decoration-color: #FFFFFF;
         padding: 0.5rem;
         margin: 0.5rem 0 0.5rem 0;
-        cursor: pointer;
-    }
-
-    .head {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 
     .name {
-        display: flex;
-        flex-direction: column;
         margin-left: -1rem;
     }
 
     .title {
         margin-top: 10rem;
-        margin-bottom: 0;
-    }
-
-    .subtitle {
-        margin-top: 0;
     }
 
     .corner1 {
@@ -597,88 +532,38 @@ footer {
 
     .description-text {
         font-size: 1.5rem;
-        text-align: justify;
-        text-align-last: center;
     }
 
     .text-link {
-        font-family: "HeroicCondensed-Medium", sans-serif;
-        color: #FFFFFF;
         font-size: 1.5rem;
-        text-align: center;
-        font-weight: bold;
-        padding: 0;
     }
 
     .text-link:hover {
-        font-family: "HeroicCondensed-Medium", sans-serif;
-        color: #FFFFFF;
         font-size: 1.5rem;
-        text-align: center;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 0;
-        cursor: pointer;
-    }
-
-    .line {
-        color: #FFFFFF;
-        background-color: #FFFFFF;
-        height: 0.25rem;
     }
 
     .project {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         width: 60vw;
         height: 45vh;
-        padding: 2rem;
         margin: 1rem;
-        border-radius: 1rem;
-        border: 0.2rem solid #FFFFFF;
-        transition: all 0.25s ease-out;
-    }
-
-    .project:hover {
-        cursor: pointer;
-        background-color: rgba(255, 255, 255, 0.25);
-        border-radius: 1rem;
     }
 
     #mobileProject {
         margin: 5rem .5rem 5rem .5rem;
         padding: 2rem 2rem 0 2rem;
-        position: relative;
         width: 60vw;
     }
 
-    #removeProject1 {
-        display: none;
-    }
-
+    #removeProject1,
     #removeProject2 {
         display: none;
-    }
-
-    .featuredProjectsTitle {
-        margin-bottom: 0;
     }
 
     .featuredProjectsSection {
         margin-top: 10rem;
     }
 
-    .featuredProjects {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 100%;
-    }
-
     .projectImage {
-        border-radius: 1rem;
-        border: 0.1rem solid #FFFFFF;
         width: 16rem;
         height: 9rem;
     }
@@ -699,124 +584,49 @@ footer {
 
     .arrowLeft:hover {
         transform: rotate(180deg) scaleY(1.5) scaleX(1.5);
-        cursor: pointer;
     }
 
     .arrowRight:hover {
         transform: scaleY(1.5) scaleX(1.5);
-        cursor: pointer;
     }
 
     .arrowDown {
-        width: 5rem;
-        height: 5rem;
-        transform: rotate(90deg);
         margin-top: 5rem;
-        transition: all 0.25s ease-out;
-    }
-
-    .arrowDown:hover {
-        transform: scale(1.25) rotate(90deg);
-        cursor: pointer;
     }
 
     .arrowDown2 {
-        width: 5rem;
-        height: 5rem;
-        transform: rotate(90deg);
         margin-top: -4rem;
-        transition: all 0.25s ease-out;
-    }
-
-    .arrowDown2:hover {
-        transform: scale(1.25) rotate(90deg);
-        cursor: pointer;
-    }
-
-    .arrowDownSection {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .allProjects {
-        display: flex;
-        flex-direction: column;
     }
 
     .allProjects .project {
-        border: 0.4rem solid #FFFFFF;
-        border-radius: 1rem;
         margin-bottom: 2.5rem;
     }
 
-    .allProjects .project:hover {
-        background-color: rgba(255, 255, 255, 0.25);
-    }
-
     .row {
-        display: flex;
         flex-direction: column;
-        align-items: center
+        align-items: center;
     }
 
     .profile {
         width: 13rem;
         height: 13rem;
-        border-radius: 10rem;
-        margin-top: -3rem;
         margin-bottom: 1rem;
-        border: 0.2rem solid #FFFFFF;
-    }
-
-    .about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .about p {
         margin: 1rem;
         font-size: 1.5rem;
-        text-align: justify;
-        text-align-last: center;
     }
 
-    .corner3 {
-        position: absolute;
-        z-index: -1;
-        width: 5rem;
-        height: 5rem;
-        display: none;
-    }
-
+    .corner3,
     .corner4 {
-        position: absolute;
-        z-index: -1;
-        width: 5rem;
-        height: 5rem;
-        transform: rotate(180deg);
         display: none;
     }
 
     .contact {
-        display: flex;
-        flex-direction: column;
         align-items: baseline;
-        padding: -1rem 2rem 2rem 2rem;
         margin-left: 1rem;
         margin-bottom: 20rem;
-    }
-
-    .contactRow {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: baseline;
-    }
-
-    .contactText {
-        font-size: 2rem;
     }
 
     .contact-text-link {
@@ -825,39 +635,22 @@ footer {
 
     .contact-text-link:hover {
         font-size: 2rem;
-        text-decoration: underline;
-        text-decoration-color: #FFFFFF;
-        cursor: pointer;
-    }
-
-    .contactImage {
-        width: 4rem;
-        height: 4rem;
-        margin-right: 1rem;
-        transform: translateY(1rem);
     }
 
     .projectMain {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding-top: 2rem;
     }
 
     .projectDescription {
         font-size: 1.5rem;
-        margin-bottom: 0;
     }
 
     .projectText {
         margin: 2rem 0 0 0;
         font-size: 1.5rem;
-        text-align: justify;
-        text-align-last: center;
     }
 
     #projectImage {
-        border-radius: 1rem;
         width: 20rem;
         height: 11.25rem;
     }
@@ -870,19 +663,6 @@ footer {
         font-size: 1.25rem;
     }
 
-    footer {
-        display: flex;
-        flex-direction: row;
-        background-color: #000000;
-        border-top: 0.2rem solid #FFFFFF;
-        text-align: center;
-        padding: 2rem;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
     .footerImage {
         width: 2rem;
         height: 2rem;
@@ -890,23 +670,14 @@ footer {
 
     .footerLink {
         font-size: 1.5rem;
-        padding-left: 0;
     }
 
     .footerLink:hover {
         font-size: 1.5rem;
-        padding-left: 0;
-        cursor: pointer;
     }
 
-    #mailImage {
-        margin-bottom: -0.5rem;
-    }
-
-    #gitHubImage {
-        margin-bottom: -0.5rem;
-    }
-
+    #mailImage,
+    #gitHubImage,
     #linkedInImage {
         margin-bottom: -0.5rem;
     }
