@@ -689,7 +689,7 @@ footer {
         width: 1.5rem;
         height: 1.5rem;
         transform: rotate(180deg);
-        margin-left: 1vw;
+        margin-left: 2.5vw;
         margin-top: 60vw;
     }
 
@@ -848,6 +848,7 @@ footer {
 
     .projectDescription {
         font-size: 1.5rem;
+        margin-bottom: 0;
     }
 
     .projectText {
