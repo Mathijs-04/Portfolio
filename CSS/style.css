@@ -482,13 +482,6 @@ footer {
         margin: 0;
         width: 100%;
         overflow-x: hidden;
-        box-sizing: border-box;
-    }
-
-    *,
-    *::before,
-    *::after {
-        box-sizing: inherit;
     }
 
     main {
@@ -656,7 +649,18 @@ footer {
     }
 
     #mobileProject {
-        margin-left: -4vw;
+        margin: 5rem .5rem 5rem .5rem;
+        padding: 2rem;
+        position: relative;
+        width: 60vw;
+    }
+
+    #removeProject1 {
+        display: none;
+    }
+
+    #removeProject2 {
+        display: none;
     }
 
     .featuredProjectsTitle {
@@ -670,7 +674,7 @@ footer {
     .featuredProjects {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-content: flex-start;
         width: 100%;
     }
 
@@ -685,14 +689,14 @@ footer {
         width: 1.5rem;
         height: 1.5rem;
         transform: rotate(180deg);
-        margin-top: 20vw;
+        margin-left: 1vw;
+        margin-top: 60vw;
     }
 
     .arrowRight {
         width: 1.5rem;
         height: 1.5rem;
-        margin-top: 20vw;
-        margin-left: -200vw;
+        margin-top: 60vw;
     }
 
     .arrowLeft:hover {
