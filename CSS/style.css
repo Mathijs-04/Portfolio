@@ -650,7 +650,7 @@ footer {
 
     #mobileProject {
         margin: 5rem .5rem 5rem .5rem;
-        padding: 2rem;
+        padding: 2rem 2rem 0 2rem;
         position: relative;
         width: 60vw;
     }
@@ -880,6 +880,8 @@ footer {
         padding: 2rem;
         align-items: center;
         justify-content: space-evenly;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .footerImage {
