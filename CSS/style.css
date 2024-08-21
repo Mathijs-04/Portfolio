@@ -391,7 +391,6 @@ footer {
     margin-bottom: -0.3rem;
 }
 
-/* LAPTOP QUERIES */
 @media only screen and (min-width: 801px) and (max-width: 1200px) {
     body {
         zoom: 0.65;
@@ -467,7 +466,6 @@ footer {
     }
 }
 
-/* MOBILE QUERIES */
 @media only screen and (max-width: 800px) {
 
     .featuredProjects .project:nth-child(0),
