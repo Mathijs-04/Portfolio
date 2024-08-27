@@ -64,7 +64,7 @@ let projects = [
         projectTitle: "Denise Kookt!",
         projectImage: "./IMG/IMG4.webp",
         projectDescription: "An Online Reservation System using a Database",
-        projectText: "Denise Kookt! is an Online Reservation System using a Database. This project was made with a team of four students, and it was out first ever project for a client. The Reservation System features a login system, admin panel, admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
+        projectText: "Denise Kookt! is an Online Reservation System using a Database. This project was made with a team of four students, and it was out first ever project for a client. The Reservation System features a login system, Admin panel, Admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
         projectLink1: "https://github.com/SEVerhaak/CLE2",
     },
     {
