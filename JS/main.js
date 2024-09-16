@@ -53,7 +53,7 @@ let projects = [
         projectLink2: "https://github.com/VincentBenders/CLE4"
     },
     {
-        projectTitle: "Warhammer Dice Roller",
+        projectTitle: "Warhammer Diceroller",
         projectImage: "./IMG/IMG10.webp",
         projectDescription: "A website to roll your Warhammer Dice",
         projectText: "Warhammer Dice Roller is a simple online tool to roll dice. It was created because of my own frustrations during the Warhammer Tabletop Game. During this game, players have to roll a lot of dice, and it can be quite time-consuming. I wanted to make this easier by creating a simple website to roll a lot of dice at once. This website works both on PC and Mobile.",
