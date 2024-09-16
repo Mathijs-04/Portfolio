@@ -292,6 +292,7 @@ a:hover {
 }
 
 .corner3 {
+    display: none;
     position: absolute;
     z-index: -1;
     width: 5rem;
@@ -299,6 +300,7 @@ a:hover {
 }
 
 .corner4 {
+    display: none;
     position: absolute;
     z-index: -1;
     width: 5rem;
@@ -406,11 +408,13 @@ footer {
     }
 
     .corner3 {
+        display: none;
         margin-left: -80rem;
         margin-top: -65rem;
     }
 
     .corner4 {
+        display: none;
         margin-left: 80rem;
         margin-top: 35rem;
     }
@@ -431,11 +435,13 @@ footer {
     }
 
     .corner3 {
+        display: none;
         margin-left: -80rem;
         margin-top: -60rem;
     }
 
     .corner4 {
+        display: none;
         margin-left: 80rem;
         margin-top: 40rem;
     }
@@ -456,11 +462,13 @@ footer {
     }
 
     .corner3 {
+        display: none;
         margin-left: -85rem;
         margin-top: -50rem;
     }
 
     .corner4 {
+        display: none;
         margin-left: 85rem;
         margin-top: 30rem;
     }
