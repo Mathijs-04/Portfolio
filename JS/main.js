@@ -76,6 +76,12 @@ let projects = [
         projectLink2: "https://github.com/Mathijs-04/CLE3-APP"
     },
     {
+        projectTitle: "EXPCorp.",
+        projectImage: "./IMG/IMG12.webp",
+        projectDescription: "A new project will be added soon",
+        projectText: "A new project will be added here in the near future.",
+    },
+    {
         projectTitle: "Gobbo Quest",
         projectImage: "./IMG/IMG2.webp",
         projectDescription: "A Top-Down Arcade RPG",
@@ -96,12 +102,6 @@ let projects = [
         projectImage: "./IMG/IMG7.webp",
         projectDescription: "A Game Database using a Login System",
         projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
-    },
-    {
-        projectTitle: "EXPCorp.",
-        projectImage: "./IMG/IMG12.webp",
-        projectDescription: "A new project will be added soon",
-        projectText: "A new project will be added here in the near future.",
     },
 ];
 
