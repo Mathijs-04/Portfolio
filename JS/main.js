@@ -79,7 +79,7 @@ let projects = [
         projectTitle: "EXPCorp.",
         projectImage: "./IMG/IMG12.webp",
         projectDescription: "Virtual Experiences for the elderly",
-        projectText: "EXPCorp. is a website which offers virtual experiences to the elderly. It offers nine unique experiences which can be used with a VR-headset or just on your computer. The website also features a product page and an interactive question system to determine which VR-Gear suits you best. This project was made by a team of six students",
+        projectText: "EXPCorp. is a website which offers virtual experiences to the elderly. It offers nine unique experiences which can be used with a VR-headset or just on your computer. The website also features a product page and an interactive question system to determine which VR-Gear suits you best. This project was made by a team of six students.",
         projectLink1: "https://stud.hosted.hr.nl/1068031/TLE1-SPRINT3/index.php",
         projectLink2: "https://cmgt.hr.nl/projecten/expcorp"
     },
