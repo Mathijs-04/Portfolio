@@ -78,8 +78,10 @@ let projects = [
     {
         projectTitle: "EXPCorp.",
         projectImage: "./IMG/IMG12.webp",
-        projectDescription: "A new project will be added soon",
+        projectDescription: "Virtual Experiences for the elderly",
         projectText: "A new project will be added here in the near future.",
+        projectLink1: "https://stud.hosted.hr.nl/1068031/TLE1-SPRINT3/index.php",
+        projectLink2: "https://cmgt.hr.nl/projecten/expcorp"
     },
     {
         projectTitle: "Gobbo Quest",
