@@ -28,7 +28,7 @@ let projects = [
         projectTitle: "Game Magazine",
         projectImage: "./IMG/IMG3.webp",
         projectDescription: "A Game Magazine made in HTML, CSS and JS",
-        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment."
+        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the PHP server is hosted, so unfortunately it is not available at the moment."
     },
     {
         projectTitle: "Unreal Engine 5",
@@ -48,7 +48,7 @@ let projects = [
         projectTitle: "Punchpark",
         projectImage: "./IMG/IMG9.webp",
         projectDescription: "A 2D Arcade Boxing Game",
-        projectText: "Punchpark is a 2D Boxing Game made in Excalibur.js. This Game was made with JavaScript in a team of eight students during our latest Game Development Project. Every student has their own personal bossfight in the game. Punchpark is made to be played on an Arcade Machine, but also works on PC if you connect a controller. You can find out more about Punchpark on the Instagram-page @punchpark.game",
+        projectText: "Punchpark is a 2D Boxing Game made in Excalibur.js. This Game was made with JavaScript by a team of eight students during our latest Game Development Project. Every student has their own personal bossfight in the game. Punchpark is made to be played on an Arcade Machine, but also works on PC if you connect a controller. You can find out more about Punchpark on the Instagram-page @punchpark.game",
         projectLink1: "https://vincentbenders.github.io/CLE4/",
         projectLink2: "https://github.com/VincentBenders/CLE4"
     },
@@ -64,14 +64,14 @@ let projects = [
         projectTitle: "Denise Kookt",
         projectImage: "./IMG/IMG4.webp",
         projectDescription: "An Online Reservation System using a Database",
-        projectText: "Denise Kookt is an Online Reservation System using a Database. This project was made with a team of four students, and it was out first ever project for a client. The Reservation System features a login system, Admin panel, Admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
+        projectText: "Denise Kookt is an Online Reservation System using a Database. This project was made by a team of four students, and it was out first ever project for a client. The Reservation System features a login system, Admin panel, Admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This Website only works while the PHP server is hosted, so unfortunately it is not available at the moment.",
         projectLink1: "https://github.com/SEVerhaak/CLE2",
     },
     {
         projectTitle: "Reis Rust",
         projectImage: "./IMG/IMG5.webp",
         projectDescription: "A simplified Route Planner for Public Transport",
-        projectText: "Reis Rust is a simplified Route Planner designed for people with intellectual disabilities. This Web Application was made with a team and was the result of various tests we did with our Target Audience. Reis Rust uses local storage to store your saved routes. It also features a Settings page on which you can change the Color Scheme of the Application.",
+        projectText: "Reis Rust is a simplified Route Planner designed for people with intellectual disabilities. This Web Application was made by a team of four students and was the result of various tests we did with our Target Audience. Reis Rust uses local storage to store your saved routes. It also features a Settings page on which you can change the Color Scheme of the Application.",
         projectLink1: "https://mathijs-04.github.io/CLE3-APP/",
         projectLink2: "https://github.com/Mathijs-04/CLE3-APP"
     },
@@ -103,7 +103,7 @@ let projects = [
         projectTitle: "Game Database",
         projectImage: "./IMG/IMG7.webp",
         projectDescription: "A Game Database using a Login System",
-        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not active at the moment.",
+        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not available at the moment.",
     },
 ];
 
