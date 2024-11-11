@@ -28,7 +28,7 @@ let projects = [
         projectTitle: "Game Magazine",
         projectImage: "./IMG/IMG3.webp",
         projectDescription: "A Game Magazine made in HTML, CSS and JS",
-        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This Website only works while the PHP server is hosted, so unfortunately it is not available at the moment."
+        projectText: "This website is an Online Game Magazine made for the course Programming 3. The website is made with HTML, CSS, JavaScript and PHP. This Game Magazine features different games and has a favourite system. During this project, I learned about API's, Local Storage, Event Listeners and JSON. This website only works while the PHP server is hosted, so unfortunately it is not available at the moment."
     },
     {
         projectTitle: "Unreal Engine 5",
@@ -36,6 +36,13 @@ let projects = [
         projectDescription: "Unreal Engine 5 Castle Environment",
         projectText: "This Unreal Engine 5 environment is my first project in Unreal Engine. I wanted to learn more about Unreal Engine 5 and 3D-Development, so I built this forest environment with castles in it. While making this environment I experimented with various tools and techniques in Unreal Engine 5, like Nanite, Lumen, Landscaping, Modular Design and the UE5 Blueprint system. During this project I followed the Unreal Engine 5 Beginner Tutorial by Unreal Sensei. I highly recommend this free starter course to anyone who wants to learn Unreal Engine 5. You can find the full course on YouTube.",
         projectLink1: "https://www.youtube.com/watch?v=k-zMkzmduqI",
+    },
+    {
+        projectTitle: "Mighty Models",
+        projectImage: "./IMG/IMG13.webp",
+        projectDescription: "A website to upload models",
+        projectText: "Mighty Models is a website for showcasing your miniature models to the world. You can view and like models from other users and upload your own models to the website. Mighty Models was made using PHP framework Laravel for the course Programming 5. The website features a login system, a like system and a post system. Users can delete and edit their own posts, and the admin has the authority to hide posts. This website only works while the PHP server is hosted, so unfortunately it is not available at the moment. I do have plans to host this website in the future, so I will update this page as soon as Mighty Models goes live.",
+        projectLink1: "https://github.com/Mathijs-04/PRG5-Eindopdracht",
     },
     {
         projectTitle: "Gabber Gandalf",
@@ -64,7 +71,7 @@ let projects = [
         projectTitle: "Denise Kookt",
         projectImage: "./IMG/IMG4.webp",
         projectDescription: "An Online Reservation System using a Database",
-        projectText: "Denise Kookt is an Online Reservation System using a Database. This project was made by a team of four students, and it was out first ever project for a client. The Reservation System features a login system, Admin panel, Admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This Website only works while the PHP server is hosted, so unfortunately it is not available at the moment.",
+        projectText: "Denise Kookt is an Online Reservation System using a Database. This project was made by a team of four students, and it was out first ever project for a client. The Reservation System features a login system, Admin panel, Admin calendar, various forms and a database with all accounts and reservations. Denise Kookt! won the prize for best Reservation System during the CLE2 Project Weeks. This website only works while the PHP server is hosted, so unfortunately it is not available at the moment.",
         projectLink1: "https://github.com/SEVerhaak/CLE2",
     },
     {
@@ -103,7 +110,19 @@ let projects = [
         projectTitle: "Game Database",
         projectImage: "./IMG/IMG7.webp",
         projectDescription: "A Game Database using a Login System",
-        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This Website only works while the PHP server is hosted, so unfortunately it is not available at the moment.",
+        projectText: "This Game Database was made for the course Programming 2. It was the first time I used PHP and a Database in a project. The Game Database features a login system and various security measures. If you are logged in as an Admin, you can view, add, edit and delete games from the Database. This website only works while the PHP server is hosted, so unfortunately it is not available at the moment.",
+    },
+    {
+        projectTitle: "Coming Soon",
+        projectImage: "./IMG/PLACEHOLDER.webp",
+        projectDescription: "A new project will be added soon",
+        projectText: "A new project will be added soon",
+    },
+    {
+        projectTitle: "Coming Soon",
+        projectImage: "./IMG/PLACEHOLDER.webp",
+        projectDescription: "A new project will be added soon",
+        projectText: "A new project will be added soon",
     },
 ];
 
