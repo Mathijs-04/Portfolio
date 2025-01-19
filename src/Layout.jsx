@@ -4,7 +4,7 @@ function Layout() {
     return (
         <>
             <header>
-                <h1>Notes App</h1>
+                <h1>Portfolio</h1>
             </header>
             <nav>
                 <Link to={"/"}>Home</Link>
