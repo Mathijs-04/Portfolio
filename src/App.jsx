@@ -32,7 +32,7 @@ const router = createBrowserRouter(
             ]
         }
     ],
-    { basename: "/react-notes-app" }
+    // { basename: "/portfolio" }
 );
 
 function App() {
