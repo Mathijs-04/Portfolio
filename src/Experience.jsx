@@ -1,6 +1,18 @@
 function Experience() {
     return (
-        <h1>Experience</h1>
+        <>
+            <h1>Experience</h1>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>PHP</p>
+            <p>React</p>
+            <p>Node.js</p>
+            <p>Laravel</p>
+            <p>Tailwind</p>
+            <p>Excalibur.js</p>
+            <p>Unreal Engine 5</p>
+        </>
     );
 }
 
