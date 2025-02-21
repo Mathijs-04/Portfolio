@@ -8,6 +8,7 @@ function Experience() {
             <p>PHP</p>
             <p>React</p>
             <p>Node.js</p>
+            <p>Express</p>
             <p>Laravel</p>
             <p>Tailwind</p>
             <p>Excalibur.js</p>
