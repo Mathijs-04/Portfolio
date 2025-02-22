@@ -15,7 +15,7 @@ const skills = [
     { name: "Tailwind", icon: <SiTailwindcss className="text-teal-400" /> },
     {
         name: "Excalibur.js",
-        icon: <img src="/src/assets/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10" />
+        icon: <img src="/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10" />
     },
     { name: "Unreal Engine 5", icon: <SiUnrealengine className="text-gray-300" /> },
 ];
