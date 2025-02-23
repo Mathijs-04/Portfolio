@@ -2,6 +2,7 @@
 
 - Create a homepage
 - Style navigation
+- Add footer
 - Add projects to projects page
 - Add separate project pages
 - Add content to experience page
