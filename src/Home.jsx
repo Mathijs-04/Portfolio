@@ -46,7 +46,7 @@ function Home() {
                     >
                         <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md
                             group-hover:bg-transparent group-hover:dark:bg-transparent">
-                            Projects
+                            My Projects
                         </span>
                     </button>
 
@@ -59,7 +59,7 @@ function Home() {
                     >
                         <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md
                             group-hover:bg-transparent group-hover:dark:bg-transparent">
-                            Experience
+                            My Experience
                         </span>
                     </button>
 
@@ -72,7 +72,7 @@ function Home() {
                     >
                         <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md
                             group-hover:bg-transparent group-hover:dark:bg-transparent">
-                            About
+                            About Me
                         </span>
                     </button>
                 </div>
