@@ -1,10 +1,10 @@
 # To-Do List
 
-- Add text
-- Add images
-- Select color scheme
-- Implement Tailwind layout
-- Add light/dark mode toggle
-- Add mobile interface
-- Add blocks for skills
-- Add timeline
+- Create a homepage
+- Style navigation
+- Add projects to projects page
+- Add separate project pages
+- Add content to experience page
+- Add content to about page
+- Update general styling
+- Test, build and host project
