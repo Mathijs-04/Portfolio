@@ -1,6 +1,6 @@
 import React from "react";
 import {FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaNodeJs, FaLaravel, FaDatabase, FaGithub} from "react-icons/fa";
-import {SiExpress, SiTailwindcss, SiUnrealengine, SiMongodb, SiPostman} from "react-icons/si";
+import {SiExpress, SiTailwindcss, SiUnrealengine, SiMongodb, SiPostman, SiReact} from "react-icons/si";
 
 const skills = [
     {name: "HTML", icon: <FaHtml5 className="text-orange-500"/>},
@@ -18,7 +18,7 @@ const skills = [
     {name: "SQL", icon: <FaDatabase className="text-blue-600"/>},
     {name: "Postman", icon: <SiPostman className="text-orange-500"/>},
     {name: "GitHub", icon: <FaGithub className="text-black"/>},
-    {name: "Placeholder", icon: <div className="w-10 h-10 bg-gray-500"/>}
+    {name: "React Native", icon: <SiReact className="text-blue-500"/>}
 ];
 
 const SkillsSection = () => {
