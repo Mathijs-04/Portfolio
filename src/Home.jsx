@@ -6,10 +6,9 @@ function Home() {
 
     return (
         <div className="gradient-background min-h-screen">
-            <div className="bg-gray-900 text-white min-h-screen">
-                <br/>
+            <div className="max-w-6xl mx-auto py-12 px-6 text-white">
                 <h1 className="text-4xl font-bold">Mathijs van der Meijde</h1>
-                <div id="typewriter" className="mt-4">
+                <div id="typewriter" className="mt-4 text-white">
                     <Typewriter
                         options={{
                             loop: true,

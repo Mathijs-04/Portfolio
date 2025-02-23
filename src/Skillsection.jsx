@@ -23,7 +23,7 @@ const skills = [
 const SkillsSection = () => {
     return (
         <div className="gradient-background min-h-screen">
-            <section className="bg-black text-white py-12">
+            <section className="text-white py-12">
                 <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
                     Placeholder Title
                 </h2>
