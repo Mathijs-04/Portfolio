@@ -7,6 +7,7 @@ import Projects from "./Projects.jsx";
 import Experience from "./Experience.jsx";
 import About from "./About.jsx";
 import Layout from "./Layout.jsx";
+import Footer from "./Footer.jsx";
 
 const router = createBrowserRouter(
     [
@@ -39,6 +40,7 @@ function App() {
     return (
         <>
             <RouterProvider router={router}/>
+            <Footer />
         </>
     )
 }
