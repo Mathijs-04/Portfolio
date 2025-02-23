@@ -1,4 +1,4 @@
-import {useNavigate} from 'react-router';
+import { useNavigate } from 'react-router';
 import Typewriter from 'typewriter-effect';
 
 function Home() {
@@ -7,7 +7,8 @@ function Home() {
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
-                <h1 className="text-4xl font-panchang font-bold ">Mathijs van der Meijde</h1>
+                <h1 className="text-4xl font-panchang font-bold">Mathijs van der Meijde</h1>
+
                 <div id="typewriter" className="mt-4 text-white font-panchang font-semibold">
                     <Typewriter
                         options={{
@@ -31,49 +32,55 @@ function Home() {
                         }}
                     />
                 </div>
-                <br/>
-                <h1 className="font-panchang font-extralight text-3xl">Extralight Panchang</h1>
-                <p className="font-body text-base mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
-                </p>
 
-                <h1 className="font-panchang font-light text-3xl">Light Panchang</h1>
-                <p className="font-body text-base mb-4">
-                    Curabitur nec leo nec risus ultrices luctus non non justo.
-                </p>
+                <br />
 
-                <h1 className="font-panchang font-normal text-3xl">Regular Panchang</h1>
-                <p className="font-body text-base mb-4">
-                    Donec posuere, libero sed elementum scelerisque, est ex mattis augue, at dictum turpis enim eget
-                    ligula.
-                </p>
+                {[
+                    { weight: 'extralight', label: 'Extralight' },
+                    { weight: 'light', label: 'Light' },
+                    { weight: 'normal', label: 'Regular' },
+                    { weight: 'medium', label: 'Medium' },
+                    { weight: 'semibold', label: 'Semibold' },
+                    { weight: 'bold', label: 'Bold' },
+                    { weight: 'extrabold', label: 'Extrabold' }
+                ].map(({ weight, label }) => (
+                    <div key={weight}>
+                        <h1 className={`font-panchang font-${weight} text-3xl`}>{label} Panchang</h1>
+                        <p className="font-body text-base mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                ))}
 
-                <h1 className="font-panchang font-medium text-3xl">Medium Panchang</h1>
-                <p className="font-body text-base mb-4">
-                    Quisque vehicula ipsum eget turpis auctor, sed ultricies mi bibendum.
-                </p>
+                <br />
 
-                <h1 className="font-panchang font-semibold text-3xl">Semibold Panchang</h1>
-                <p className="font-body text-base mb-4">
-                    Suspendisse potenti. Nam lacinia ligula in orci cursus volutpat.
-                </p>
-
-                <h1 className="font-panchang font-bold text-3xl">Bold Panchang</h1>
-                <p className="font-body text-base mb-4">
-                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
-                </p>
-
-                <h1 className="font-panchang font-extrabold text-3xl">Extrabold Panchang</h1>
-                <p className="font-body text-base mb-4">
-                    Fusce euismod dui non orci vehicula, non scelerisque nisi volutpat.
-                </p>
-                <br/>
                 <button
                     onClick={() => navigate('/projects')}
                     className="bg-blue-500 text-white py-2 px-4 rounded"
                 >
                     Projects
                 </button>
+
+                <div className="mt-4">
+                    {[
+                        { label: 'Steel Blue', colors: ['#3A506B', '#5A7D9A', '#78A1BB'], ring: 'blue-700' },
+                        { label: 'Neon Blue', colors: ['#2E86C1', '#3498DB', '#5DADE2'], ring: 'blue-500' },
+                        { label: 'Ice Purple', colors: ['#6C5CE7', '#A29BFE', '#D6CCFF'], ring: 'purple-500' }
+                    ].map(({ label, colors, ring }) => (
+                        <button
+                            key={label}
+                            className={`relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group
+                            bg-gradient-to-br from-[${colors[0]}] via-[${colors[1]}] to-[${colors[2]}]
+                            group-hover:from-[${colors[0]}] group-hover:via-[${colors[1]}] group-hover:to-[${colors[2]}]
+                            hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-${ring}`}
+                        >
+                            <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md
+                                group-hover:bg-transparent group-hover:dark:bg-transparent">
+                                {label}
+                            </span>
+                        </button>
+                    ))}
+                </div>
             </div>
         </div>
     );
