@@ -2,9 +2,9 @@ import Skillsection from "./Skillsection.jsx";
 
 function Experience() {
     return (
-        <>
-            <Skillsection />
-        </>
+        <div className="gradient-background min-h-screen">
+            <Skillsection/>
+        </div>
     );
 }
 

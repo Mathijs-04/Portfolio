@@ -1,5 +1,5 @@
-import { FaReact, FaNodeJs, FaLaravel, FaUnity, FaPhp, FaDiceD20 } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiUnrealengine, SiJavascript } from "react-icons/si";
+import {FaReact, FaNodeJs, FaLaravel, FaUnity, FaPhp, FaDiceD20} from "react-icons/fa";
+import {SiMongodb, SiTailwindcss, SiUnrealengine, SiJavascript} from "react-icons/si";
 
 const projects = [
     {
@@ -66,28 +66,30 @@ const projects = [
 
 function Projects() {
     return (
-        <div className="max-w-6xl mx-auto py-12 px-6">
-            <h1 className="text-4xl font-bold text-white mb-6">Projects</h1>
-            <div className="grid md:grid-cols-2 gap-6">
-                {projects.map((project, index) => (
-                    <div
-                        key={index}
-                        className="bg-gray-900 rounded-xl shadow-lg p-6 hover:shadow-blue-500/50 transition-all"
-                    >
-                        <img
-                            src={project.image}
-                            alt={project.name}
-                            className="rounded-lg mb-4"
-                        />
-                        <h2 className="text-2xl font-semibold text-white">{project.name}</h2>
-                        <p className="text-gray-400">{project.description}</p>
-                        <div className="flex space-x-3 mt-4">
-                            {project.tech.map((Icon, i) => (
-                                <Icon key={i} className="text-2xl text-blue-400" />
-                            ))}
+        <div className="gradient-background min-h-screen">
+            <div className="max-w-6xl mx-auto py-12 px-6">
+                <h1 className="text-4xl font-bold text-white mb-6">Projects</h1>
+                <div className="grid md:grid-cols-2 gap-6">
+                    {projects.map((project, index) => (
+                        <div
+                            key={index}
+                            className="bg-gray-900 rounded-xl shadow-lg p-6 hover:shadow-blue-500/50 transition-all"
+                        >
+                            <img
+                                src={project.image}
+                                alt={project.name}
+                                className="rounded-lg mb-4"
+                            />
+                            <h2 className="text-2xl font-semibold text-white">{project.name}</h2>
+                            <p className="text-gray-400">{project.description}</p>
+                            <div className="flex space-x-3 mt-4">
+                                {project.tech.map((Icon, i) => (
+                                    <Icon key={i} className="text-2xl text-blue-400"/>
+                                ))}
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     );
