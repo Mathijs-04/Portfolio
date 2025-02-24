@@ -1,16 +1,26 @@
-import {useNavigate} from 'react-router';
-import Typewriter from 'typewriter-effect';
-import StyleShowcase from './Style';
+import { useEffect } from "react";
+import { useNavigate } from "react-router";
+import Typewriter from "typewriter-effect";
 
 function Home() {
     const navigate = useNavigate();
 
+    useEffect(() => {
+        document.body.style.overflow = "hidden";
+        document.documentElement.style.overflow = "hidden";
+
+        return () => {
+            document.body.style.overflow = "";
+            document.documentElement.style.overflow = "";
+        };
+    }, []);
+
     return (
-        <div className="gradient-background min-h-screen">
-            <div className="max-w-6xl mx-auto py-12 px-6 text-white">
+        <div className="gradient-background min-h-screen flex items-center justify-center">
+            <div className="text-center text-white">
                 <h1 className="text-6xl font-panchang font-bold">Mathijs van der Meijde</h1>
 
-                <div id="typewriter" className="mt-4 text-4xl text-white font-panchang font-semibold">
+                <div id="typewriter" className="mt-4 text-4xl text-white font-panchang font-semibold text-left overflow-hidden">
                     <Typewriter
                         options={{
                             loop: true,
@@ -19,13 +29,13 @@ function Home() {
                         onInit={(typewriter) => {
                             typewriter
                                 .pauseFor(2500)
-                                .typeString('String <strong>1</strong>')
+                                .typeString("String <strong>1</strong>")
                                 .pauseFor(300)
                                 .deleteChars(8)
-                                .typeString('String <strong>2</strong>')
+                                .typeString("String <strong>2</strong>")
                                 .pauseFor(300)
                                 .deleteChars(8)
-                                .typeString('String <strong>3</strong>')
+                                .typeString("String <strong>3</strong>")
                                 .pauseFor(300)
                                 .deleteChars(8)
                                 .pauseFor(1000)
@@ -34,11 +44,11 @@ function Home() {
                     />
                 </div>
 
-                <br/>
+                <br />
 
                 <div className="mt-4">
                     <button
-                        onClick={() => navigate('/projects')}
+                        onClick={() => navigate("/projects")}
                         className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group
                         bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF]
                         group-hover:from-[#6C5CE7] group-hover:via-[#A29BFE] group-hover:to-[#D6CCFF]
@@ -51,7 +61,7 @@ function Home() {
                     </button>
 
                     <button
-                        onClick={() => navigate('/experience')}
+                        onClick={() => navigate("/experience")}
                         className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group
                         bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF]
                         group-hover:from-[#6C5CE7] group-hover:via-[#A29BFE] group-hover:to-[#D6CCFF]
@@ -64,7 +74,7 @@ function Home() {
                     </button>
 
                     <button
-                        onClick={() => navigate('/about')}
+                        onClick={() => navigate("/about")}
                         className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group
                         bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF]
                         group-hover:from-[#6C5CE7] group-hover:via-[#A29BFE] group-hover:to-[#D6CCFF]
@@ -76,7 +86,6 @@ function Home() {
                         </span>
                     </button>
                 </div>
-                {/*<StyleShowcase/>*/}
             </div>
         </div>
     );
