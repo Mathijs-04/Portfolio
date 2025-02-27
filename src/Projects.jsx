@@ -70,7 +70,7 @@ function Projects() {
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6">
-                <h1 className="text-4xl font-bold text-white mb-6">Projects</h1>
+                <h1 className="text-4xl font-panchang font-bold text-white mb-6">Projects</h1>
                 <div className="grid md:grid-cols-2 gap-6">
                     {projects.map((project, index) => (
                         <div
