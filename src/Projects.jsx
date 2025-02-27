@@ -11,16 +11,16 @@ const projects = [
         tech: [FaReact, SiTailwindcss],
     },
     {
+        name: "Full-Stack Game Collection",
+        description: "A MERN stack project with a seperated Front- and Back-End",
+        image: "https://placehold.co/600x400",
+        tech: [FaReact, FaNodeJs, SiMongodb, SiExpress, SiTailwindcss],
+    },
+    {
         name: "Open Hiring",
         description: "A Laravel-based job listing platform for inclusive hiring",
         image: "https://placehold.co/600x400",
         tech: [FaLaravel, SiTailwindcss, FaDatabase],
-    },
-    {
-        name: "Full-Stack Game Database",
-        description: "A MERN stack project with a seperated Front- and Back-End",
-        image: "https://placehold.co/600x400",
-        tech: [FaReact, FaNodeJs, SiMongodb, SiExpress, SiTailwindcss],
     },
     {
         name: "Mighty Models",
