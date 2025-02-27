@@ -25,7 +25,7 @@ const SkillsSection = () => {
         <div className="gradient-background min-h-screen">
             <section className="text-white py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h2 className="text-4xl font-panchang font-bold text-white mb-6">My Developer Toolkit (So Far)</h2>
+                    <h1 className="text-4xl font-panchang font-bold text-white mb-6">My Developer Toolkit (So Far)</h1>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
                         {skills.map((skill, index) => (
                             <a
@@ -35,7 +35,7 @@ const SkillsSection = () => {
                                 className={`bg-gray-900 border border-transparent rounded-xl p-4 flex flex-col items-center shadow-md transition-all duration-300 ${skill.hoverClass}`}
                             >
                                 <div className="text-4xl">{skill.icon}</div>
-                                <p className="mt-2 text-sm">{skill.name}</p>
+                                <p className="mt-2 text-sm font-body">{skill.name}</p>
                             </a>
                         ))}
                     </div>

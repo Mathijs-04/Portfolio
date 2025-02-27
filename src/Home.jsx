@@ -1,19 +1,8 @@
-import { useEffect } from "react";
 import { useNavigate } from "react-router";
 import Typewriter from "typewriter-effect";
 
 function Home() {
     const navigate = useNavigate();
-
-    useEffect(() => {
-        document.body.style.overflow = "hidden";
-        document.documentElement.style.overflow = "hidden";
-
-        return () => {
-            document.body.style.overflow = "";
-            document.documentElement.style.overflow = "";
-        };
-    }, []);
 
     return (
         <div className="gradient-background min-h-screen flex items-center justify-center">
