@@ -1,7 +1,5 @@
 # To-Do List
 
-- Update navbar
-- Update footer
 - Update button styling
 - Update homepage
 - Update about page text
