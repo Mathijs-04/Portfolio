@@ -17,17 +17,22 @@ function Home() {
                         }}
                         onInit={(typewriter) => {
                             typewriter
-                                .pauseFor(2500)
-                                .typeString("String <strong>1</strong>")
-                                .pauseFor(300)
+                                .pauseFor(3000)
+                                .typeString("Creative Developer")
+                                .pauseFor(1500)
+                                .deleteChars(18)
+                                .typeString("Full Stack Web Developer")
+                                .pauseFor(1500)
+                                .deleteChars(24)
+                                .typeString("Game Developer")
+                                .pauseFor(1500)
+                                .deleteChars(14)
+                                .typeString("Designer")
+                                .pauseFor(1500)
                                 .deleteChars(8)
-                                .typeString("String <strong>2</strong>")
-                                .pauseFor(300)
-                                .deleteChars(8)
-                                .typeString("String <strong>3</strong>")
-                                .pauseFor(300)
-                                .deleteChars(8)
-                                .pauseFor(1000)
+                                .typeString("Tech Enthusiast")
+                                .pauseFor(1500)
+                                .deleteChars(15)
                                 .start();
                         }}
                     />
