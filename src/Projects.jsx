@@ -34,7 +34,7 @@ const projects = [
         name: "Mighty Models",
         slug: "mighty-models",
         description: "A Laravel website where users share their miniatures",
-        image: "https://placehold.co/600x400",
+        image: "./public/mighty-models.webp",
         tech: [FaLaravel, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -42,7 +42,7 @@ const projects = [
         name: "Dungeon Defender",
         slug: "dungeon-defender",
         description: "A browser-based game built with Excalibur.js",
-        image: "https://placehold.co/600x400",
+        image: "./public/dungeon-defender.webp",
         tech: [ExcaliburIcon, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -50,7 +50,7 @@ const projects = [
         name: "EXPCorp.",
         slug: "exp-corp",
         description: "A fictional company website specialized in digital experiences",
-        image: "https://placehold.co/600x400",
+        image: "./public/exp-corp.webp",
         tech: [FaReact, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -66,7 +66,7 @@ const projects = [
         name: "Unreal Engine 5",
         slug: "unreal-engine",
         description: "A 3D game prototype built in Unreal Engine 5",
-        image: "https://placehold.co/600x400",
+        image: "./public/unreal-engine.webp",
         tech: [SiUnrealengine],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -74,7 +74,7 @@ const projects = [
         name: "WARHAMMER Dice Roller",
         slug: "dice-roller",
         description: "A dice rolling tool for Wargaming enthusiasts",
-        image: "https://placehold.co/600x400",
+        image: "./public/dice-roller.webp",
         tech: [SiHtml5, SiCss3, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -82,7 +82,7 @@ const projects = [
         name: "Gobbo Quest",
         slug: "gobbo-quest",
         description: "A web-based RPG, made in a single day",
-        image: "https://placehold.co/600x400",
+        image: "./public/gobbo-quest.webp",
         tech: [SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
