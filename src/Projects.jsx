@@ -114,7 +114,7 @@ function Projects() {
                             </div>
                         ))}
                     </div>
-                    <div className="mt-6 text-gray-400 text-sm border-t border-gray-700 pt-4">
+                    <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4">
                         These are some of my <strong className="text-[#60A5FA] font-semibold">favorite
                         projects</strong> that I’ve worked on over the past few years. Some of these are <strong
                         className="text-[#60A5FA] font-semibold">hobby projects</strong>, while others were
