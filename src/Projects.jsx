@@ -95,23 +95,34 @@ function Projects() {
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6">
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">Projects</h1>
-                <div className="grid md:grid-cols-2 gap-6 bg-slate-800 p-6 rounded-lg">
-                    {projects.map((project, index) => (
-                        <div
-                            key={index}
-                            className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer ${project.hoverClass}`}
-                            onClick={() => navigate(`/projects/${project.slug}`)} // Navigate on click
-                        >
-                            <img src={project.image} alt={project.name} className="project-image rounded-lg mb-4"/>
-                            <h2 className="text-2xl font-semibold text-white">{project.name}</h2>
-                            <p className="text-gray-400">{project.description}</p>
-                            <div className="flex space-x-3 mt-4">
-                                {project.tech.map((Icon, i) => (
-                                    <Icon key={i} className="text-2xl text-blue-400"/>
-                                ))}
+                <div className="bg-slate-800 p-6 rounded-lg">
+                    <div className="grid md:grid-cols-2 gap-6">
+                        {projects.map((project, index) => (
+                            <div
+                                key={index}
+                                className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer ${project.hoverClass}`}
+                                onClick={() => navigate(`/projects/${project.slug}`)} // Navigate on click
+                            >
+                                <img src={project.image} alt={project.name} className="project-image rounded-lg mb-4"/>
+                                <h2 className="text-2xl font-semibold text-white">{project.name}</h2>
+                                <p className="text-gray-400">{project.description}</p>
+                                <div className="flex space-x-3 mt-4">
+                                    {project.tech.map((Icon, i) => (
+                                        <Icon key={i} className="text-2xl text-blue-400"/>
+                                    ))}
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
+                    <div className="mt-6 text-gray-400 text-sm border-t border-gray-700 pt-4">
+                        These are some of my <strong className="text-[#60A5FA] font-semibold">favorite
+                        projects</strong> that I’ve worked on over the past few years. Some of these are <strong
+                        className="text-[#60A5FA] font-semibold">hobby projects</strong>, while others were
+                        created <strong className="text-[#60A5FA] font-semibold">for actual clients</strong>. These
+                        projects not only showcase my <strong className="text-[#60A5FA] font-semibold">current
+                        skillset</strong> but also reflect my <strong className="text-[#60A5FA] font-semibold">personal
+                        interests and hobbies</strong>.
+                    </div>
                 </div>
             </div>
         </div>
