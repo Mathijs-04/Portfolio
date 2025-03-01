@@ -27,12 +27,12 @@ function Home() {
                                 .typeString("Game Developer")
                                 .pauseFor(1500)
                                 .deleteChars(14)
-                                .typeString("Designer")
-                                .pauseFor(1500)
-                                .deleteChars(8)
                                 .typeString("Tech Enthusiast")
                                 .pauseFor(1500)
                                 .deleteChars(15)
+                                .typeString("Designer")
+                                .pauseFor(1500)
+                                .deleteChars(8)
                                 .start();
                         }}
                     />
