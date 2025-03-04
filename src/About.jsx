@@ -8,19 +8,11 @@ function About() {
                 <p className="font-body text-lg text-justify mb-5 bg-slate-800 p-6 rounded-lg">
                     Placeholder:
 
-                    I’m Mathijs van der
-                    Meijde, a second-year student and peer coach studying Creative Media & Game Technologies at
-                    Rotterdam University of Applied Sciences. I work on a variety of projects, including websites, apps,
-                    games, and IoT devices. I also enjoy exploring new technologies and experimenting with different
-                    frameworks.
-
-                    I am an organized and detail-oriented person who values structure and planning. I work well in a
-                    team and appreciate how different skills can complement each other. I also feel comfortable taking
-                    on leadership roles, ensuring that a project stays on track through clear communication and good
-                    collaboration.
-
-                    This portfolio highlights the projects I’ve worked on, the skills I’ve developed, and the experience
-                    I’ve gained. Feel free to reach out if you have any questions or suggestions!
+                    I’m Mathijs van der Meijde, a second-year student and peercoach studying Creative Media & Game Technologies at
+                    Rotterdam University of Applied Sciences. I work on a variety of projects, including websites, apps and games.
+                    I enjoy exploring new technologies and learning new tools and frameworks.
+                    This portfolio highlights the projects I’ve worked on and the technologies I use.
+                    You can check out more of my work on my GitHub page, or contact me through my LinkedIn page!
 
                 </p>
                 <div className="flex space-x-4">
