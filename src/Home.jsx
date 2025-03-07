@@ -5,11 +5,12 @@ function Home() {
     const navigate = useNavigate();
 
     return (
-        <div className="gradient-background min-h-screen flex items-center justify-center">
+        <div className="gradient-background min-h-[85vh] flex items-center justify-center">
             <div className="text-center text-white">
                 <h1 className="text-6xl font-panchang font-bold">Mathijs van der Meijde</h1>
 
-                <div id="typewriter" className="mt-4 text-4xl text-white font-panchang font-semibold text-left overflow-hidden">
+                <div id="typewriter"
+                     className="mt-4 text-4xl text-white font-panchang font-semibold text-left overflow-hidden">
                     <Typewriter
                         options={{
                             loop: true,
@@ -38,7 +39,7 @@ function Home() {
                     />
                 </div>
 
-                <br />
+                <br/>
 
                 <div className="mt-4">
                     {["projects", "experience", "about"].map((page) => (
