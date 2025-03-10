@@ -8,7 +8,7 @@ function ProjectPortfolio() {
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
                     <img src="/portfolio.png" alt="Portfolio" className="project-image rounded-lg mb-4"/>
                     <p className="text-lg text-justify mb-4">A showcase of my work and skills, built with React and Tailwind</p>
-                    <p className="text-justify">This project is a comprehensive portfolio showcasing my work and skills. It is built with React and Tailwind CSS, providing a modern and responsive design.</p>
+                    <p className="text-justify">...</p>
                 </div>
             </div>
         </div>

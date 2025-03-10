@@ -8,7 +8,7 @@ function ProjectPortfolioY1() {
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
                     <img src="/portfolio-y1.webp" alt="Year 1 Portfolio" className="project-image rounded-lg mb-4"/>
                     <p className="text-lg text-justify mb-4">A collection of my first-year projects</p>
-                    <p className="text-justify">This project is a collection of my first-year projects, showcasing my early work and progress in web development. It includes various projects built with HTML, CSS, and JavaScript.</p>
+                    <p className="text-justify">...</p>
                 </div>
             </div>
         </div>
