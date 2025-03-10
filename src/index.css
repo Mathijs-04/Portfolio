@@ -76,6 +76,20 @@ body {
     aspect-ratio: 16 / 9;
 }
 
+.underline {
+    position: relative;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #60A5FA;
+}
+
 .gradient-underline {
     position: relative;
 }
