@@ -116,11 +116,11 @@ function Projects() {
                     </div>
                     <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4">
                         These are some of my <strong className="text-[#60A5FA] font-semibold">favorite
-                        projects</strong> that I’ve worked on over the past few years. Some of these are <strong
-                        className="text-[#60A5FA] font-semibold">hobby projects</strong>, while others were
+                        projects</strong> that I’ve worked on over the past few years. Some of these are just <strong
+                        className="text-[#60A5FA] font-semibold">hobby projects</strong>, while some others were
                         created <strong className="text-[#60A5FA] font-semibold">for actual clients</strong>. These
-                        projects not only showcase my <strong className="text-[#60A5FA] font-semibold">current
-                        skillset</strong> but also reflect my <strong className="text-[#60A5FA] font-semibold">personal
+                        projects do not only showcase my <strong className="text-[#60A5FA] font-semibold">current
+                        skillset</strong>, but also reflect some of my <strong className="text-[#60A5FA] font-semibold">personal
                         interests and hobbies</strong>.
                     </div>
                 </div>
