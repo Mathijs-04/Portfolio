@@ -100,7 +100,7 @@ const SkillsSection = () => {
         <div className="gradient-background min-h-screen">
             <section className="text-white py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h1 className="text-4xl font-panchang font-bold text-white mb-6">My Developer Toolkit (So Far)</h1>
+                    <h1 className="text-4xl font-panchang font-bold text-white mb-6">My Experience (So Far)</h1>
                     <div className="bg-slate-800 p-6 rounded-lg">
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
                             {skills.map((skill, index) => (
