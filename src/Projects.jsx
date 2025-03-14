@@ -17,7 +17,7 @@ const projects = [
     {
         name: "Mighty Models",
         slug: "mighty-models",
-        description: "A Laravel website where users share their miniatures",
+        description: "A Laravel website where users share their tabletop miniatures",
         image: "/mighty-models.webp",
         tech: [FaLaravel, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
@@ -25,7 +25,7 @@ const projects = [
     {
         name: "Full-Stack Game Collection",
         slug: "game-collection",
-        description: "A MERN stack project with a separated Front- and Back-End",
+        description: "A MERN-stack collection with a dedicated Front- and Back-End",
         image: "/game-collection.webp",
         tech: [FaReact, FaNodeJs, SiMongodb, SiExpress, SiTailwindcss],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
@@ -41,7 +41,7 @@ const projects = [
     {
         name: "Dungeon Defender",
         slug: "dungeon-defender",
-        description: "A browser-based game built with Excalibur.js",
+        description: "A web-based game built with Excalibur.js",
         image: "/dungeon-defender.webp",
         tech: [ExcaliburIcon, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
@@ -49,7 +49,7 @@ const projects = [
     {
         name: "EXPCorp.",
         slug: "exp-corp",
-        description: "A fictional company website specialized in digital experiences",
+        description: "A fictional company website specialized in VR experiences",
         image: "/exp-corp.webp",
         tech: [FaReact, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
@@ -65,7 +65,7 @@ const projects = [
     {
         name: "Unreal Engine 5",
         slug: "unreal-engine",
-        description: "A 3D game prototype built in Unreal Engine 5",
+        description: "A 3D landscape built in Unreal Engine 5",
         image: "/unreal-engine.webp",
         tech: [SiUnrealengine],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
@@ -73,7 +73,7 @@ const projects = [
     {
         name: "WARHAMMER Dice Roller",
         slug: "dice-roller",
-        description: "A dice rolling tool for Wargaming enthusiasts",
+        description: "An online dice rolling tool for Wargaming enthusiasts",
         image: "/dice-roller.webp",
         tech: [SiHtml5, SiCss3, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
@@ -81,7 +81,7 @@ const projects = [
     {
         name: "Gobbo Quest",
         slug: "gobbo-quest",
-        description: "A web-based RPG, made in a single day",
+        description: "A simple web-based RPG",
         image: "/gobbo-quest.webp",
         tech: [SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
