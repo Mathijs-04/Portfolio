@@ -1,6 +1,6 @@
 # To-Do List
 
-- Update Carousel styling
-- Add media to project pages
+- Update carousel styling
+- Add images to carousel
 - Add mobile layout
 - Test, build and host project
