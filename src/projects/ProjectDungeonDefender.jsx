@@ -1,16 +1,23 @@
 import React from 'react';
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import { SiJavascript } from "react-icons/si";
+import CarouselComponent from "../ProjectCarousel.jsx";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
 
 function ProjectDungeonDefender() {
+    const carouselImages = [
+        '/dungeon-defender.webp',
+        '/dungeon-defender.webp',
+        '/dungeon-defender.webp'
+    ];
+
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">Dungeon Defender</h1>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
-                    <img src="/dungeon-defender.webp" alt="Dungeon Defender" className="project-image rounded-lg mb-4"/>
+                    <CarouselComponent images={carouselImages} />
                     <div className="flex space-x-3 mb-4">
                         <ExcaliburIcon/>
                         <SiJavascript className="text-2xl text-blue-400"/>

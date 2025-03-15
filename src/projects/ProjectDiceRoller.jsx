@@ -1,13 +1,20 @@
 import React from 'react';
 import { SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
+import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectDiceRoller() {
+    const carouselImages = [
+        '/dice-roller.webp',
+        '/dice-roller.webp',
+        '/dice-roller.webp'
+    ];
+
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">WARHAMMER Dice Roller</h1>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
-                    <img src="/dice-roller.webp" alt="WARHAMMER Dice Roller" className="project-image rounded-lg mb-4"/>
+                    <CarouselComponent images={carouselImages} />
                     <div className="flex space-x-3 mb-4">
                         <SiHtml5 className="text-2xl text-blue-400"/>
                         <SiCss3 className="text-2xl text-blue-400"/>

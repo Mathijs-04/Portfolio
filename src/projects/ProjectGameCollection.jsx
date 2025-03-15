@@ -1,14 +1,21 @@
 import React from 'react';
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si";
+import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectGameCollection() {
+    const carouselImages = [
+        '/game-collection.webp',
+        '/game-collection.webp',
+        '/game-collection.webp'
+    ];
+
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">Full-Stack Game Collection</h1>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
-                    <img src="/game-collection.webp" alt="Full-Stack Game Collection" className="project-image rounded-lg mb-4"/>
+                    <CarouselComponent images={carouselImages} />
                     <div className="flex space-x-3 mb-4">
                         <FaReact className="text-2xl text-blue-400"/>
                         <FaNodeJs className="text-2xl text-blue-400"/>

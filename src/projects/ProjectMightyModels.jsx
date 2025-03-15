@@ -1,14 +1,21 @@
 import React from 'react';
 import { FaLaravel, FaDatabase } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectMightyModels() {
+    const carouselImages = [
+        '/mighty-models.webp',
+        '/mighty-models.webp',
+        '/mighty-models.webp'
+    ];
+
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">Mighty Models</h1>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
-                    <img src="/mighty-models.webp" alt="Mighty Models" className="project-image rounded-lg mb-4"/>
+                    <CarouselComponent images={carouselImages} />
                     <div className="flex space-x-3 mb-4">
                         <FaLaravel className="text-2xl text-blue-400"/>
                         <SiTailwindcss className="text-2xl text-blue-400"/>

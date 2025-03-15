@@ -1,13 +1,19 @@
 import React from 'react';
 import { SiUnrealengine } from "react-icons/si";
+import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectUnrealEngine() {
+    const carouselImages = [
+        '/unreal-engine.webp',
+        '/unreal-engine.webp',
+        '/unreal-engine.webp'
+    ];
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">Unreal Engine 5</h1>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
-                    <img src="/unreal-engine.webp" alt="Unreal Engine 5" className="project-image rounded-lg mb-4"/>
+                    <CarouselComponent images={carouselImages} />
                     <div className="flex space-x-3 mb-4">
                         <SiUnrealengine className="text-2xl text-blue-400"/>
                     </div>

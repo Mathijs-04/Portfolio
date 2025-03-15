@@ -1,14 +1,21 @@
 import React from 'react';
 import { FaReact, FaDatabase } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectEXPCorp() {
+    const carouselImages = [
+        '/exp-corp.webp',
+        '/exp-corp.webp',
+        '/exp-corp.webp'
+    ];
+
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">EXPCorp.</h1>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
-                    <img src="/exp-corp.webp" alt="EXPCorp." className="project-image rounded-lg mb-4"/>
+                    <CarouselComponent images={carouselImages} />
                     <div className="flex space-x-3 mb-4">
                         <FaReact className="text-2xl text-blue-400"/>
                         <SiTailwindcss className="text-2xl text-blue-400"/>
