@@ -1,3 +1,4 @@
+import React from 'react';
 import {FaReact, FaNodeJs, FaLaravel, FaDatabase} from "react-icons/fa";
 import {SiMongodb, SiTailwindcss, SiUnrealengine, SiJavascript, SiExpress, SiHtml5, SiCss3} from "react-icons/si";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
@@ -101,11 +102,14 @@ function Projects() {
                             <div
                                 key={index}
                                 className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer ${project.hoverClass}`}
-                                onClick={() => navigate(`/projects/${project.slug}`)} // Navigate on click
+                                onClick={() => {
+                                    window.scrollTo(0, 0);
+                                    navigate(`/projects/${project.slug}`);
+                                }}
                             >
                                 <img src={project.image} alt={project.name} className="project-image rounded-lg mb-4"/>
                                 <h2 className="text-2xl font-semibold text-white">{project.name}</h2>
-                                <p className="text-gray-400">{project.description}</p>
+                                <p className="text-gray-400 font-body">{project.description}</p>
                                 <div className="flex space-x-3 mt-4">
                                     {project.tech.map((Icon, i) => (
                                         <Icon key={i} className="text-2xl text-blue-400"/>
@@ -114,7 +118,7 @@ function Projects() {
                             </div>
                         ))}
                     </div>
-                    <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4">
+                    <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 font-body">
                         These are some of my <strong className="text-[#60A5FA] font-semibold">favorite
                         projects</strong> that I’ve worked on over the past few years. Some of these are just <strong
                         className="text-[#60A5FA] font-semibold">hobby projects</strong>, while some others were

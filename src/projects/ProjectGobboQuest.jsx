@@ -1,4 +1,5 @@
 import React from 'react';
+import { SiJavascript } from "react-icons/si";
 
 function ProjectGobboQuest() {
     return (
@@ -7,8 +8,11 @@ function ProjectGobboQuest() {
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">Gobbo Quest</h1>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
                     <img src="/gobbo-quest.webp" alt="Gobbo Quest" className="project-image rounded-lg mb-4"/>
-                    <p className="text-lg text-justify mb-4">A simple web-based RPG</p>
-                    <p className="text-justify"><span className="text-blue-400 font-bold">Gobbo Quest</span> is a simple <span className="text-blue-400 font-bold">top-down arcade game</span> made with <span className="text-blue-400 font-bold">MakeCode Arcade</span>. This game was made in a few hours with three other students as an introduction to the <span className="text-blue-400 font-bold">Game Development</span> course. <span className="text-blue-400 font-bold">Gobbo Quest</span> is a short <span className="text-blue-400 font-bold">top-down dungeon crawler</span> in which you have to explore a dungeon, slay enemies, and defeat the <span className="text-blue-400 font-bold">boss</span>. <span className="text-blue-400 font-bold">Gobbo Quest</span> works on both <span className="text-blue-400 font-bold">PC and mobile</span> and runs in the browser. This project was a fun way to explore the basic concepts of <span className="text-blue-400 font-bold">game development</span>.</p>
+                    <div className="flex space-x-3 mb-4">
+                        <SiJavascript className="text-2xl text-blue-400"/>
+                    </div>
+                    <p className="text-lg text-justify mb-4 font-body font-bold">A simple web-based RPG</p>
+                    <p className="text-justify font-body"><span className="text-blue-400 font-bold">Gobbo Quest</span> is a simple <span className="text-blue-400 font-bold">top-down arcade game</span> made with <span className="text-blue-400 font-bold">MakeCode Arcade</span>. This game was made in a few hours with three other students as an introduction to the <span className="text-blue-400 font-bold">Game Development</span> course. <span className="text-blue-400 font-bold">Gobbo Quest</span> is a short <span className="text-blue-400 font-bold">top-down dungeon crawler</span> in which you have to explore a dungeon, slay enemies, and defeat the <span className="text-blue-400 font-bold">boss</span>. <span className="text-blue-400 font-bold">Gobbo Quest</span> works on both <span className="text-blue-400 font-bold">PC and mobile</span> and runs in the browser. This project was a fun way to explore the basic concepts of <span className="text-blue-400 font-bold">game development</span>.</p>
                 </div>
             </div>
         </div>
