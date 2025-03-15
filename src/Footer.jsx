@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="bg-gray-900 text-white py-6 px-8 font-body font-semibold gradient-underline-footer">
             <div className="flex flex-col md:flex-row justify-between items-center px-6">
 
-                <span className="text-sm md:text-base font-semibold text-gray-300">
+                <span className="text-sm md:text-base font-semibold text-white">
                     Designed & developed by <span className="text-[#60A5FA]">Mathijs van der Meijde</span>
                 </span>
 
