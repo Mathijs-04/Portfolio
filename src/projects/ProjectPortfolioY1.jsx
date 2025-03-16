@@ -3,7 +3,7 @@ import {SiHtml5, SiCss3, SiJavascript} from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectPortfolioY1() {
-    const carouselImages = ['/portfolio-y1.webp', '/portfolio-y1.webp', '/portfolio-y1.webp'];
+    const carouselImages = ['/portfolio-y1.webp', '/portfolio-y1-2.webp', '/portfolio-y1-3.webp'];
 
     return (
         <div className="gradient-background min-h-screen">
