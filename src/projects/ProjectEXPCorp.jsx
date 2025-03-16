@@ -4,7 +4,7 @@ import {SiTailwindcss} from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectEXPCorp() {
-    const carouselImages = ['/exp-corp.webp', '/exp-corp.webp', '/exp-corp.webp'];
+    const carouselImages = ['/exp-corp.webp', '/exp-corp-2.webp', '/exp-corp-3.webp', '/exp-corp-4.webp'];
 
     return (
         <div className="gradient-background min-h-screen">
