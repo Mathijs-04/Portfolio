@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaReact, FaNodeJs, FaLaravel, FaDatabase} from "react-icons/fa";
 import {SiMongodb, SiTailwindcss, SiUnrealengine, SiJavascript, SiExpress, SiHtml5, SiCss3} from "react-icons/si";
-import ExcaliburLogo from "/Portfolio/excalibur-logo-blue.webp";
+import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import {useNavigate} from "react-router";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
