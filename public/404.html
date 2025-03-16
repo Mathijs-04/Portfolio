@@ -6,7 +6,12 @@
     <title>Redirecting...</title>
     <script>
         const path = window.location.pathname;
-        window.location.href = '/Portfolio/index.html' + path;
+
+        if (!path.startsWith("/Portfolio/")) {
+            window.location.href = `/Portfolio${path}`;
+        } else {
+            window.location.href = '/Portfolio/index.html';
+        }
     </script>
 </head>
 <body>
