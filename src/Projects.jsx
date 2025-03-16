@@ -43,7 +43,7 @@ const projects = [
         name: "Dungeon Defender",
         slug: "dungeon-defender",
         description: "A web-based game built with Excalibur.js",
-        image: "/dungeon-defender.webp",
+        image: "/dungeon.webp",
         tech: [ExcaliburIcon, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },

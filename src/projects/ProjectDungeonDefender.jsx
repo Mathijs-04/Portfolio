@@ -6,7 +6,7 @@ import CarouselComponent from "../ProjectCarousel.jsx";
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
 
 function ProjectDungeonDefender() {
-    const carouselImages = ['/dungeon-defender.webp', '/dungeon-defender.webp', '/dungeon-defender.webp'];
+    const carouselImages = ['/dungeon-defender.webp', '/dungeon-defender-2.webp', '/dungeon-defender-3.webp'];
 
     return (
         <div className="gradient-background min-h-screen">
