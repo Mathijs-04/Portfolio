@@ -4,7 +4,7 @@ import { SiTailwindcss } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectOpenHiring() {
-    const carouselImages = ['/Portfolio/open-hiring.webp', '/Portfolio/open-hiring-2.webp', '/Portfolio/open-hiring-3.webp', '/Portfolio/open-hiring-4.webp', '/open-hiring-5.webp', '/open-hiring-6.webp'];
+    const carouselImages = ['/Portfolio/open-hiring.webp', '/Portfolio/open-hiring-2.webp', '/Portfolio/open-hiring-3.webp', '/Portfolio/open-hiring-4.webp', '/Portfolio/open-hiring-5.webp', '/Portfolio/open-hiring-6.webp'];
 
     return (
         <div className="gradient-background min-h-screen">
