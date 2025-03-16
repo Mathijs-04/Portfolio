@@ -36,10 +36,10 @@ const router = createBrowserRouter([
                 {path: "/projects/unreal-engine", element: <ProjectUnrealEngine/>},
                 {path: "/projects/dice-roller", element: <ProjectDiceRoller/>},
                 {path: "/projects/gobbo-quest", element: <ProjectGobboQuest/>},
-            ]
-        }
-    ]
-    // { basename: "/portfolio" }
+            ],
+        },
+    ],
+    {basename: "/Portfolio"}
 );
 
 function App() {
