@@ -21,15 +21,15 @@ function Home() {
                                 .typeString("Full Stack Web Developer")
                                 .pauseFor(1500)
                                 .deleteChars(24)
-                                .typeString("Game Developer")
+                                .typeString("Game Development Enthousiast")
                                 .pauseFor(1500)
-                                .deleteChars(14)
+                                .deleteChars(28)
+                                .typeString("Digital Designer")
+                                .pauseFor(1500)
+                                .deleteChars(8)
                                 .typeString("Tech Enthusiast")
                                 .pauseFor(1500)
                                 .deleteChars(15)
-                                .typeString("Designer")
-                                .pauseFor(1500)
-                                .deleteChars(8)
                                 .start();
                         }}
                     />
@@ -37,7 +37,7 @@ function Home() {
 
                 <br />
 
-                <div className="mt-4 flex justify-center gap-4">
+                <div className="mt-12 flex justify-center gap-4">
                     {[
                         { key: "projects", label: "My Projects" },
                         { key: "experience", label: "My Experience" },
