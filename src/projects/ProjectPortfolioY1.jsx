@@ -1,5 +1,5 @@
 import React from 'react';
-import {SiHtml5, SiCss3, SiJavascript} from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectPortfolioY1() {
@@ -17,7 +17,7 @@ function ProjectPortfolioY1() {
                         <SiJavascript className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">A collection of my first-year projects</p>
-                    <p className="text-justify font-body mb-4">This was my previous portfolio website, which I used before making my current one. This portfolio showcased most of my first-year projects and some of my second-year projects I had worked on. This website was made entirely in plain <span className="text-blue-400 font-bold">HTML</span>, <span className="text-blue-400 font-bold">CSS</span>, and <span className="text-blue-400 font-bold">JavaScript</span>. One of the main reasons I decided to make a new portfolio was to challenge myself to build my portfolio using more advanced <span className="text-blue-400 font-bold">web development</span> tools and techniques.</p>
+                    <p className="text-justify font-body mb-4">This was my previous <span className="text-blue-400 font-bold">portfolio website</span>, which I used before making my current one. This portfolio showcased most of my <span className="text-blue-400 font-bold">first-year</span> projects and some of my <span className="text-blue-400 font-bold">second-year</span> projects I had worked on. This website was made entirely in plain <span className="text-blue-400 font-bold">HTML</span>, <span className="text-blue-400 font-bold">CSS</span>, and <span className="text-blue-400 font-bold">JavaScript</span>. One of the main reasons I decided to make a new portfolio was to challenge myself to build my portfolio using more advanced <span className="text-blue-400 font-bold">web development</span> tools and techniques.</p>
                     <a href="https://github.com/Mathijs-04/Jaar-1-Portfolio" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
                     <br/>
                     <div className='mt-4'></div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
-import {SiJavascript} from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
@@ -19,7 +19,7 @@ function ProjectDungeonDefender() {
                         <SiJavascript className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">A web-based game built with Excalibur.js</p>
-                    <p className="text-justify font-body mb-4"><strong className="text-[#60A5FA] font-semibold">Dungeon Defender</strong> is a 2D Arcade Game made with <strong className="text-[#60A5FA] font-semibold">JavaScript</strong> in the gaming framework <strong className="text-[#60A5FA] font-semibold">Excalibur.js</strong>. This was the first ever game I developed entirely by myself. In <strong className="text-[#60A5FA] font-semibold">Dungeon Defender</strong>, the goal is to fight off as many enemies as possible and defend the dungeon. Defeating enemies gives you more points. When you are hit three times, the game ends and you will have to try again. <strong className="text-[#60A5FA] font-semibold">Excalibur.js</strong> games run entirely in your browser, so no downloads are required.</p>
+                    <p className="text-justify font-body mb-4"><strong className="text-[#60A5FA] font-semibold">Dungeon Defender</strong> is a <strong className="text-[#60A5FA] font-semibold">2D Arcade Game</strong> made with <strong className="text-[#60A5FA] font-semibold">JavaScript</strong> in the gaming framework <strong className="text-[#60A5FA] font-semibold">Excalibur.js</strong>. This was the first ever game I developed entirely by myself. In <strong className="text-[#60A5FA] font-semibold">Dungeon Defender</strong>, the goal is to fight off as many enemies as possible and defend the dungeon. Defeating enemies gives you more points. When you are hit three times, the game ends and you will have to try again. <strong className="text-[#60A5FA] font-semibold">Excalibur.js</strong> games run entirely in your browser, so no downloads are required.</p>
                     <a href="https://github.com/Mathijs-04/Dungeon-Defender" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
                     <br/>
                     <div className='mt-4'></div>
