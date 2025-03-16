@@ -4,7 +4,7 @@ import {SiMongodb, SiExpress, SiTailwindcss} from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectGameCollection() {
-    const carouselImages = ['/game-collection.webp', '/game-collection-2.webp'];
+    const carouselImages = ['/Portfolio/game-collection.webp', '/Portfolio/game-collection-2.webp'];
 
     return (
         <div className="gradient-background min-h-screen">

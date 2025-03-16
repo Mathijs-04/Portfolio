@@ -3,7 +3,7 @@ import { SiJavascript } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectGobboQuest() {
-    const carouselImages = ['/gobbo-quest.webp', '/gobbo-quest-2.webp', '/gobbo-quest-3.webp'];
+    const carouselImages = ['/Portfolio/gobbo-quest.webp', '/Portfolio/gobbo-quest-2.webp', '/Portfolio/gobbo-quest-3.webp'];
 
     return (
         <div className="gradient-background min-h-screen">

@@ -4,7 +4,7 @@ import {SiTailwindcss} from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectMightyModels() {
-    const carouselImages = ['/mighty-models.webp', '/mighty-models-2.webp', '/mighty-models-3.webp'];
+    const carouselImages = ['/Portfolio/mighty-models.webp', '/Portfolio/mighty-models-2.webp', '/Portfolio/mighty-models-3.webp'];
 
     return (
         <div className="gradient-background min-h-screen">

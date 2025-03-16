@@ -3,7 +3,7 @@ import { SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectDiceRoller() {
-    const carouselImages = ['/dice-roller.webp', '/dice-roller-2.webp'];
+    const carouselImages = ['/Portfolio/dice-roller.webp', '/Portfolio/dice-roller-2.webp'];
 
     return (
         <div className="gradient-background min-h-screen">

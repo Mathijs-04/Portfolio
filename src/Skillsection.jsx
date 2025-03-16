@@ -53,7 +53,7 @@ const skills = [
     },
     {
         name: "Excalibur.js",
-        icon: <img src="/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10"/>,
+        icon: <img src="/Portfolio/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10"/>,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(250,204,21,0.6)] hover:border-yellow-400",
         link: "https://excaliburjs.com/"
     },

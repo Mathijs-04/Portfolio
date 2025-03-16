@@ -3,7 +3,7 @@ import { SiUnrealengine } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectUnrealEngine() {
-    const carouselImages = ['/unreal-engine.webp', '/unreal-engine-2.webp'];
+    const carouselImages = ['/Portfolio/unreal-engine.webp', '/Portfolio/unreal-engine-2.webp'];
 
     return (
         <div className="gradient-background min-h-screen">

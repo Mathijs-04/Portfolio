@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaReact, FaNodeJs, FaLaravel, FaDatabase} from "react-icons/fa";
 import {SiMongodb, SiTailwindcss, SiUnrealengine, SiJavascript, SiExpress, SiHtml5, SiCss3} from "react-icons/si";
-import ExcaliburLogo from "/excalibur-logo-blue.webp";
+import ExcaliburLogo from "/Portfolio/excalibur-logo-blue.webp";
 import {useNavigate} from "react-router";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
@@ -11,7 +11,7 @@ const projects = [
         name: "Portfolio",
         slug: "portfolio",
         description: "A showcase of my work and skills, built with React and Tailwind",
-        image: "/portfolio.webp",
+        image: "/Portfolio/portfolio.webp",
         tech: [FaReact, SiTailwindcss],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -19,7 +19,7 @@ const projects = [
         name: "Mighty Models",
         slug: "mighty-models",
         description: "A Laravel website where users share their tabletop miniatures",
-        image: "/mighty-models.webp",
+        image: "/Portfolio/mighty-models.webp",
         tech: [FaLaravel, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -27,7 +27,7 @@ const projects = [
         name: "Full-Stack Game Collection",
         slug: "game-collection",
         description: "A MERN-stack collection with a dedicated Front- and Back-End",
-        image: "/game-collection.webp",
+        image: "/Portfolio/game-collection.webp",
         tech: [FaReact, FaNodeJs, SiMongodb, SiExpress, SiTailwindcss],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -35,7 +35,7 @@ const projects = [
         name: "Open Hiring",
         slug: "open-hiring",
         description: "A Laravel-based job listing platform for inclusive hiring",
-        image: "/open-hiring.webp",
+        image: "/Portfolio/open-hiring.webp",
         tech: [FaLaravel, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -43,7 +43,7 @@ const projects = [
         name: "Dungeon Defender",
         slug: "dungeon-defender",
         description: "A web-based game built with Excalibur.js",
-        image: "/dungeon.webp",
+        image: "/Portfolio/dungeon.webp",
         tech: [ExcaliburIcon, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -51,7 +51,7 @@ const projects = [
         name: "Year 1 Portfolio",
         slug: "portfolio-y1",
         description: "A collection of my first-year projects",
-        image: "/portfolio-y1.webp",
+        image: "/Portfolio/portfolio-y1.webp",
         tech: [SiHtml5, SiCss3, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -59,7 +59,7 @@ const projects = [
         name: "EXPCorp.",
         slug: "exp-corp",
         description: "A fictional company website specialized in VR experiences",
-        image: "/exp-corp.webp",
+        image: "/Portfolio/exp-corp.webp",
         tech: [FaReact, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -67,7 +67,7 @@ const projects = [
         name: "Unreal Engine 5",
         slug: "unreal-engine",
         description: "A 3D landscape built in Unreal Engine 5",
-        image: "/unreal-engine.webp",
+        image: "/Portfolio/unreal-engine.webp",
         tech: [SiUnrealengine],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -75,7 +75,7 @@ const projects = [
         name: "WARHAMMER Dice Roller",
         slug: "dice-roller",
         description: "An online dice rolling tool for Wargaming enthusiasts",
-        image: "/dice-roller.webp",
+        image: "/Portfolio/dice-roller.webp",
         tech: [SiHtml5, SiCss3, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
@@ -83,7 +83,7 @@ const projects = [
         name: "Gobbo Quest",
         slug: "gobbo-quest",
         description: "A simple web-based RPG",
-        image: "/gobbo-quest.webp",
+        image: "/Portfolio/gobbo-quest.webp",
         tech: [SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },

@@ -1,12 +1,12 @@
 import React from 'react';
-import ExcaliburLogo from "/excalibur-logo-blue.webp";
+import ExcaliburLogo from "/Portfolio/excalibur-logo-blue.webp";
 import { SiJavascript } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
 
 function ProjectDungeonDefender() {
-    const carouselImages = ['/dungeon-defender.webp', '/dungeon-defender-2.webp', '/dungeon-defender-3.webp'];
+    const carouselImages = ['/Portfolio/dungeon-defender.webp', '/Portfolio/dungeon-defender-2.webp', '/Portfolio/dungeon-defender-3.webp'];
 
     return (
         <div className="gradient-background min-h-screen">
