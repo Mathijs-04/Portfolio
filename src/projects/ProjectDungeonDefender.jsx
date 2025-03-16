@@ -1,5 +1,5 @@
 import React from 'react';
-import ExcaliburLogo from "/Portfolio/excalibur-logo-blue.webp";
+import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import { SiJavascript } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
