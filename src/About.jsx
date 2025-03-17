@@ -37,7 +37,7 @@ function About() {
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6">About Me</h1>
                 <div className="relative bg-slate-800/90 p-6 rounded-lg overflow-hidden">
-                    <div className="font-body text-lg mb-5 px-8" style={{ textAlign: "justify" }}>
+                    <div className="font-body text-lg mb-5 px-3" style={{ textAlign: "justify" }}>
                         {skipAnimation ? (
                             <div dangerouslySetInnerHTML={{ __html: finalText }} />
                         ) : (
