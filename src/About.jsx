@@ -54,7 +54,6 @@ function About() {
                         </div>
                     </a>
                 </div>
-
             </div>
         </div>
     );
