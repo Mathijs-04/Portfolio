@@ -34,7 +34,7 @@ function About() {
                     <a href="https://github.com/Mathijs-04" target="_blank"
                        className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 max-md:text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white dark:text-white max-md:w-full">
                             <span
-                                className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full">
+                                className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full">
                                 <FaGithub className="mr-2 text-lg"/> GitHub
                             </span>
                         <div
@@ -45,7 +45,7 @@ function About() {
                     <a href="https://www.linkedin.com/in/mathijs-van-der-meijde-creative-developer/" target="_blank"
                        className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 max-md:text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white dark:text-white max-md:w-full">
                          <span
-                             className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full">
+                             className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full">
                             <FaLinkedin className="mr-2 text-lg"/> LinkedIn
                          </span>
                         <div
