@@ -95,7 +95,7 @@ function Projects() {
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6">
-                <h1 className="text-4xl font-panchang font-bold text-white mb-6">Projects</h1>
+                <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-2xl">Projects</h1>
                 <div className="bg-slate-800 p-6 rounded-lg">
                     <div className="grid md:grid-cols-2 gap-6">
                         {projects.map((project, index) => (
@@ -118,7 +118,7 @@ function Projects() {
                             </div>
                         ))}
                     </div>
-                    <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 font-body">
+                    <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 font-body md:text-justify">
                         These are some of my <strong className="text-[#60A5FA] font-semibold">favorite
                         projects</strong> that I’ve worked on over the past few years. Some of these are just <strong
                         className="text-[#60A5FA] font-semibold">hobby projects</strong>, while some others were
