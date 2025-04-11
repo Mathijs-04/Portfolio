@@ -117,7 +117,7 @@ const SkillsSection = () => {
                         </div>
                         <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 text-justify">
                             These logos represent the <strong className="text-[#60A5FA] font-semibold">languages,
-                            frameworks, and tools</strong> I work with during my projects. I am always eager to explore
+                            frameworks, and tools</strong> I often work with during my projects. I am always eager to explore
                             new technologies and <strong className="text-[#60A5FA] font-semibold">expand my skill
                             set</strong>, so I look forward to <strong className="text-[#60A5FA] font-semibold">growing
                             this toolkit</strong> in the years to come.
