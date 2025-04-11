@@ -2,6 +2,7 @@ import React from 'react';
 import {FaReact, FaNodeJs, FaLaravel, FaDatabase} from "react-icons/fa";
 import {SiMongodb, SiTailwindcss, SiUnrealengine, SiJavascript, SiExpress, SiHtml5, SiCss3} from "react-icons/si";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
+import { FaQuestionCircle } from "react-icons/fa";
 import {useNavigate} from "react-router";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
@@ -37,6 +38,14 @@ const projects = [
         description: "A Laravel-based job listing platform for inclusive hiring",
         image: "/Portfolio/open-hiring.webp",
         tech: [FaLaravel, SiTailwindcss, FaDatabase],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "SignTrail",
+        slug: "sign-trail",
+        description: "An educational sign language game for students",
+        image: "/Portfolio/sign-trail-3.webp",
+        tech: [FaReact, SiTailwindcss, FaDatabase, ExcaliburIcon],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
@@ -85,6 +94,14 @@ const projects = [
         description: "A simple web-based RPG",
         image: "/Portfolio/gobbo-quest.webp",
         tech: [SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "Coming Soon",
+        slug: "coming-soon",
+        description: "Projects I am currently working on",
+        image: "/Portfolio/soon.webp",
+        tech: [() => <FaQuestionCircle className="text-blue-500 text-2xl" />],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
 ];

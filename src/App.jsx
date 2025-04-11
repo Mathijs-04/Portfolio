@@ -15,6 +15,8 @@ import ProjectPortfolioY1 from "./projects/ProjectPortfolioY1.jsx";
 import ProjectUnrealEngine from "./projects/ProjectUnrealEngine.jsx";
 import ProjectDiceRoller from "./projects/ProjectDiceRoller.jsx";
 import ProjectGobboQuest from "./projects/ProjectGobboQuest.jsx";
+import ProjectSignTrail from "./projects/ProjectSignTrail.jsx";
+import ProjectComingSoon from "./projects/ProjectComingSoon.jsx";
 
 const router = createBrowserRouter(
     [
@@ -36,6 +38,8 @@ const router = createBrowserRouter(
                 { path: "/projects/unreal-engine", element: <ProjectUnrealEngine /> },
                 { path: "/projects/dice-roller", element: <ProjectDiceRoller /> },
                 { path: "/projects/gobbo-quest", element: <ProjectGobboQuest /> },
+                { path: "/projects/sign-trail", element: <ProjectSignTrail /> },
+                { path: "/projects/coming-soon", element: <ProjectComingSoon /> },
             ],
         },
     ],

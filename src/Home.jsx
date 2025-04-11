@@ -12,16 +12,19 @@ function Home() {
                     <Typewriter
                         options={{ loop: true, delay: "natural" }}
                         onInit={(typewriter) => {
-                            typewriter.pauseFor(2000)
+                            typewriter.pauseFor(1500)
                                 .typeString("Creative Developer")
-                                .pauseFor(1500).deleteChars(18)
+                                .pauseFor(1500)
+                                .deleteChars(18)
                                 .typeString("Full Stack Web Developer")
-                                .pauseFor(1500).deleteChars(24)
+                                .pauseFor(1500)
+                                .deleteChars(24)
                                 .typeString("Game Developer")
                                 .pauseFor(1500)
                                 .deleteChars(14)
                                 .typeString("Digital Designer")
-                                .pauseFor(1500).deleteChars(16)
+                                .pauseFor(1500)
+                                .deleteChars(16)
                                 .typeString("Tech Enthusiast")
                                 .pauseFor(1500)
                                 .deleteChars(15)
