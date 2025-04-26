@@ -70,7 +70,7 @@ const projects = [
         name: "D&D-GPT",
         slug: "dnd-gpt",
         description: "Your AI Dungeon Master",
-        image: "/Portfolio/dndgpt.webp",
+        image: "/Portfolio/dnd-gpt.webp",
         tech: [FaReact, SiOpenai, SiExpress],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
