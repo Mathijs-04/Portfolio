@@ -1,9 +1,19 @@
 import React from 'react';
 import {FaReact, FaNodeJs, FaLaravel, FaDatabase} from "react-icons/fa";
-import {SiMongodb, SiTailwindcss, SiUnrealengine, SiJavascript, SiExpress, SiHtml5, SiCss3} from "react-icons/si";
+import {
+    SiMongodb,
+    SiTailwindcss,
+    SiUnrealengine,
+    SiJavascript,
+    SiExpress,
+    SiHtml5,
+    SiCss3,
+    SiOpenai
+} from "react-icons/si";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import { FaQuestionCircle } from "react-icons/fa";
 import {useNavigate} from "react-router";
+import {IoIosGitNetwork} from "react-icons/io";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
 
@@ -57,6 +67,14 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "D&D-GPT",
+        slug: "dnd-gpt",
+        description: "Your AI Dungeon Master",
+        image: "/Portfolio/dndgpt.webp",
+        tech: [FaReact, SiOpenai, SiExpress],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "Year 1 Portfolio",
         slug: "portfolio-y1",
         description: "A collection of my first-year projects",
@@ -86,6 +104,14 @@ const projects = [
         description: "An online dice rolling tool for Wargaming enthusiasts",
         image: "/Portfolio/dice-roller.webp",
         tech: [SiHtml5, SiCss3, SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "Schild, Magie, Zwaard",
+        slug: "schild-magie-zwaard",
+        description: "A web-based game powered by Neural Networks",
+        image: "/Portfolio/smz.webp",
+        tech: [SiHtml5, SiCss3, SiJavascript, IoIosGitNetwork],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
