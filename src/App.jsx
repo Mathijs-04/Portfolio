@@ -16,9 +16,10 @@ import ProjectUnrealEngine from "./projects/ProjectUnrealEngine.jsx";
 import ProjectDiceRoller from "./projects/ProjectDiceRoller.jsx";
 import ProjectGobboQuest from "./projects/ProjectGobboQuest.jsx";
 import ProjectSignTrail from "./projects/ProjectSignTrail.jsx";
-import ProjectComingSoon from "./projects/ProjectComingSoon.jsx";
 import ProjectDNDGPT from "./projects/ProjectDNDGPT.jsx";
 import ProjectSchildMagieZwaard from "./projects/ProjectSchildMagieZwaard.jsx";
+import ProjectFitnessFinder from "./projects/ProjectFitnessFinder.jsx";
+// import ProjectComingSoon from "./projects/ProjectComingSoon.jsx";
 
 const router = createBrowserRouter(
     [
@@ -43,7 +44,8 @@ const router = createBrowserRouter(
                 { path: "/projects/sign-trail", element: <ProjectSignTrail /> },
                 { path: "/projects/dnd-gpt", element: <ProjectDNDGPT /> },
                 { path: "/projects/schild-magie-zwaard", element: <ProjectSchildMagieZwaard /> },
-                { path: "/projects/coming-soon", element: <ProjectComingSoon /> },
+                { path: "/projects/fitness-finder", element: <ProjectFitnessFinder /> },
+                // { path: "/projects/coming-soon", element: <ProjectComingSoon /> },
             ],
         },
     ],

@@ -83,19 +83,11 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
-        name: "EXPCorp.",
-        slug: "exp-corp",
-        description: "A fictional company website specialized in VR experiences",
-        image: "/Portfolio/exp-corp.webp",
-        tech: [FaReact, SiTailwindcss, FaDatabase],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    },
-    {
-        name: "Unreal Engine 5",
-        slug: "unreal-engine",
-        description: "A 3D landscape built in Unreal Engine 5",
-        image: "/Portfolio/unreal-engine.webp",
-        tech: [SiUnrealengine],
+        name: "Fitness Finder",
+        slug: "fitness-finder",
+        description: "An app to help you find a gym",
+        image: "/Portfolio/app.webp",
+        tech: [FaReact],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
@@ -107,11 +99,27 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "Unreal Engine 5",
+        slug: "unreal-engine",
+        description: "A 3D landscape built in Unreal Engine 5",
+        image: "/Portfolio/unreal-engine.webp",
+        tech: [SiUnrealengine],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "Schild, Magie, Zwaard",
         slug: "schild-magie-zwaard",
         description: "A web-based game powered by Neural Networks",
         image: "/Portfolio/smz.webp",
         tech: [SiHtml5, SiCss3, SiJavascript, IoIosGitNetwork],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "EXPCorp.",
+        slug: "exp-corp",
+        description: "A fictional company website specialized in VR experiences",
+        image: "/Portfolio/exp-corp.webp",
+        tech: [FaReact, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
@@ -122,14 +130,14 @@ const projects = [
         tech: [SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
-    {
-        name: "Coming Soon",
-        slug: "coming-soon",
-        description: "Projects I am currently working on",
-        image: "/Portfolio/soon.webp",
-        tech: [() => <FaQuestionCircle className="text-blue-500 text-2xl" />],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    },
+    // {
+    //     name: "Coming Soon",
+    //     slug: "coming-soon",
+    //     description: "Projects I am currently working on",
+    //     image: "/Portfolio/soon.webp",
+    //     tech: [() => <FaQuestionCircle className="text-blue-500 text-2xl" />],
+    //     hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    // },
 ];
 
 function Projects() {
