@@ -85,15 +85,23 @@ const projects = [
     {
         name: "Fitness Finder",
         slug: "fitness-finder",
-        description: "An app to help you find a gym",
+        description: "The app to help you find a gym",
         image: "/Portfolio/app.webp",
         tech: [FaReact],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "De Blije Bij",
+        slug: "blije-bij",
+        description: "The app for sustainable gardens",
+        image: "/Portfolio/tuin.webp",
+        tech: [FaReact, SiExpress],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "WARHAMMER Dice Roller",
         slug: "dice-roller",
-        description: "An online dice rolling tool for Wargaming enthusiasts",
+        description: "The online dice rolling tool for Wargaming enthusiasts",
         image: "/Portfolio/dice-roller.webp",
         tech: [SiHtml5, SiCss3, SiJavascript],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
@@ -115,6 +123,14 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "Gobbo Quest",
+        slug: "gobbo-quest",
+        description: "A simple web-based RPG",
+        image: "/Portfolio/gobbo-quest.webp",
+        tech: [SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "EXPCorp.",
         slug: "exp-corp",
         description: "A fictional company website specialized in VR experiences",
@@ -123,21 +139,13 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
-        name: "Gobbo Quest",
-        slug: "gobbo-quest",
-        description: "A simple web-based RPG",
-        image: "/Portfolio/gobbo-quest.webp",
-        tech: [SiJavascript],
+        name: "Coming Soon",
+        slug: "coming-soon",
+        description: "Projects I am currently working on",
+        image: "/Portfolio/soon.webp",
+        tech: [() => <FaQuestionCircle className="text-blue-500 text-2xl" />],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
-    // {
-    //     name: "Coming Soon",
-    //     slug: "coming-soon",
-    //     description: "Projects I am currently working on",
-    //     image: "/Portfolio/soon.webp",
-    //     tech: [() => <FaQuestionCircle className="text-blue-500 text-2xl" />],
-    //     hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    // },
 ];
 
 function Projects() {

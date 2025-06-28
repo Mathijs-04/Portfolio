@@ -16,7 +16,7 @@ function ProjectComingSoon() {
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">Projects I am currently working on</p>
                     <p className="text-justify font-body mb-4">
-                        I am currently working on some very interesting projects which are not yet finished. These projects will be added to my portfolio soon, but I can already share some details about one of them. One of the projects I am currently working on is my first app in <span className="text-blue-400 font-bold">React Native</span> using <span className="text-blue-400 font-bold">Expo</span>. This app will have some very cool features, like <span className="text-blue-400 font-bold">live location tracking</span>, <span className="text-blue-400 font-bold">notification services</span>, <span className="text-blue-400 font-bold">biometric security</span> and an <span className="text-blue-400 font-bold">offline mode</span>. This is all I can share for now, but keep an eye out for the latest updates on these projects!
+                        I am currently working on some projects which are not yet finished. These projects will be added to my portfolio soon, so keep an eye out for the latest updates!
                     </p>
                 </div>
             </div>

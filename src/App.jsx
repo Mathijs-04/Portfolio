@@ -19,8 +19,9 @@ import ProjectSignTrail from "./projects/ProjectSignTrail.jsx";
 import ProjectDNDGPT from "./projects/ProjectDNDGPT.jsx";
 import ProjectSchildMagieZwaard from "./projects/ProjectSchildMagieZwaard.jsx";
 import ProjectFitnessFinder from "./projects/ProjectFitnessFinder.jsx";
-// import ProjectComingSoon from "./projects/ProjectComingSoon.jsx";
+import ProjectBlijeBij from "./projects/ProjectBlijeBij.jsx";
 import NotFound from "./NotFound.jsx";
+import ProjectComingSoon from "./projects/ProjectComingSoon.jsx";
 
 const router = createBrowserRouter(
     [
@@ -46,7 +47,8 @@ const router = createBrowserRouter(
                 { path: "/projects/dnd-gpt", element: <ProjectDNDGPT /> },
                 { path: "/projects/schild-magie-zwaard", element: <ProjectSchildMagieZwaard /> },
                 { path: "/projects/fitness-finder", element: <ProjectFitnessFinder /> },
-                // { path: "/projects/coming-soon", element: <ProjectComingSoon /> },
+                { path: "/projects/blije-bij", element: <ProjectBlijeBij /> },
+                { path: "/projects/coming-soon", element: <ProjectComingSoon /> },
                 { path: "*", element: <NotFound /> }
             ],
         },
