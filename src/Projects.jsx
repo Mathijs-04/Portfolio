@@ -61,7 +61,7 @@ const projects = [
         slug: "sign-trail",
         description: "An educational sign language game for students",
         image: "/Portfolio/sign-trail-3.webp",
-        tech: [FaReact, SiTailwindcss, FaDatabase, ExcaliburIcon],
+        tech: [FaReact, SiTailwindcss, FaDatabase, IoIosGitNetwork, ExcaliburIcon],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
@@ -121,6 +121,14 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "Flashcard Generator",
+        slug: "flashcard-generator",
+        description: "An AI-powered flashcard generator in Vue.js",
+        image: "/Portfolio/flashcard-generator.webp",
+        tech: [FaVuejs, IoIosGitNetwork],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "Schild, Magie, Zwaard",
         slug: "schild-magie-zwaard",
         description: "A web-based game powered by Neural Networks",
@@ -142,14 +150,6 @@ const projects = [
         description: "A fictional company website specialized in VR experiences",
         image: "/Portfolio/exp-corp.webp",
         tech: [FaReact, SiTailwindcss, FaDatabase],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    },
-    {
-        name: "Flashcard Generator",
-        slug: "flashcard-generator",
-        description: "An AI-powered flashcard generator in Vue.js",
-        image: "/Portfolio/flashcard-generator.webp",
-        tech: [FaVuejs, IoIosGitNetwork],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     // {

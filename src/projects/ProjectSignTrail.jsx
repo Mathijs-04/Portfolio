@@ -3,6 +3,7 @@ import {FaDatabase, FaReact} from "react-icons/fa";
 import {SiTailwindcss} from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
+import {IoIosGitNetwork} from "react-icons/io";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
 
@@ -19,6 +20,7 @@ function ProjectSignTrail() {
                         <FaReact className="text-2xl text-blue-400"/>
                         <SiTailwindcss className="text-2xl text-blue-400"/>
                         <FaDatabase className="text-2xl text-blue-400"/>
+                        <IoIosGitNetwork className="text-2xl text-blue-400"/>
                         <ExcaliburIcon/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">An educational sign language game for students</p>
