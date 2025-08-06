@@ -1,6 +1,5 @@
-import React from "react";
 import {FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaNodeJs, FaLaravel, FaDatabase, FaGithub} from "react-icons/fa";
-import {SiExpress, SiTailwindcss, SiUnrealengine, SiMongodb, SiPostman} from "react-icons/si";
+import {SiExpress, SiTailwindcss, SiUnrealengine, SiMongodb, SiPostman, SiVuedotjs} from "react-icons/si";
 
 const skills = [
     {
@@ -28,6 +27,24 @@ const skills = [
         link: "https://www.php.net/"
     },
     {
+        name: "React",
+        icon: <FaReact className="text-blue-400"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        link: "https://react.dev/"
+    },
+    {
+        name: "Vue.js",
+        icon: <SiVuedotjs className="text-[#42b883]"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(66,184,131,0.6)] hover:border-[#42b883]",
+        link: "https://vuejs.org/"
+    },
+    {
+        name: "Tailwind",
+        icon: <SiTailwindcss className="text-teal-400"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(45,212,191,0.6)] hover:border-teal-400",
+        link: "https://tailwindcss.com/"
+    },
+    {
         name: "Laravel",
         icon: <FaLaravel className="text-red-500"/>,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(239,68,68,0.6)] hover:border-red-500",
@@ -38,24 +55,6 @@ const skills = [
         icon: <FaDatabase className="text-blue-600"/>,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(37,99,235,0.6)] hover:border-blue-600",
         link: "https://www.postgresql.org/"
-    },
-    {
-        name: "React",
-        icon: <FaReact className="text-blue-400"/>,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        link: "https://react.dev/"
-    },
-    {
-        name: "Tailwind",
-        icon: <SiTailwindcss className="text-teal-400"/>,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(45,212,191,0.6)] hover:border-teal-400",
-        link: "https://tailwindcss.com/"
-    },
-    {
-        name: "Excalibur.js",
-        icon: <img src="/Portfolio/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10"/>,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(250,204,21,0.6)] hover:border-yellow-400",
-        link: "https://excaliburjs.com/"
     },
     {
         name: "Node.js",
@@ -74,6 +73,12 @@ const skills = [
         icon: <SiExpress className="text-gray-400"/>,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(156,163,175,0.6)] hover:border-gray-400",
         link: "https://expressjs.com/"
+    },
+    {
+        name: "Excalibur.js",
+        icon: <img src="/Portfolio/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(250,204,21,0.6)] hover:border-yellow-400",
+        link: "https://excaliburjs.com/"
     },
     {
         name: "Unreal Engine 5",
@@ -102,7 +107,7 @@ const SkillsSection = () => {
                 <div className="max-w-6xl mx-auto px-6">
                     <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-lg">My Experience (So Far)</h1>
                     <div className="bg-slate-800 p-6 rounded-lg">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
                             {skills.map((skill, index) => (
                                 <a
                                     key={index}
