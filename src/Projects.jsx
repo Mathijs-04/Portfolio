@@ -147,8 +147,8 @@ const projects = [
     {
         name: "Flashcard Generator",
         slug: "flashcard-generator",
-        description: "Placeholder",
-        image: "/Portfolio/exp-corp.webp",
+        description: "An AI-powered flashcard generator in Vue.js",
+        image: "/Portfolio/flashcard-generator.webp",
         tech: [FaVuejs, IoIosGitNetwork],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
