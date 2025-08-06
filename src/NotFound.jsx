@@ -1,5 +1,3 @@
-import React from 'react';
-
 function NotFound() {
     return (
         <div className="gradient-background min-h-screen flex items-center justify-center">

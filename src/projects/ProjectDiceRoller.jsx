@@ -1,4 +1,3 @@
-import React from 'react';
 import { SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 

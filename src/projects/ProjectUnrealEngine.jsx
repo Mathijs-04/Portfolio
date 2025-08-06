@@ -1,4 +1,3 @@
-import React from 'react';
 import { SiUnrealengine } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 

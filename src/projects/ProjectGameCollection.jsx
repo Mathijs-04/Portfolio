@@ -1,4 +1,3 @@
-import React from 'react';
 import {FaReact, FaNodeJs} from "react-icons/fa";
 import {SiMongodb, SiExpress, SiTailwindcss} from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";

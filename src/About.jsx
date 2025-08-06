@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import {FaLinkedin, FaGithub} from "react-icons/fa";
 import {RiSpeedLine} from "react-icons/ri";
 import Typewriter from "typewriter-effect";

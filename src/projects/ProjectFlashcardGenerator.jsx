@@ -1,4 +1,3 @@
-import React from 'react';
 import CarouselComponent from "../ProjectCarousel.jsx";
 import {FaVuejs} from "react-icons/fa";
 import {IoIosGitNetwork} from "react-icons/io";

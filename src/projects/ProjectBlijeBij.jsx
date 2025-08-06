@@ -1,4 +1,3 @@
-import React from 'react';
 import {FaReact} from "react-icons/fa";
 import CarouselComponent from "../ProjectCarousel.jsx";
 import {SiExpress} from "react-icons/si";
