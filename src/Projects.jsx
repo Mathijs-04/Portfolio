@@ -1,5 +1,11 @@
 import React from 'react';
-import {FaReact, FaNodeJs, FaLaravel, FaDatabase} from "react-icons/fa";
+import {
+    FaReact,
+    FaNodeJs,
+    FaLaravel,
+    FaDatabase,
+    FaVuejs
+} from "react-icons/fa";
 import {
     SiMongodb,
     SiTailwindcss,
@@ -11,9 +17,9 @@ import {
     SiOpenai
 } from "react-icons/si";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
-import { FaQuestionCircle } from "react-icons/fa";
 import {useNavigate} from "react-router";
 import {IoIosGitNetwork} from "react-icons/io";
+import { FaQuestionCircle } from "react-icons/fa";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
 
@@ -139,13 +145,21 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
-        name: "Coming Soon",
-        slug: "coming-soon",
-        description: "Projects I am currently working on",
-        image: "/Portfolio/soon.webp",
-        tech: [() => <FaQuestionCircle className="text-blue-500 text-2xl" />],
+        name: "Flashcard Generator",
+        slug: "flashcard-generator",
+        description: "Placeholder",
+        image: "/Portfolio/exp-corp.webp",
+        tech: [FaVuejs, IoIosGitNetwork],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
+    // {
+    //     name: "Coming Soon",
+    //     slug: "coming-soon",
+    //     description: "Projects I am currently working on",
+    //     image: "/Portfolio/soon.webp",
+    //     tech: [() => <FaQuestionCircle className="text-blue-500 text-2xl" />],
+    //     hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    // },
 ];
 
 function Projects() {
