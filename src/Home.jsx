@@ -25,9 +25,9 @@ function Home() {
                                 .typeString("Digital Designer")
                                 .pauseFor(1500)
                                 .deleteChars(16)
-                                .typeString("Tech Enthusiast")
+                                .typeString("Tech Enthousiast")
                                 .pauseFor(1500)
-                                .deleteChars(15)
+                                .deleteChars(16)
                                 .start();
                         }}
                     />
