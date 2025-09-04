@@ -3,4 +3,4 @@
 
 ### Some upcoming features:
 - Newly added projects
-- Hosting on an actual dedicated server, not GitHub Pages
+- Hosting on an dedicated server, not GitHub Pages
