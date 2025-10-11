@@ -1,5 +1,25 @@
-import {FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaNodeJs, FaLaravel, FaDatabase, FaGithub} from "react-icons/fa";
-import {SiExpress, SiTailwindcss, SiUnrealengine, SiMongodb, SiPostman, SiVuedotjs} from "react-icons/si";
+import {
+    FaHtml5,
+    FaCss3Alt,
+    FaJs,
+    FaPhp,
+    FaReact,
+    FaNodeJs,
+    FaLaravel,
+    FaDatabase,
+    FaGithub,
+    FaPython, FaDocker
+} from "react-icons/fa";
+import {
+    SiExpress,
+    SiTailwindcss,
+    SiUnrealengine,
+    SiMongodb,
+    SiPostman,
+    SiVuedotjs,
+    SiFastapi,
+    SiJenkins
+} from "react-icons/si";
 
 const skills = [
     {
@@ -75,10 +95,16 @@ const skills = [
         link: "https://expressjs.com/"
     },
     {
-        name: "Excalibur.js",
-        icon: <img src="/Portfolio/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10"/>,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(250,204,21,0.6)] hover:border-yellow-400",
-        link: "https://excaliburjs.com/"
+        name: "Python",
+        icon: <FaPython className="text-[#3776AB]"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(55,118,171,0.6)] hover:border-[#3776AB]",
+        link: "https://www.python.org/"
+    },
+    {
+        name: "FastAPI",
+        icon: <SiFastapi className="text-[#009688]"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(0,150,136,0.6)] hover:border-[#009688]",
+        link: "https://fastapi.tiangolo.com/"
     },
     {
         name: "Unreal Engine 5",
@@ -93,10 +119,28 @@ const skills = [
         link: "https://github.com/"
     },
     {
+        name: "Docker",
+        icon: <FaDocker className="text-[#2496ED]"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(36,150,237,0.6)] hover:border-[#2496ED]",
+        link: "https://www.docker.com/"
+    },
+    {
+        name: "Excalibur.js",
+        icon: <img src="/Portfolio/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(250,204,21,0.6)] hover:border-yellow-400",
+        link: "https://excaliburjs.com/"
+    },
+    {
         name: "Postman",
         icon: <SiPostman className="text-orange-500"/>,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(249,115,22,0.6)] hover:border-orange-500",
         link: "https://www.postman.com/"
+    },
+    {
+        name: "Jenkins",
+        icon: <SiJenkins className="text-[#D24939]"/>,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(210,73,57,0.6)] hover:border-[#D24939]",
+        link: "https://www.jenkins.io/"
     },
 ];
 
