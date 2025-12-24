@@ -149,7 +149,7 @@ const SkillsSection = () => {
         <div className="gradient-background min-h-screen">
             <section className="text-white py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-lg">My Experience</h1>
+                    <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-lg">Experience</h1>
                     <div className="bg-slate-800 p-6 rounded-lg">
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
                             {skills.map((skill, index) => (
@@ -157,7 +157,7 @@ const SkillsSection = () => {
                                     key={index}
                                     href={skill.link}
                                     target="_blank"
-                                    className={`bg-gray-900 border border-transparent rounded-xl p-4 flex flex-col items-center shadow-md transition-all duration-300 ${skill.hoverClass}`}
+                                    className={`bg-gray-900 border border-transparent rounded-xl p-4 flex flex-col items-center shadow-md transition-all duration-300 hover:bg-gray-800 ${skill.hoverClass}`}
                                 >
                                     <div className="text-4xl">{skill.icon}</div>
                                     <p className="mt-2 text-sm font-body">{skill.name}</p>

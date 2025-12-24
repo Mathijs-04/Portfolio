@@ -1,14 +1,25 @@
 import {FaReact} from "react-icons/fa";
+import { useNavigate } from "react-router";
 import CarouselComponent from "../ProjectCarousel.jsx";
 import {SiExpress} from "react-icons/si";
 
 function ProjectBlijeBij() {
+    const navigate = useNavigate();
     const carouselImages = ['/Portfolio/tuin.webp', '/Portfolio/tuin-2.webp', '/Portfolio/tuin-3.webp', '/Portfolio/tuin-4.webp' , '/Portfolio/tuin-5.webp', '/Portfolio/tuin-6.webp', '/Portfolio/tuin-7.webp'];
 
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
-                <h1 className="text-4xl font-panchang font-bold text-white mb-6">De Blije Bij</h1>
+                <div className="flex items-center gap-4 mb-6">
+                    <button
+                        onClick={() => navigate('/projects')}
+                        className="text-4xl font-panchang font-bold text-white hover:opacity-75 transition-opacity cursor-pointer"
+                        title="Back to Projects"
+                    >
+                        ‹
+                    </button>
+                    <h1 className="text-4xl font-panchang font-bold text-white">De Blije Bij</h1>
+                </div>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
                     <CarouselComponent images={carouselImages}/>
                     <div className="flex space-x-3 mb-4">

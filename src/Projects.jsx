@@ -202,7 +202,7 @@ function Projects() {
                         {projects.map((project, index) => (
                             <div
                                 key={index}
-                                className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer last:md:col-span-2 last:md:justify-self-center last:md:w-1/2 ${project.hoverClass}`}
+                                className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer select-none last:md:col-span-2 last:md:justify-self-center last:md:w-1/2 hover:bg-gray-800 hover:scale-[1.01] ${project.hoverClass}`}
                                 onClick={() => {
                                     window.scrollTo(0, 0);
                                     navigate(`/projects/${project.slug}`);
