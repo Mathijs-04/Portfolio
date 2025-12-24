@@ -149,7 +149,7 @@ const SkillsSection = () => {
         <div className="gradient-background min-h-screen">
             <section className="text-white py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-lg">My Experience (So Far)</h1>
+                    <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-lg">My Experience</h1>
                     <div className="bg-slate-800 p-6 rounded-lg">
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
                             {skills.map((skill, index) => (
@@ -165,8 +165,7 @@ const SkillsSection = () => {
                             ))}
                         </div>
                         <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 text-justify">
-                            These logos represent the <strong className="text-[#60A5FA] font-semibold">languages,
-                            frameworks, and tools</strong> I often work with during my projects. I am always eager to explore
+                            These images represent the <strong className="text-[#60A5FA] font-semibold">languages</strong>, <strong className="text-[#60A5FA] font-semibold">frameworks</strong>, and <strong className="text-[#60A5FA] font-semibold">tools</strong> I often work with during my projects. I am always eager to explore
                             new technologies and <strong className="text-[#60A5FA] font-semibold">expand my skill
                             set</strong>, so I look forward to <strong className="text-[#60A5FA] font-semibold">growing
                             this toolkit</strong> in the years to come.

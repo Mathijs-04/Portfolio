@@ -19,15 +19,15 @@ function Home() {
                                 .typeString("Full Stack Web Developer")
                                 .pauseFor(1500)
                                 .deleteChars(24)
+                                .typeString("AI-Engineer")
+                                .pauseFor(1500)
+                                .deleteChars(11)
                                 .typeString("Game Developer")
                                 .pauseFor(1500)
                                 .deleteChars(14)
-                                .typeString("Digital Designer")
+                                .typeString("Designer")
                                 .pauseFor(1500)
-                                .deleteChars(16)
-                                .typeString("Tech Enthousiast")
-                                .pauseFor(1500)
-                                .deleteChars(16)
+                                .deleteChars(8)
                                 .start();
                         }}
                     />
