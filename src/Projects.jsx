@@ -13,7 +13,12 @@ import {
     SiExpress,
     SiHtml5,
     SiCss3,
-    SiOpenai
+    SiOpenai,
+    SiPython,
+    SiFastapi,
+    SiDocker,
+    SiJenkins,
+    SiPhp
 } from "react-icons/si";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import {useNavigate} from "react-router";
@@ -156,23 +161,23 @@ const projects = [
         slug: "ai-travel-planner",
         description: "An AI-powered travel planning application",
         image: "/Portfolio/ai-travel-planner.webp",
-        tech: [FaReact, SiTailwindcss, SiOpenai],
+        tech: [FaVuejs, SiOpenai, SiPython, SiFastapi, FaDatabase, SiDocker],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
         name: "Pimcore Converter",
         slug: "pimcore-converter",
-        description: "A data conversion tool for Pimcore CMS",
+        description: "A tool to import Exceldata into Pimcore",
         image: "/Portfolio/pimcore-converter.webp",
-        tech: [FaLaravel, FaDatabase, SiTailwindcss],
+        tech: [FaVuejs, SiPhp, SiPython, SiFastapi, SiOpenai, SiDocker],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
         name: "Hosting Recommender",
         slug: "hosting-recommender",
-        description: "A smart web hosting recommendation engine",
+        description: "A company website which recommends hosting packages",
         image: "/Portfolio/hosting-recommender.webp",
-        tech: [FaReact, FaNodeJs, SiMongodb, SiTailwindcss],
+        tech: [FaVuejs, SiPython, SiOpenai, SiDocker],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     // {

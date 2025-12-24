@@ -1,5 +1,5 @@
-import { FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiOpenai } from "react-icons/si";
+import { FaVuejs, FaDatabase } from "react-icons/fa";
+import { SiOpenai, SiPython, SiFastapi, SiDocker } from "react-icons/si";
 import CarouselComponent from "../ProjectCarousel.jsx";
 
 function ProjectAITravelPlanner() {
@@ -12,9 +12,12 @@ function ProjectAITravelPlanner() {
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
                     <CarouselComponent images={carouselImages}/>
                     <div className="flex space-x-3 mb-4">
-                        <FaReact className="text-2xl text-blue-400"/>
-                        <SiTailwindcss className="text-2xl text-blue-400"/>
+                        <FaVuejs className="text-2xl text-blue-400"/>
                         <SiOpenai className="text-2xl text-blue-400"/>
+                        <SiPython className="text-2xl text-blue-400"/>
+                        <SiFastapi className="text-2xl text-blue-400"/>
+                        <FaDatabase className="text-2xl text-blue-400"/>
+                        <SiDocker className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">An AI-powered travel planning application</p>
                     <p className="text-justify font-body mb-4"><strong className='text-[#60A5FA] font-semibold'>AI Travel Planner</strong> is a web application that uses artificial intelligence to help users plan their perfect trip. Whether you're looking for destination recommendations, itinerary creation, or travel tips, our AI assistant has you covered. Built with <strong className='text-[#60A5FA] font-semibold'>React</strong>, <strong className='text-[#60A5FA] font-semibold'>Tailwind CSS</strong>, and powered by <strong className='text-[#60A5FA] font-semibold'>OpenAI</strong>, this application provides personalized travel planning based on your preferences, budget, and interests. The intuitive interface makes it easy to explore destinations and create custom travel itineraries.</p>
