@@ -161,7 +161,7 @@ const projects = [
         slug: "ai-travel-planner",
         description: "An AI-powered travel planning application",
         image: "/Portfolio/ai-travel-planner.webp",
-        tech: [FaVuejs, SiOpenai, SiPython, SiFastapi, FaDatabase, SiDocker],
+        tech: [FaVuejs, SiPython, SiFastapi, FaDatabase, SiOpenai, SiDocker],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
@@ -169,7 +169,7 @@ const projects = [
         slug: "pimcore-converter",
         description: "A tool to import Exceldata into Pimcore",
         image: "/Portfolio/pimcore-converter.webp",
-        tech: [FaVuejs, SiPhp, SiPython, SiFastapi, SiOpenai, SiDocker],
+        tech: [FaVuejs, SiPython, SiFastapi, SiPhp, SiOpenai, SiDocker],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {

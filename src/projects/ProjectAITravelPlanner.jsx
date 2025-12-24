@@ -13,18 +13,16 @@ function ProjectAITravelPlanner() {
                     <CarouselComponent images={carouselImages}/>
                     <div className="flex space-x-3 mb-4">
                         <FaVuejs className="text-2xl text-blue-400"/>
-                        <SiOpenai className="text-2xl text-blue-400"/>
                         <SiPython className="text-2xl text-blue-400"/>
                         <SiFastapi className="text-2xl text-blue-400"/>
                         <FaDatabase className="text-2xl text-blue-400"/>
+                        <SiOpenai className="text-2xl text-blue-400"/>
                         <SiDocker className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">An AI-powered travel planning application</p>
-                    <p className="text-justify font-body mb-4"><strong className='text-[#60A5FA] font-semibold'>AI Travel Planner</strong> is a web application that uses artificial intelligence to help users plan their perfect trip. Whether you're looking for destination recommendations, itinerary creation, or travel tips, our AI assistant has you covered. Built with <strong className='text-[#60A5FA] font-semibold'>React</strong>, <strong className='text-[#60A5FA] font-semibold'>Tailwind CSS</strong>, and powered by <strong className='text-[#60A5FA] font-semibold'>OpenAI</strong>, this application provides personalized travel planning based on your preferences, budget, and interests. The intuitive interface makes it easy to explore destinations and create custom travel itineraries.</p>
-                    <a href="https://github.com" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
-                    <br/>
-                    <div className='mt-4'></div>
-                    <a href="#" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the Application</a>
+                    <p className="text-justify font-body mb-4">
+                        This <span className="text-blue-400 font-bold">AI Travel Planner</span> tool makes personalised travel plans to <span className="text-blue-400 font-bold">Kenya</span>. The user gets asked a few questions about preferences, budget, transport, accommodation and duration of the trip. These answers get stored and are used to collect the correct data from the <span className="text-blue-400 font-bold">Qdrant Vector Database</span>. These are integrated in the comprehensive system prompt, which includes all kinds of rules to make a correct travel plan. This vast prompt is sent to a model from <span className="text-blue-400 font-bold">OpenAI</span>, which generates a travel plan based on the specifications. This plan is returned to the <span className="text-blue-400 font-bold">Front-End</span>, where it is shown to the user. Here the user can interact with the plan, make small changes like changing accommodation and send it to their mail as confirmation. The <span className="text-blue-400 font-bold">Front-End</span> uses <span className="text-blue-400 font-bold">Vue.js</span>, while the <span className="text-blue-400 font-bold">Back-End</span> consists of <span className="text-blue-400 font-bold">Python</span>, <span className="text-blue-400 font-bold">FastAPI</span>, a <span className="text-blue-400 font-bold">Qdrant Vector Database</span> and calls to <span className="text-blue-400 font-bold">OpenAI</span>. This was one of the most comprehensive and challenging projects I have worked on so far!
+                    </p>
                 </div>
             </div>
         </div>

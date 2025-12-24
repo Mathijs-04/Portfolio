@@ -18,11 +18,9 @@ function ProjectHostingRecommender() {
                         <SiDocker className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">A company website which recommends hosting packages</p>
-                    <p className="text-justify font-body mb-4"><strong className='text-[#60A5FA] font-semibold'>Hosting Recommender</strong> is an intelligent full-stack application that helps users find the perfect hosting solution for their specific needs. Using a sophisticated matching algorithm, the application analyzes user requirements and provides personalized hosting recommendations from a comprehensive database of providers. Built with <strong className='text-[#60A5FA] font-semibold'>React</strong> on the frontend and <strong className='text-[#60A5FA] font-semibold'>Node.js</strong> with <strong className='text-[#60A5FA] font-semibold'>MongoDB</strong> on the backend, this MERN-stack application offers real-time filtering, comparisons, and detailed provider information. The intuitive interface allows users to easily specify their requirements and receive curated recommendations based on performance, price, and features.</p>
-                    <a href="https://github.com" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
-                    <br/>
-                    <div className='mt-4'></div>
-                    <a href="#" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the Application</a>
+                    <p className="text-justify font-body mb-4">
+                        <span className="text-blue-400 font-bold">Hosting Recommender</span> is an internal company tool. This tool helps <span className="text-blue-400 font-bold">employees</span> find the right hosting package for customers, based on a few simple questions. Based on the answers on these questions, the correct package is recommended, along with pricing and technical specifications. This tool was built in a single day as an experiment, but is now being used throughout the entire company. The <span className="text-blue-400 font-bold">Front-End</span> was built using <span className="text-blue-400 font-bold">Vue.js</span>, the <span className="text-blue-400 font-bold">Back-End</span> uses <span className="text-blue-400 font-bold">Python</span>. If users do not understand a question or have additional questions, they can ask the <span className="text-blue-400 font-bold">chatbot</span> for help. This chatbot is powered using a model from <span className="text-blue-400 font-bold">OpenAI</span>.
+                    </p>
                 </div>
             </div>
         </div>

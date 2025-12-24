@@ -13,18 +13,16 @@ function ProjectPimoreConverter() {
                     <CarouselComponent images={carouselImages}/>
                     <div className="flex space-x-3 mb-4">
                         <FaVuejs className="text-2xl text-blue-400"/>
-                        <SiPhp className="text-2xl text-blue-400"/>
                         <SiPython className="text-2xl text-blue-400"/>
                         <SiFastapi className="text-2xl text-blue-400"/>
+                        <SiPhp className="text-2xl text-blue-400"/>
                         <SiOpenai className="text-2xl text-blue-400"/>
                         <SiDocker className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">A tool to import Exceldata into Pimcore</p>
-                    <p className="text-justify font-body mb-4"><strong className='text-[#60A5FA] font-semibold'>Pimcore Converter</strong> is a robust tool designed to streamline data conversion and migration tasks within the <strong className='text-[#60A5FA] font-semibold'>Pimcore</strong> content management system. This application simplifies the process of converting and transforming data formats, making it easier for content managers and developers to work with complex data structures. Built with <strong className='text-[#60A5FA] font-semibold'>Laravel</strong> and featuring a clean <strong className='text-[#60A5FA] font-semibold'>Tailwind CSS</strong> interface, this tool provides a user-friendly way to handle data conversions with support for multiple data formats and sources. The application includes validation, error handling, and detailed logging for all conversion operations.</p>
-                    <a href="https://github.com" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
-                    <br/>
-                    <div className='mt-4'></div>
-                    <a href="#" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the Application</a>
+                    <p className="text-justify font-body mb-4">
+                        <span className="text-blue-400 font-bold">Pimcore Converter</span> is tool made for e-commerce teams using <span className="text-blue-400 font-bold">Pimcore</span>. Pimcore is used to store large quantities of product data. Many companies still store this data in large <span className="text-blue-400 font-bold">Excelsheets</span>. Converting these into Pimcore manually is a huge task, which is why I built this tool. You can enter your <span className="text-blue-400 font-bold">Pimcore credentials</span> in this tool and upload your Exceldata, either by uploading the file or providing a <span className="text-blue-400 font-bold">Google Drive Link</span>. The Converter uses <span className="text-blue-400 font-bold">AI</span> to sample the product data and make sure the correct folders, classes and items are created in Pimcore. Since it processes in batches, there is no limit to the size of the data you can convert. The <span className="text-blue-400 font-bold">Front-End</span> was built using <span className="text-blue-400 font-bold">Vue.js</span>, the <span className="text-blue-400 font-bold">Back-End</span> uses <span className="text-blue-400 font-bold">Python</span>, <span className="text-blue-400 font-bold">FastAPI</span>, <span className="text-blue-400 font-bold">Symfony PHP</span> and a model from <span className="text-blue-400 font-bold">OpenAI</span>. This tool works together with a small <span className="text-blue-400 font-bold">Pimcore Bundle</span>, which handles our request within your Pimcore Environment.
+                    </p>
                 </div>
             </div>
         </div>
