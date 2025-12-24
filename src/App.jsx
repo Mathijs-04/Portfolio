@@ -23,6 +23,9 @@ import ProjectBlijeBij from "./projects/ProjectBlijeBij.jsx";
 import NotFound from "./NotFound.jsx";
 import ProjectComingSoon from "./projects/ProjectComingSoon.jsx";
 import ProjectFlashcardGenerator from "./projects/ProjectFlashcardGenerator.jsx";
+import ProjectAITravelPlanner from "./projects/ProjectAITravelPlanner.jsx";
+import ProjectPimoreConverter from "./projects/ProjectPimoreConverter.jsx";
+import ProjectHostingRecommender from "./projects/ProjectHostingRecommender.jsx";
 
 const router = createBrowserRouter(
     [
@@ -50,6 +53,9 @@ const router = createBrowserRouter(
                 {path: "/projects/blije-bij", element: <ProjectBlijeBij/>},
                 {path: "/projects/flashcard-generator", element: <ProjectFlashcardGenerator/>},
                 {path: "/projects/coming-soon", element: <ProjectComingSoon/>},
+                {path: "/projects/ai-travel-planner", element: <ProjectAITravelPlanner/>},
+                {path: "/projects/pimcore-converter", element: <ProjectPimoreConverter/>},
+                {path: "/projects/hosting-recommender", element: <ProjectHostingRecommender/>},
                 {path: "*", element: <NotFound/>}
             ],
         },

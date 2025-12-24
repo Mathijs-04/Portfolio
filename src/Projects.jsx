@@ -151,6 +151,30 @@ const projects = [
         tech: [FaReact, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
+    {
+        name: "AI Travel Planner",
+        slug: "ai-travel-planner",
+        description: "An AI-powered travel planning application",
+        image: "/Portfolio/ai-travel-planner.webp",
+        tech: [FaReact, SiTailwindcss, SiOpenai],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "Pimcore Converter",
+        slug: "pimcore-converter",
+        description: "A data conversion tool for Pimcore CMS",
+        image: "/Portfolio/pimcore-converter.webp",
+        tech: [FaLaravel, FaDatabase, SiTailwindcss],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "Hosting Recommender",
+        slug: "hosting-recommender",
+        description: "A smart web hosting recommendation engine",
+        image: "/Portfolio/hosting-recommender.webp",
+        tech: [FaReact, FaNodeJs, SiMongodb, SiTailwindcss],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
     // {
     //     name: "Coming Soon",
     //     slug: "coming-soon",
