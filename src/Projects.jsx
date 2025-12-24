@@ -13,7 +13,12 @@ import {
     SiExpress,
     SiHtml5,
     SiCss3,
-    SiOpenai
+    SiOpenai,
+    SiPython,
+    SiFastapi,
+    SiDocker,
+    SiJenkins,
+    SiPhp
 } from "react-icons/si";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import {useNavigate} from "react-router";
@@ -40,6 +45,22 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "Hosting Recommender",
+        slug: "hosting-recommender",
+        description: "A company website which recommends hosting packages",
+        image: "/Portfolio/hosting-recommender.webp",
+        tech: [FaVuejs, SiPython, SiOpenai, SiDocker],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "Pimcore Converter",
+        slug: "pimcore-converter",
+        description: "A tool to import Exceldata into Pimcore",
+        image: "/Portfolio/pimcore-converter.webp",
+        tech: [FaVuejs, SiPython, SiFastapi, SiPhp, SiOpenai, SiDocker],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "Full-Stack Game Collection",
         slug: "game-collection",
         description: "A MERN-stack collection with a dedicated Front- and Back-End",
@@ -56,35 +77,11 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
-        name: "SignTrail",
-        slug: "sign-trail",
-        description: "An educational sign language game for students",
-        image: "/Portfolio/sign-trail-3.webp",
-        tech: [FaReact, SiTailwindcss, FaDatabase, IoIosGitNetwork, ExcaliburIcon],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    },
-    {
-        name: "Dungeon Defender",
-        slug: "dungeon-defender",
-        description: "A web-based game built with Excalibur.js",
-        image: "/Portfolio/dungeon.webp",
-        tech: [ExcaliburIcon, SiJavascript],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    },
-    {
-        name: "D&D-GPT",
-        slug: "dnd-gpt",
-        description: "Your AI Dungeon Master",
-        image: "/Portfolio/dnd-gpt.webp",
-        tech: [FaReact, SiOpenai, SiExpress],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    },
-    {
-        name: "Year 1 Portfolio",
-        slug: "portfolio-y1",
-        description: "A collection of my first-year projects",
-        image: "/Portfolio/portfolio-y1.webp",
-        tech: [SiHtml5, SiCss3, SiJavascript],
+        name: "AI Travel Planner",
+        slug: "ai-travel-planner",
+        description: "An AI-powered travel planning application",
+        image: "/Portfolio/ai-travel-planner.webp",
+        tech: [FaVuejs, SiPython, SiFastapi, FaDatabase, SiOpenai, SiDocker],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
@@ -104,6 +101,30 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "SignTrail",
+        slug: "sign-trail",
+        description: "An educational sign language game for students",
+        image: "/Portfolio/sign-trail-3.webp",
+        tech: [FaReact, SiTailwindcss, FaDatabase, IoIosGitNetwork, ExcaliburIcon],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "Dungeon Defender",
+        slug: "dungeon-defender",
+        description: "A web-based game built with Excalibur.js",
+        image: "/Portfolio/dungeon.webp",
+        tech: [ExcaliburIcon, SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "Year 1 Portfolio",
+        slug: "portfolio-y1",
+        description: "A collection of my first-year projects",
+        image: "/Portfolio/portfolio-y1.webp",
+        tech: [SiHtml5, SiCss3, SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "WARHAMMER Dice Roller",
         slug: "dice-roller",
         description: "The online dice rolling tool for Wargaming enthusiasts",
@@ -112,19 +133,19 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "D&D-GPT",
+        slug: "dnd-gpt",
+        description: "Your AI Dungeon Master",
+        image: "/Portfolio/dnd-gpt.webp",
+        tech: [FaReact, SiOpenai, SiExpress],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "Unreal Engine 5",
         slug: "unreal-engine",
         description: "A 3D landscape built in Unreal Engine 5",
         image: "/Portfolio/unreal-engine.webp",
         tech: [SiUnrealengine],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    },
-    {
-        name: "Flashcard Generator",
-        slug: "flashcard-generator",
-        description: "An AI-powered flashcard generator in Vue.js",
-        image: "/Portfolio/flashcard-generator.webp",
-        tech: [FaVuejs, IoIosGitNetwork],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
@@ -141,6 +162,14 @@ const projects = [
         description: "A simple web-based RPG",
         image: "/Portfolio/gobbo-quest.webp",
         tech: [SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
+        name: "Flashcard Generator",
+        slug: "flashcard-generator",
+        description: "An AI-powered flashcard generator in Vue.js",
+        image: "/Portfolio/flashcard-generator.webp",
+        tech: [FaVuejs, IoIosGitNetwork],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
@@ -173,7 +202,7 @@ function Projects() {
                         {projects.map((project, index) => (
                             <div
                                 key={index}
-                                className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer ${project.hoverClass}`}
+                                className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer select-none last:md:col-span-2 last:md:justify-self-center last:md:w-1/2 hover:bg-gray-800 hover:scale-[1.01] ${project.hoverClass}`}
                                 onClick={() => {
                                     window.scrollTo(0, 0);
                                     navigate(`/projects/${project.slug}`);
@@ -192,12 +221,12 @@ function Projects() {
                     </div>
                     <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 font-body text-justify">
                         These are some of my <strong className="text-[#60A5FA] font-semibold">favorite
-                        projects</strong> that I’ve worked on over the past few years. Some of these are just <strong
+                        projects</strong> I’ve worked on so far. Some of these are <strong
                         className="text-[#60A5FA] font-semibold">hobby projects</strong>, while others were
-                        created for <strong className="text-[#60A5FA] font-semibold">actual clients</strong>. These
-                        projects do not only showcase my <strong className="text-[#60A5FA] font-semibold">current
-                        skillset</strong>, but also reflect some of my <strong className="text-[#60A5FA] font-semibold">personal
-                        interests</strong> and <strong className="text-[#60A5FA] font-semibold">hobbies</strong>.
+                        created for <strong className="text-[#60A5FA] font-semibold">school</strong> or <strong className="text-[#60A5FA] font-semibold">work</strong>. These
+                        projects showcase my <strong className="text-[#60A5FA] font-semibold">
+                        skillset</strong> and reflect many of my <strong className="text-[#60A5FA] font-semibold">personal
+                        interests</strong>!
                     </div>
                 </div>
             </div>

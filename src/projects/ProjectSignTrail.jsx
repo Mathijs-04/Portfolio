@@ -1,5 +1,6 @@
 import {FaDatabase, FaReact} from "react-icons/fa";
 import {SiTailwindcss} from "react-icons/si";
+import { useNavigate } from "react-router";
 import CarouselComponent from "../ProjectCarousel.jsx";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import {IoIosGitNetwork} from "react-icons/io";
@@ -7,12 +8,22 @@ import {IoIosGitNetwork} from "react-icons/io";
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
 
 function ProjectSignTrail() {
+    const navigate = useNavigate();
     const carouselImages = ['/Portfolio/sign-trail.webp', '/Portfolio/sign-trail-2.webp', '/Portfolio/sign-trail-3.webp', '/Portfolio/sign-trail-4.webp', '/Portfolio/sign-trail-5.webp', '/Portfolio/sign-trail-6.webp'];
 
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
-                <h1 className="text-4xl font-panchang font-bold text-white mb-6">SignTrail</h1>
+                <div className="flex items-center gap-4 mb-6">
+                    <button
+                        onClick={() => navigate('/projects')}
+                        className="text-4xl font-panchang font-bold text-white hover:opacity-75 transition-opacity cursor-pointer"
+                        title="Back to Projects"
+                    >
+                        ‹
+                    </button>
+                    <h1 className="text-4xl font-panchang font-bold text-white">SignTrail</h1>
+                </div>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
                     <CarouselComponent images={carouselImages}/>
                     <div className="flex space-x-3 mb-4">
