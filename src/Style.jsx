@@ -26,13 +26,13 @@ const StyleShowcase = () => {
                 ].map(({ label, colors, ring }) => (
                     <button
                         key={label}
-                        className={`relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group
+                        className={`relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group
                         bg-gradient-to-br from-[${colors[0]}] via-[${colors[1]}] to-[${colors[2]}]
                         group-hover:from-[${colors[0]}] group-hover:via-[${colors[1]}] group-hover:to-[${colors[2]}]
-                        hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-${ring}`}
+                        hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-${ring} btn-white-text`}
                     >
                         <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md
-                            group-hover:bg-transparent group-hover:dark:bg-transparent">
+                            group-hover:bg-transparent group-hover:dark:bg-transparent text-white">
                             {label}
                         </span>
                     </button>

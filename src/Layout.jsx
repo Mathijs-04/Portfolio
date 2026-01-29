@@ -20,7 +20,7 @@ function Layout() {
                         <NavLink to="/about" className={({ isActive }) => `text-sm ${isActive ? 'nav-link active' : 'nav-link'}`} onClick={() => setIsMenuOpen(false)}>About</NavLink>
                     </div>
                 </div>
-                <div className="max-md:hidden container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-white">
+                <div className="max-md:hidden container flex items-center justify-center p-6 mx-auto capitalize text-white">
                     <NavLink to="/" className={({ isActive }) => isActive ? "nav-link active mx-1.5 sm:mx-6" : "nav-link mx-1.5 sm:mx-6"}>Home</NavLink>
                     <NavLink to="/projects" className={({ isActive }) => isActive ? "nav-link active mx-1.5 sm:mx-6" : "nav-link mx-1.5 sm:mx-6"}>Projects</NavLink>
                     <NavLink to="/experience" className={({ isActive }) => isActive ? "nav-link active mx-1.5 sm:mx-6" : "nav-link mx-1.5 sm:mx-6"}>Experience</NavLink>
