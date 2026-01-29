@@ -30,10 +30,10 @@ function About() {
                 </div>
                 <div className="flex space-x-4 mt-4 max-md:flex-col max-md:space-x-0 max-md:gap-4">
                     <a href="https://github.com/Mathijs-04" target="_blank"
-                       className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 max-md:text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white dark:text-white max-md:w-full">
+                       className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white max-md:w-full btn-white-text">
                             <span
-                                className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full">
-                                <FaGithub className="mr-2 text-lg"/> GitHub
+                                className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full text-white">
+                                <FaGithub className="mr-2 text-lg text-white"/> GitHub
                             </span>
                         <div
                             className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] md:group-hover:duration-1000 md:group-hover:[transform:skew(-12deg)_translateX(100%)] max-md:hidden">
@@ -41,10 +41,10 @@ function About() {
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/mathijs-van-der-meijde-creative-developer/" target="_blank"
-                       className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 max-md:text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white dark:text-white max-md:w-full">
+                       className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white max-md:w-full btn-white-text">
                          <span
-                             className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full">
-                            <FaLinkedin className="mr-2 text-lg"/> LinkedIn
+                             className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full text-white">
+                            <FaLinkedin className="mr-2 text-lg text-white"/> LinkedIn
                          </span>
                         <div
                             className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] md:group-hover:duration-1000 md:group-hover:[transform:skew(-12deg)_translateX(100%)] max-md:hidden">
