@@ -180,6 +180,14 @@ const projects = [
         tech: [FaReact, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
+    {
+        name: "The Adventurers Armory",
+        slug: "adventurers-armory",
+        description: "Add your project description here",
+        image: "/Portfolio/armory-1.webp",
+        tech: [],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
     // {
     //     name: "Coming Soon",
     //     slug: "coming-soon",
