@@ -125,6 +125,14 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     {
+        name: "The Adventurers Armory",
+        slug: "adventurers-armory",
+        description: "A Fantasy Store Experience",
+        image: "/Portfolio/armory.webp",
+        tech: [FaVuejs],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
+    },
+    {
         name: "WARHAMMER Dice Roller",
         slug: "dice-roller",
         description: "The online dice rolling tool for Wargaming enthusiasts",
@@ -178,14 +186,6 @@ const projects = [
         description: "A fictional company website specialized in VR experiences",
         image: "/Portfolio/exp-corp.webp",
         tech: [FaReact, SiTailwindcss, FaDatabase],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
-    },
-    {
-        name: "The Adventurers Armory",
-        slug: "adventurers-armory",
-        description: "A Fantasy Store Experience",
-        image: "/Portfolio/armory.webp",
-        tech: [FaVuejs],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     // {
