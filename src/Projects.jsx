@@ -183,9 +183,9 @@ const projects = [
     {
         name: "The Adventurers Armory",
         slug: "adventurers-armory",
-        description: "Add your project description here",
-        image: "/Portfolio/armory-1.webp",
-        tech: [],
+        description: "A Fantasy Store Experience",
+        image: "/Portfolio/armory.webp",
+        tech: [FaVuejs],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400"
     },
     // {
