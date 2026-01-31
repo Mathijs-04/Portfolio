@@ -207,10 +207,15 @@ function Projects() {
                 <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-2xl">Projects</h1>
                 <div className="bg-slate-800 p-6 rounded-lg">
                     <div className="grid md:grid-cols-2 gap-6">
-                        {projects.map((project, index) => (
+                        {projects.map((project, index) => {
+                            const isOddTotal = projects.length % 2 === 1;
+                            const isLastItem = index === projects.length - 1;
+                            const shouldCenter = isOddTotal && isLastItem;
+                            
+                            return (
                             <div
                                 key={index}
-                                className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer select-none last:md:col-span-2 last:md:justify-self-center last:md:w-1/2 hover:bg-gray-800 hover:scale-[1.01] ${project.hoverClass}`}
+                                className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer select-none hover:bg-gray-800 hover:scale-[1.01] ${shouldCenter ? 'md:col-span-2 md:justify-self-center md:w-1/2' : ''} ${project.hoverClass}`}
                                 onClick={() => {
                                     window.scrollTo(0, 0);
                                     navigate(`/projects/${project.slug}`);
@@ -225,7 +230,8 @@ function Projects() {
                                     ))}
                                 </div>
                             </div>
-                        ))}
+                            );
+                        })}
                     </div>
                     <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 font-body text-justify">
                         These are some of my <strong className="text-[#60A5FA] font-semibold">favorite

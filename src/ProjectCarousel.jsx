@@ -5,6 +5,7 @@ const CarouselComponent = ({ images }) => {
     return (
         <Carousel
             className="rounded-xl mb-6"
+            loop={true}
             prevArrow={({ handlePrev }) => (
                 <IconButton
                     variant="text"
