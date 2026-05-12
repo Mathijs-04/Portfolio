@@ -19,7 +19,6 @@ import {
     SiPython,
     SiFastapi,
     SiDocker,
-    SiJenkins,
     SiPhp
 } from "react-icons/si";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
@@ -43,6 +42,7 @@ const projects = [
 { name: "Dungeon Defender", slug: "dungeon-defender", description: "A web-based game built with Excalibur.js", image: "/Portfolio/dungeon.webp", tech: [ExcaliburIcon, SiJavascript], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 4 }, 
 { name: "Year 1 Portfolio", slug: "portfolio-y1", description: "A collection of my first-year projects", image: "/Portfolio/portfolio-y1.webp", tech: [SiHtml5, SiCss3, SiJavascript], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 3 }, 
 { name: "The Adventurers Armory", slug: "adventurers-armory", description: "A Fantasy Store Experience", image: "/Portfolio/armory.webp", tech: [FaVuejs], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 18 }, 
+{ name: "Warhammer Rule Assistant", slug: "warhammer-rule-assistant", description: "Placeholder description for the Warhammer Rule Assistant project", image: "/Portfolio/warhammer-rule-assistant.webp", tech: [FaQuestionCircle], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 19 }, 
 { name: "WARHAMMER Dice Roller", slug: "dice-roller", description: "The online dice rolling tool for Wargaming enthusiasts", image: "/Portfolio/dice-roller.webp", tech: [SiHtml5, SiCss3, SiJavascript], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 1 }, 
 { name: "D&D-GPT", slug: "dnd-gpt", description: "Your AI Dungeon Master", image: "/Portfolio/dnd-gpt.webp", tech: [FaReact, SiOpenai, SiExpress], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 10 }, 
 { name: "Unreal Engine 5", slug: "unreal-engine", description: "A 3D landscape built in Unreal Engine 5", image: "/Portfolio/unreal-engine.webp", tech: [SiUnrealengine], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 5 }, 
