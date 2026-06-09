@@ -45,6 +45,9 @@ function ProjectWarhammerRuleAssistant() {
                         The application also features a <span className="text-blue-400 font-bold">PDF viewer</span> with official rulebooks, which are connected to answers through highlighted keywords. When a user clicks one of these keywords, they are sent to the correct rulebook and page where that rule is mentioned. Besides answering rules questions, this tool also helps players build <span className="text-blue-400 font-bold">ready-to-use armies</span>. The <span className="text-blue-400 font-bold">Front-End</span> was built with <span className="text-blue-400 font-bold">Vue</span> and <span className="text-blue-400 font-bold">Tailwind</span>, while the <span className="text-blue-400 font-bold">Python Back-End</span> uses <span className="text-blue-400 font-bold">FastAPI</span> to manage calls to <span className="text-blue-400 font-bold">OpenAI</span> and retrieve vector data. This project has been one of the most challenging, but also one of the most fun, projects I have worked on so far. It is still a work in progress, so expect new updates in the future!
                     </p>
                     <a href="https://github.com/Mathijs-04/PLE-MVP" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
+                    <br/>
+                    <br/>
+                    <a href="https://mathijs-04.github.io/PLE-Onepager/" className='text-lg font-body font-bold underline text-blue-400' target="_blank">Link to Promo Onepager</a>
                 </div>
             </div>
         </div>
