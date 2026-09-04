@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-gray-900 text-white py-4 md:py-6 px-4 md:px-8 font-body font-semibold gradient-underline-footer">
             <div className="flex flex-col md:flex-row justify-between items-center max-md:space-y-4">
                 <span className="text-xs md:text-base text-center md:text-left">Designed & developed by{" "}
-                    <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="footer-name-link text-[#60A5FA]">Mathijs van der Meijde</a>
+                    <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="link-underline text-[#60A5FA]">Mathijs van der Meijde</a>
                 </span>
                 <ul className="flex space-x-4 md:space-x-6 text-white">
                     <li>

@@ -191,9 +191,9 @@ const SkillsSection = () => {
                             ))}
                         </motion.div>
                         <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 text-justify">
-                            These logos represent the <strong className="text-[#60A5FA] font-semibold">languages</strong>, <strong className="text-[#60A5FA] font-semibold">frameworks</strong>, and <strong className="text-[#60A5FA] font-semibold">tools</strong> I often work with during my projects. I am always eager to explore
-                            new technologies and <strong className="text-[#60A5FA] font-semibold">expand my skill
-                            set</strong>, so I look forward to <strong className="text-[#60A5FA] font-semibold">growing
+                            These logos represent the <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">languages</strong>, <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">frameworks</strong>, and <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">tools</strong> I often work with during my projects. I am always eager to explore
+                            new technologies and <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">expand my skill
+                            set</strong>, so I look forward to <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">growing
                             this toolkit</strong> in the years to come.
                         </div>
                     </div>

@@ -13,7 +13,7 @@ function ProjectComingSoon() {
                     <div className="flex space-x-3 mb-4">
                         <FaQuestionCircle className="text-blue-500 text-2xl" />
                     </div>
-                    <p className="text-lg text-justify mb-4 font-body font-bold">Projects I am currently working on</p>
+                    <p className="text-xl text-justify mb-4 font-body font-extrabold">Projects I am currently working on</p>
                     <p className="text-justify font-body mb-4">
                         I am currently working on some projects which are not yet finished. These projects will be added to my portfolio soon, so keep an eye out for the latest updates!
                     </p>

@@ -156,12 +156,12 @@ function Projects() {
                         })}
                     </div>
                     <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 font-body text-justify">
-                        These are some of my <strong className="text-[#60A5FA] font-semibold">favorite
+                        These are some of my <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">favorite
                         projects</strong> I’ve worked on so far. Some of these are <strong
-                        className="text-[#60A5FA] font-semibold">hobby projects</strong>, while others were
-                        created for <strong className="text-[#60A5FA] font-semibold">school</strong> or <strong className="text-[#60A5FA] font-semibold">work</strong>. These
-                        projects showcase my <strong className="text-[#60A5FA] font-semibold">
-                        skillset</strong> and reflect many of my <strong className="text-[#60A5FA] font-semibold">personal
+                        className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">hobby projects</strong>, while others were
+                        created for <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">school</strong> or <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">work</strong>. These
+                        projects showcase my <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">
+                        skillset</strong> and reflect many of my <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">personal
                         interests</strong>!
                     </div>
                 </div>
