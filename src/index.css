@@ -100,8 +100,9 @@ body {
     color: white !important;
 }
 
-.nav-link:hover::after,
-.nav-link.active::after {
+/* The underline lives at all times, scaled to nothing from its own centre,
+   so hover/active expand it outward from the middle instead of it just appearing. */
+.nav-link::after {
     content: '';
     position: absolute;
     left: 0;
@@ -109,6 +110,14 @@ body {
     width: 100%;
     height: 2px;
     background: #60A5FA;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    transform: scaleX(1);
 }
 
 .gradient-underline-nav {
@@ -123,6 +132,29 @@ body {
     width: 100%;
     height: 1px;
     background: #60A5FA;
+}
+
+/* Same expand-from-centre underline as .nav-link, but keeps its blue text colour. */
+.footer-name-link {
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.footer-name-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #60A5FA;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.footer-name-link:hover::after {
+    transform: scaleX(1);
 }
 
 .gradient-underline-footer {

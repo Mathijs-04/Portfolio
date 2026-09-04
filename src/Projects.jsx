@@ -24,6 +24,8 @@ import {
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import {useNavigate} from "react-router";
 import {IoIosGitNetwork} from "react-icons/io";
+import ProjectCard from "./components/ProjectCard.jsx";
+import Reveal from "./components/Reveal.jsx";
 
 const ExcaliburIcon = () => <img src={ExcaliburLogo} alt="Excalibur.js Logo" className="w-8 h-8 relative -top-1"/>;
 
@@ -104,7 +106,7 @@ function Projects() {
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6">
-                <div className="flex items-start justify-between mb-6">
+                <Reveal className="flex items-start justify-between mb-6" y={12}>
                     <h1 className="text-4xl font-panchang font-bold text-white max-md:text-2xl">Projects</h1>
                     <div className="relative mt-2" ref={dropdownRef}>
                         <button
@@ -131,32 +133,25 @@ function Projects() {
                             </div>
                         )}
                     </div>
-                </div>
+                </Reveal>
                 <div className="bg-slate-800 p-6 rounded-lg">
                     <div className="grid md:grid-cols-2 gap-6">
                         {sortedProjects.map((project, index) => {
                             const isOddTotal = sortedProjects.length % 2 === 1;
                             const isLastItem = index === sortedProjects.length - 1;
                             const shouldCenter = isOddTotal && isLastItem;
-                            
+
                             return (
-                            <div
-                                key={project.slug}
-                                className={`bg-gray-900 rounded-xl shadow-lg p-6 transition-all cursor-pointer select-none hover:bg-gray-800 hover:scale-[1.01] ${shouldCenter ? 'md:col-span-2 md:justify-self-center md:w-1/2' : ''} ${project.hoverClass}`}
-                                onClick={() => {
-                                    window.scrollTo(0, 0);
-                                    navigate(`/projects/${project.slug}`);
-                                }}
-                            >
-                                <img src={project.image} alt={project.name} className="project-image rounded-lg mb-4"/>
-                                <h2 className="text-2xl font-semibold text-white">{project.name}</h2>
-                                <p className="text-gray-400 font-body">{project.description}</p>
-                                <div className="flex space-x-3 mt-4">
-                                    {project.tech.map((Icon, i) => (
-                                        <Icon key={i} className="text-2xl text-blue-400"/>
-                                    ))}
-                                </div>
-                            </div>
+                                <ProjectCard
+                                    key={project.slug}
+                                    project={project}
+                                    center={shouldCenter}
+                                    delay={Math.min(index * 0.03, 0.18)}
+                                    onClick={() => {
+                                        window.scrollTo(0, 0);
+                                        navigate(`/projects/${project.slug}`);
+                                    }}
+                                />
                             );
                         })}
                     </div>

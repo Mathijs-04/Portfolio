@@ -20,6 +20,19 @@ import {
     SiFastapi,
     SiJenkins
 } from "react-icons/si";
+import { motion } from "framer-motion";
+import Reveal from "./components/Reveal.jsx";
+import usePointerCapable from "./hooks/usePointerCapable.js";
+
+const gridVariants = {
+    hidden: {},
+    visible: { transition: { staggerChildren: 0.04 } },
+};
+
+const itemVariants = {
+    hidden: { opacity: 0, y: 16 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" } },
+};
 
 const skills = [
     {
@@ -145,25 +158,38 @@ const skills = [
 ];
 
 const SkillsSection = () => {
+    // The hover-lift is pointer-only: on touch a tap can leave it stuck raised.
+    const canHover = usePointerCapable();
+
     return (
         <div className="gradient-background min-h-screen">
             <section className="text-white py-12">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-lg">Experience</h1>
+                    <Reveal y={12}>
+                        <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-lg">Experience</h1>
+                    </Reveal>
                     <div className="bg-slate-800 p-6 rounded-lg">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
+                        <motion.div
+                            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6"
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, amount: 0.1 }}
+                            variants={gridVariants}
+                        >
                             {skills.map((skill, index) => (
-                                <a
+                                <motion.a
                                     key={index}
                                     href={skill.link}
                                     target="_blank"
-                                    className={`bg-gray-900 border border-transparent rounded-xl p-4 flex flex-col items-center shadow-md transition-all duration-300 hover:bg-gray-800 ${skill.hoverClass}`}
+                                    variants={itemVariants}
+                                    whileHover={canHover ? { y: -4 } : undefined}
+                                    className={`bg-gray-900 border border-transparent rounded-xl p-4 flex flex-col items-center shadow-md transition-[background-color,box-shadow] duration-300 hover:bg-gray-800 ${skill.hoverClass}`}
                                 >
                                     <div className="text-4xl">{skill.icon}</div>
                                     <p className="mt-2 text-sm font-body">{skill.name}</p>
-                                </a>
+                                </motion.a>
                             ))}
-                        </div>
+                        </motion.div>
                         <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 text-justify">
                             These logos represent the <strong className="text-[#60A5FA] font-semibold">languages</strong>, <strong className="text-[#60A5FA] font-semibold">frameworks</strong>, and <strong className="text-[#60A5FA] font-semibold">tools</strong> I often work with during my projects. I am always eager to explore
                             new technologies and <strong className="text-[#60A5FA] font-semibold">expand my skill

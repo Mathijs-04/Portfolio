@@ -2,6 +2,7 @@ import {useState} from "react";
 import {FaLinkedin, FaGithub} from "react-icons/fa";
 import {RiSpeedLine} from "react-icons/ri";
 import Typewriter from "typewriter-effect";
+import Reveal from "./components/Reveal.jsx";
 
 function About() {
     const [skipAnimation, setSkipAnimation] = useState(false);
@@ -10,7 +11,9 @@ function About() {
     return (
         <div className="gradient-background min-h-screen">
             <div className="max-w-6xl mx-auto py-12 px-6 text-white">
-                <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-2xl">About Me</h1>
+                <Reveal y={12}>
+                    <h1 className="text-4xl font-panchang font-bold text-white mb-6 max-md:text-2xl">About Me</h1>
+                </Reveal>
                 <div className="relative bg-slate-800/90 p-6 rounded-lg overflow-hidden">
                     <div className="font-body text-base md:text-lg mb-5 px-3 leading-relaxed md:text-justify">
                         {skipAnimation ? <div dangerouslySetInnerHTML={{__html: finalText}}/> : (
@@ -28,7 +31,7 @@ function About() {
                         <RiSpeedLine className="text-xl"/>
                     </button>
                 </div>
-                <div className="flex space-x-4 mt-4 max-md:flex-col max-md:space-x-0 max-md:gap-4">
+                <Reveal delay={0.1} className="flex space-x-4 mt-4 max-md:flex-col max-md:space-x-0 max-md:gap-4">
                     <a href="https://github.com/Mathijs-04" target="_blank"
                        className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white max-md:w-full btn-white-text">
                             <span
@@ -51,7 +54,7 @@ function About() {
                             <div className="relative h-full w-8 bg-white/20"></div>
                         </div>
                     </a>
-                </div>
+                </Reveal>
             </div>
         </div>
     );

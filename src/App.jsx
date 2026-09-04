@@ -1,4 +1,5 @@
 import {createBrowserRouter, RouterProvider} from 'react-router';
+import {MotionConfig} from 'framer-motion';
 import Home from "./Home.jsx";
 import Projects from "./Projects.jsx";
 import Experience from "./Experience.jsx";
@@ -69,7 +70,9 @@ const router = createBrowserRouter(
 
 function App() {
     return (
-        <RouterProvider router={router}/>
+        <MotionConfig reducedMotion="user">
+            <RouterProvider router={router}/>
+        </MotionConfig>
     );
 }
 
