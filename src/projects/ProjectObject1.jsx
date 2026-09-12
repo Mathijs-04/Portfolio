@@ -34,9 +34,7 @@ function ProjectObject1() {
                         <IoIosGitNetwork className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">An AI driven 3D experiment</p>
-                    <p className="text-justify font-body mb-4">
-                        A more detailed description of this project will be added soon.
-                    </p>
+                    <p className="text-justify font-body mb-4">Object_1 is a <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">digital art experiment</span> involving <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">3D web design</span>. It was made primarily using <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">React and WebGL</span>. I came up with this project when I wanted to experiment with <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">Claude Code's ability to work with 3D on the web</span>. The entire website was created using a <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">single prompt</span> in Claude Code. It features an <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">abstract 3D object</span> that evolves based on the user's scrolling interaction. It is not supposed to make any sense. Instead, it is designed to <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">evoke a sense of wonder and mystery</span>. Feel free to experience it yourself!</p>
                     <a href="https://github.com/Mathijs-04/Object_01" className='text-lg font-body font-bold link-underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
                     <br/>
                     <div className='mt-4'></div>
