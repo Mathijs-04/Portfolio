@@ -30,9 +30,7 @@ function ProjectThemePlayer() {
                         <SiJavascript className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">A music player for The Elder Scrolls</p>
-                    <p className="text-justify font-body mb-4">
-                        A more detailed description of this project will be added soon.
-                    </p>
+                    <p className="text-justify font-body mb-4">The <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">Elder Scrolls Music Player</span> is a website that plays the <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">main theme music</span> from all major games in <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">The Elder Scrolls series</span>. It was created as part of a <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">coding challenge</span> where I had to build a website using AI in just 1 minute. That's right, this entire website was made from start to finish in <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">under 60 seconds</span>!</p>
                     <a href="https://github.com/Mathijs-04/Elder-Scrolls-Theme-Player" className='text-lg font-body font-bold link-underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
                     <br/>
                     <div className='mt-4'></div>
