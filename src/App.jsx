@@ -29,6 +29,8 @@ import ProjectPimoreConverter from "./projects/ProjectPimoreConverter.jsx";
 import ProjectHostingRecommender from "./projects/ProjectHostingRecommender.jsx";
 import ProjectAdventurersArmory from "./projects/ProjectAdventurersArmory.jsx";
 import ProjectWarhammerRuleAssistant from "./projects/ProjectWarhammerRuleAssistant.jsx";
+import ProjectObject1 from "./projects/ProjectObject1.jsx";
+import ProjectThemePlayer from "./projects/ProjectThemePlayer.jsx";
 
 const router = createBrowserRouter(
     [
@@ -61,6 +63,8 @@ const router = createBrowserRouter(
                 {path: "/projects/hosting-recommender", element: <ProjectHostingRecommender/>},
                 {path: "/projects/adventurers-armory", element: <ProjectAdventurersArmory/>},
                 {path: "/projects/warhammer-rule-assistant", element: <ProjectWarhammerRuleAssistant/>},
+                {path: "/projects/object-1", element: <ProjectObject1/>},
+                {path: "/projects/elder-scrolls-theme-player", element: <ProjectThemePlayer/>},
                 {path: "*", element: <NotFound/>}
             ],
         },
