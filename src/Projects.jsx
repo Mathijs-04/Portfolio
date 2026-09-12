@@ -148,7 +148,7 @@ function Projects() {
                                     key={project.slug}
                                     project={project}
                                     center={shouldCenter}
-                                    delay={Math.min(index * 0.03, 0.18)}
+                                    delay={0.025}
                                     onClick={() => {
                                         window.scrollTo(0, 0);
                                         navigate(`/projects/${project.slug}`);
