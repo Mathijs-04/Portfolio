@@ -51,7 +51,7 @@ const projects = [
 { name: "Gobbo Quest", slug: "gobbo-quest", description: "A simple web-based RPG", image: "/Portfolio/gobbo-quest.webp", tech: [SiJavascript], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 2 }, 
 { name: "Flashcard Generator", slug: "flashcard-generator", description: "An AI-powered flashcard generator in Vue.js", image: "/Portfolio/flashcard-generator.webp", tech: [FaVuejs, IoIosGitNetwork], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 13 }, 
 { name: "EXPCorp.", slug: "exp-corp", description: "A fictional company website specialized in VR experiences", image: "/Portfolio/exp-corp.webp", tech: [FaReact, SiTailwindcss, FaDatabase], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 8 },
-{ name: "Object_1", slug: "object-1", description: "An AI driven 3D experiment", image: "/Portfolio/object1.webp", tech: [FaReact, SiJavascript, IoIosGitNetwork], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 20 },
+{ name: "Object_1", slug: "object-1", description: "An AI driven 3D experiment", image: "/Portfolio/object1.webp", tech: [SiJavascript, FaReact, IoIosGitNetwork], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 20 },
 { name: "The Elder Scrolls Theme Player", slug: "elder-scrolls-theme-player", description: "A music player for The Elder Scrolls", image: "/Portfolio/theme-player.webp", tech: [SiHtml5, SiCss3, SiJavascript], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 21 },
 ];
 

@@ -33,6 +33,10 @@ function ProjectThemePlayer() {
                     <p className="text-justify font-body mb-4">
                         A more detailed description of this project will be added soon.
                     </p>
+                    <a href="https://github.com/Mathijs-04/Elder-Scrolls-Theme-Player" className='text-lg font-body font-bold link-underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
+                    <br/>
+                    <div className='mt-4'></div>
+                    <a href="https://mathijs-04.github.io/Elder-Scrolls-Theme-Player/" className='text-lg font-body font-bold link-underline text-blue-400' target="_blank">Link to The Elder Scrolls Theme Player</a>
                 </div>
             </div>
         </div>

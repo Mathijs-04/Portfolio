@@ -29,14 +29,18 @@ function ProjectObject1() {
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
                     <CarouselComponent images={carouselImages}/>
                     <div className="flex space-x-3 mb-4">
-                        <FaReact className="text-2xl text-blue-400"/>
                         <SiJavascript className="text-2xl text-blue-400"/>
+                        <FaReact className="text-2xl text-blue-400"/>
                         <IoIosGitNetwork className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-lg text-justify mb-4 font-body font-bold">An AI driven 3D experiment</p>
                     <p className="text-justify font-body mb-4">
                         A more detailed description of this project will be added soon.
                     </p>
+                    <a href="https://github.com/Mathijs-04/Object_01" className='text-lg font-body font-bold link-underline text-blue-400' target="_blank">Link to the GitHub Repository</a>
+                    <br/>
+                    <div className='mt-4'></div>
+                    <a href="https://mathijs-04.github.io/Object_01/" className='text-lg font-body font-bold link-underline text-blue-400' target="_blank">Link to Object_1</a>
                 </div>
             </div>
         </div>
