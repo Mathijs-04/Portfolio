@@ -31,6 +31,7 @@ import ProjectAdventurersArmory from "./projects/ProjectAdventurersArmory.jsx";
 import ProjectWarhammerRuleAssistant from "./projects/ProjectWarhammerRuleAssistant.jsx";
 import ProjectObject1 from "./projects/ProjectObject1.jsx";
 import ProjectThemePlayer from "./projects/ProjectThemePlayer.jsx";
+import ProjectArcaneArchive from "./projects/ProjectArcaneArchive.jsx";
 
 const router = createBrowserRouter(
     [
@@ -65,6 +66,7 @@ const router = createBrowserRouter(
                 {path: "/projects/warhammer-rule-assistant", element: <ProjectWarhammerRuleAssistant/>},
                 {path: "/projects/object-1", element: <ProjectObject1/>},
                 {path: "/projects/elder-scrolls-theme-player", element: <ProjectThemePlayer/>},
+                {path: "/projects/arcane-archive", element: <ProjectArcaneArchive/>},
                 {path: "*", element: <NotFound/>}
             ],
         },
