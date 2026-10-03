@@ -28,7 +28,7 @@ function ProjectUnrealEngineScene() {
                         <SiUnrealengine className="text-2xl text-blue-400"/>
                     </div>
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">A cinematic scene in Unreal Engine 5.8</p>
-                    <p className="text-justify font-body">Description coming soon.</p>
+                    <p className="text-justify font-body">This <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">cinematic cave scene</span> in <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">Unreal Engine 5.8</span> was a short experiment for a <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">3D Design</span> school course. With this project, I wanted to experiment with Unreal's <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">lighting systems</span> and its <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">cinematography</span> options. I also experimented with the <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">Blueprint</span> system to make a <span className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-bold">realistic-looking candle flame</span>.</p>
                 </div>
             </div>
         </div>
