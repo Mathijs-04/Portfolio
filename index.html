@@ -24,6 +24,9 @@
       z-index: -2;
       top: 0;
       left: 0;
+      overflow: hidden;
+      contain: strict;
+      pointer-events: none;
     }
 
     canvas#canvas {
@@ -33,24 +36,28 @@
       height: 100%;
       transform: rotate(0deg) scale(1.5) translateY(0%);
       filter: blur(25px);
-      --gradient-color-1: #1A1A1C;
-      --gradient-color-2: #2F3A5A;
-      --gradient-color-3: #512B81;
-      --gradient-color-4: #60A5FA;
+      will-change: transform;
+      pointer-events: none;
+      --gradient-color-1: #111113;
+      --gradient-color-2: #1F2639;
+      --gradient-color-3: #351B54;
+      --gradient-color-4: #2568A8;
       --gradient-speed: 0.000005;
     }
   </style>
-  <script type="module" crossorigin src="/Portfolio/assets/index-DuwMPVNU.js"></script>
-  <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-B_-fJKk8.css">
+  <script type="module" crossorigin src="/Portfolio/assets/index-Na2-KbDK.js"></script>
+  <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-C8ibksUN.css">
 </head>
 <body>
 <div class="background--custom">
   <canvas id="canvas"></canvas>
 </div>
-<script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+<script defer src="/Portfolio/minigl.js"></script>
 <script>
-  var gradient = new Gradient();
-  gradient.initGradient("#canvas");
+  document.addEventListener("DOMContentLoaded", function () {
+    window.gradient = new Gradient();
+    window.gradient.initGradient("#canvas");
+  });
 </script>
 <div id="root"></div>
 </body>
