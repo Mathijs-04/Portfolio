@@ -21,21 +21,21 @@ function Home() {
                         options={{ loop: true, delay: "natural" }}
                         onInit={(typewriter) => {
                             typewriter.pauseFor(1500)
-                                .typeString("Creative Developer")
+                                .typeString("Creative Technologist")
                                 .pauseFor(1500)
-                                .deleteChars(18)
+                                .deleteChars(21)
                                 .typeString("Full-Stack Web Developer")
                                 .pauseFor(1500)
                                 .deleteChars(24)
-                                .typeString("AI-Engineer")
+                                .typeString("UX/UI Designer")
                                 .pauseFor(1500)
-                                .deleteChars(11)
+                                .deleteChars(14)
                                 .typeString("Game Developer")
                                 .pauseFor(1500)
                                 .deleteChars(14)
-                                .typeString("Designer")
+                                .typeString("AI Developer")
                                 .pauseFor(1500)
-                                .deleteChars(8)
+                                .deleteChars(12)
                                 .start();
                         }}
                     />
