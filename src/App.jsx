@@ -32,6 +32,7 @@ import ProjectWarhammerRuleAssistant from "./projects/ProjectWarhammerRuleAssist
 import ProjectObject1 from "./projects/ProjectObject1.jsx";
 import ProjectThemePlayer from "./projects/ProjectThemePlayer.jsx";
 import ProjectArcaneArchive from "./projects/ProjectArcaneArchive.jsx";
+import ProjectUnrealEngineScene from "./projects/ProjectUnrealEngineScene.jsx";
 
 const router = createBrowserRouter(
     [
@@ -67,6 +68,7 @@ const router = createBrowserRouter(
                 {path: "/projects/object-1", element: <ProjectObject1/>},
                 {path: "/projects/elder-scrolls-theme-player", element: <ProjectThemePlayer/>},
                 {path: "/projects/arcane-archive", element: <ProjectArcaneArchive/>},
+                {path: "/projects/unreal-engine-scene", element: <ProjectUnrealEngineScene/>},
                 {path: "*", element: <NotFound/>}
             ],
         },

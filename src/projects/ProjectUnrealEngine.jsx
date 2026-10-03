@@ -17,7 +17,7 @@ function ProjectUnrealEngine() {
                     >
                         ‹
                     </button>
-                    <h1 className="text-4xl font-panchang font-bold text-white">Unreal Engine 5</h1>
+                    <h1 className="text-4xl font-panchang font-bold text-white">Unreal Engine Landscape</h1>
                 </div>
                 <div className="bg-slate-800 p-6 rounded-lg mb-5">
                     <CarouselComponent images={carouselImages} />
