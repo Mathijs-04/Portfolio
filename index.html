@@ -36,7 +36,6 @@
       height: 100%;
       transform: rotate(0deg) scale(1.5) translateY(0%);
       filter: blur(25px);
-      /* Promote to its own compositor layer so the blur/scale never triggers main-thread paint */
       will-change: transform;
       pointer-events: none;
       --gradient-color-1: #1A1A1C;
@@ -51,10 +50,8 @@
 <div class="background--custom">
   <canvas id="canvas"></canvas>
 </div>
-<!-- Self-hosted, pinned copy (public/minigl.js); deferred so it never blocks first paint -->
 <script defer src="/minigl.js"></script>
 <script>
-  // Deferred scripts run before DOMContentLoaded
   document.addEventListener("DOMContentLoaded", function () {
     window.gradient = new Gradient();
     window.gradient.initGradient("#canvas");

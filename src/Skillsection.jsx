@@ -158,7 +158,6 @@ const skills = [
 ];
 
 const SkillsSection = () => {
-    // The hover-lift is pointer-only: on touch a tap can leave it stuck raised.
     const canHover = usePointerCapable();
 
     return (

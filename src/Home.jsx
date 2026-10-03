@@ -5,7 +5,6 @@ import usePointerCapable from "./hooks/usePointerCapable.js";
 
 function Home() {
     const navigate = useNavigate();
-    // The hover-scale is pointer-only; the tap-scale stays for touch feedback.
     const canHover = usePointerCapable();
 
     return (

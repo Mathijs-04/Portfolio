@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-// True only for devices with a precise pointer (mouse/trackpad) and no reduced-motion preference.
 function usePointerCapable() {
     const [capable, setCapable] = useState(false);
 

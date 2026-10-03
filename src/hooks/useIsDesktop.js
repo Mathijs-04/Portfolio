@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-// Matches Tailwind's `md` breakpoint, so layout branches stay in sync with the CSS.
 function useIsDesktop() {
     const [isDesktop, setIsDesktop] = useState(false);
 

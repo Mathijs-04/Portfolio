@@ -1,13 +1,9 @@
 import { useRef } from "react";
 import usePointerCapable from "./usePointerCapable.js";
 
-// Follows the cursor closely while hovering, then eases back over this long
-// so releasing a card glides home instead of snapping.
 const TRACK_TRANSITION = "transform 100ms ease-out";
 const RETURN_TRANSITION = "transform 600ms cubic-bezier(0.22, 1, 0.36, 1)";
 
-// Attaches 3D-tilt + cursor-sheen behaviour to an element via ref + handlers.
-// Pointer-only: on touch devices the handlers are no-ops and nothing is applied.
 function useTilt({ max = 10, scale = 1.02 } = {}) {
     const ref = useRef(null);
     const enabled = usePointerCapable();

@@ -100,8 +100,6 @@ body {
     color: white !important;
 }
 
-/* The underline lives at all times, scaled to nothing from its own centre,
-   so hover/active expand it outward from the middle instead of it just appearing. */
 .nav-link::after {
     content: '';
     position: absolute;
@@ -134,7 +132,6 @@ body {
     background: #60A5FA;
 }
 
-/* Same expand-from-centre underline as .nav-link, but keeps the link's own text colour. */
 .link-underline {
     position: relative;
     padding-bottom: 2px;
