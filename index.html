@@ -24,6 +24,9 @@
       z-index: -2;
       top: 0;
       left: 0;
+      overflow: hidden;
+      contain: strict;
+      pointer-events: none;
     }
 
     canvas#canvas {
@@ -33,6 +36,9 @@
       height: 100%;
       transform: rotate(0deg) scale(1.5) translateY(0%);
       filter: blur(25px);
+      /* Promote to its own compositor layer so the blur/scale never triggers main-thread paint */
+      will-change: transform;
+      pointer-events: none;
       --gradient-color-1: #1A1A1C;
       --gradient-color-2: #2F3A5A;
       --gradient-color-3: #512B81;
@@ -45,10 +51,14 @@
 <div class="background--custom">
   <canvas id="canvas"></canvas>
 </div>
-<script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+<!-- Self-hosted, pinned copy (public/minigl.js); deferred so it never blocks first paint -->
+<script defer src="/minigl.js"></script>
 <script>
-  var gradient = new Gradient();
-  gradient.initGradient("#canvas");
+  // Deferred scripts run before DOMContentLoaded
+  document.addEventListener("DOMContentLoaded", function () {
+    window.gradient = new Gradient();
+    window.gradient.initGradient("#canvas");
+  });
 </script>
 <div id="root"></div>
 <script type="module" src="/src/main.jsx"></script>
