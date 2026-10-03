@@ -23,17 +23,36 @@ function About() {
                         )}
                     </div>
                     <button
-                        className={`absolute bottom-2 right-2 p-2 rounded-full text-white transition ${animationComplete ? "bg-gray-500 cursor-default" : "bg-blue-500 hover:bg-blue-600"}`}
+                        type="button"
+                        className={`group absolute bottom-2 right-2 inline-flex items-center justify-center overflow-hidden rounded-full text-white transition ${
+                            animationComplete
+                                ? "cursor-default p-2 bg-gray-500"
+                                : "p-0.5 bg-gradient-to-br from-[#351B54] via-[#2D4180] to-[#2568A8] md:hover:text-white btn-white-text"
+                        }`}
                         onClick={() => {
                             setSkipAnimation(true);
                             setAnimationComplete(true);
-                        }} disabled={animationComplete}>
-                        <RiSpeedLine className="text-xl"/>
+                        }}
+                        disabled={animationComplete}
+                        aria-label="Skip typing animation"
+                    >
+                        {animationComplete ? (
+                            <RiSpeedLine className="text-xl"/>
+                        ) : (
+                            <>
+                                <span className="relative flex items-center justify-center p-2 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-full md:group-hover:bg-transparent md:group-hover:dark:bg-transparent">
+                                    <RiSpeedLine className="text-xl text-white"/>
+                                </span>
+                                <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] md:group-hover:duration-1000 md:group-hover:[transform:skew(-12deg)_translateX(100%)] max-md:hidden pointer-events-none">
+                                    <div className="relative h-full w-4 bg-white/20"></div>
+                                </div>
+                            </>
+                        )}
                     </button>
                 </div>
                 <Reveal delay={0.1} className="flex space-x-4 mt-4 max-md:flex-col max-md:space-x-0 max-md:gap-4">
                     <a href="https://github.com/Mathijs-04" target="_blank"
-                       className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white max-md:w-full btn-white-text">
+                       className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#351B54] via-[#2D4180] to-[#2568A8] md:hover:text-white max-md:w-full btn-white-text">
                             <span
                                 className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full text-white">
                                 <FaGithub className="mr-2 text-lg text-white"/> GitHub
@@ -44,7 +63,7 @@ function About() {
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/mathijs-van-der-meijde-creative-developer/" target="_blank"
-                       className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#6C5CE7] via-[#A29BFE] to-[#D6CCFF] md:hover:text-white max-md:w-full btn-white-text">
+                       className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#351B54] via-[#2D4180] to-[#2568A8] md:hover:text-white max-md:w-full btn-white-text">
                          <span
                              className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent flex items-center justify-center w-full text-white">
                             <FaLinkedin className="mr-2 text-lg text-white"/> LinkedIn
