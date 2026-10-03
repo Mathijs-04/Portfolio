@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useLayoutEffect, useRef } from "react";
+import { motion } from "framer-motion";
 import {
     FaReact,
     FaNodeJs,
@@ -65,11 +66,44 @@ const sortOptions = [
     { value: 'z-a', label: 'Z - A' }
 ];
 
+const gridVariants = {
+    hidden: {},
+    visible: { transition: { staggerChildren: 0.04 } },
+};
+
+const itemVariants = {
+    hidden: { opacity: 0, y: 16 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" } },
+};
+
 function Projects() {
     const navigate = useNavigate();
     const [sortOption, setSortOption] = useState('default');
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const dropdownRef = useRef(null);
+    const measureGridRef = useRef(null);
+    const entranceSlugsRef = useRef(new Set());
+    const [entranceReady, setEntranceReady] = useState(false);
+
+    useLayoutEffect(() => {
+        if (entranceReady) return;
+
+        const grid = measureGridRef.current;
+        if (!grid) return;
+
+        const viewportHeight = window.innerHeight;
+        const slugs = new Set();
+
+        grid.querySelectorAll("[data-project-slug]").forEach((el) => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < viewportHeight && rect.bottom > 0) {
+                slugs.add(el.dataset.projectSlug);
+            }
+        });
+
+        entranceSlugsRef.current = slugs;
+        setEntranceReady(true);
+    }, [entranceReady]);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -106,6 +140,24 @@ function Projects() {
 
     const sortedProjects = getSortedProjects();
     const currentSortLabel = sortOptions.find(opt => opt.value === sortOption)?.label;
+    const entranceSlugs = entranceSlugsRef.current;
+
+    const openProject = (slug) => {
+        window.scrollTo(0, 0);
+        navigate(`/projects/${slug}`);
+    };
+
+    const projectGridItems = sortedProjects.map((project, index) => {
+        const isOddTotal = sortedProjects.length % 2 === 1;
+        const isLastItem = index === sortedProjects.length - 1;
+        const shouldCenter = isOddTotal && isLastItem;
+        const centerClass = shouldCenter
+            ? "md:col-span-2 md:justify-self-center md:w-1/2"
+            : "";
+        const animateOnEntrance = entranceSlugs.has(project.slug);
+
+        return { project, centerClass, animateOnEntrance };
+    });
 
     return (
         <div className="gradient-background min-h-screen">
@@ -139,26 +191,47 @@ function Projects() {
                     </div>
                 </Reveal>
                 <div className="bg-slate-800 p-6 rounded-lg">
-                    <div className="grid md:grid-cols-2 gap-6">
-                        {sortedProjects.map((project, index) => {
-                            const isOddTotal = sortedProjects.length % 2 === 1;
-                            const isLastItem = index === sortedProjects.length - 1;
-                            const shouldCenter = isOddTotal && isLastItem;
-
-                            return (
-                                <ProjectCard
+                    {!entranceReady ? (
+                        <div ref={measureGridRef} className="grid md:grid-cols-2 gap-6">
+                            {projectGridItems.map(({ project, centerClass }) => (
+                                <div
                                     key={project.slug}
-                                    project={project}
-                                    center={shouldCenter}
-                                    delay={0.025}
-                                    onClick={() => {
-                                        window.scrollTo(0, 0);
-                                        navigate(`/projects/${project.slug}`);
-                                    }}
-                                />
-                            );
-                        })}
-                    </div>
+                                    data-project-slug={project.slug}
+                                    className={centerClass}
+                                >
+                                    <ProjectCard
+                                        project={project}
+                                        className="h-full"
+                                        onClick={() => openProject(project.slug)}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    ) : (
+                        <motion.div
+                            className="grid md:grid-cols-2 gap-6"
+                            variants={gridVariants}
+                            initial="hidden"
+                            animate={entranceSlugs.size > 0 ? "visible" : false}
+                        >
+                            {projectGridItems.map(({ project, centerClass, animateOnEntrance }) => (
+                                <motion.div
+                                    key={project.slug}
+                                    layout
+                                    variants={animateOnEntrance ? itemVariants : undefined}
+                                    initial={animateOnEntrance ? undefined : { opacity: 1, y: 0 }}
+                                    className={centerClass}
+                                    transition={{ layout: { duration: 0.5, ease: "easeInOut" } }}
+                                >
+                                    <ProjectCard
+                                        project={project}
+                                        className="h-full"
+                                        onClick={() => openProject(project.slug)}
+                                    />
+                                </motion.div>
+                            ))}
+                        </motion.div>
+                    )}
                     <div className="mt-6 text-gray-400 text-base border-t border-gray-700 pt-4 font-body text-justify">
                         These are some of my <strong className="bg-gradient-to-r from-[#6C5CE7] to-[#60A5FA] bg-clip-text text-transparent font-semibold">favorite
                         projects</strong> I’ve worked on so far. Some of these are <strong
