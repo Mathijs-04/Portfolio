@@ -41,6 +41,7 @@ const projects = [
 { name: "AI Travel Planner", slug: "ai-travel-planner", description: "An AI-powered travel planning application", image: "/Portfolio/ai-travel-planner.webp", tech: [FaVuejs, SiPython, SiFastapi, FaDatabase, SiOpenai, SiDocker], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 16 }, 
 { name: "De Blije Bij", slug: "blije-bij", description: "The app for sustainable gardens", image: "/Portfolio/tuin.webp", tech: [FaReact, SiExpress], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 13 }, 
 { name: "Fitness Finder", slug: "fitness-finder", description: "The app to help you find a gym", image: "/Portfolio/app.webp", tech: [FaReact], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 12 }, 
+{ name: "Unreal Engine Scene", slug: "unreal-engine-scene", description: "A cinematic scene in Unreal Engine 5.8", image: "/Portfolio/unreal-engine-scene.webp", tech: [SiUnrealengine], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 0 },
 { name: "Dungeon Defender", slug: "dungeon-defender", description: "A web-based game built with Excalibur.js", image: "/Portfolio/dungeon.webp", tech: [ExcaliburIcon, SiJavascript], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 4 }, 
 { name: "Year 1 Portfolio", slug: "portfolio-y1", description: "A collection of my first-year projects", image: "/Portfolio/portfolio-y1.webp", tech: [SiHtml5, SiCss3, SiJavascript], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 3 }, 
 { name: "The Adventurers Armory", slug: "adventurers-armory", description: "A Fantasy Store Experience", image: "/Portfolio/armory.webp", tech: [FaVuejs], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 18 }, 
@@ -54,7 +55,6 @@ const projects = [
 { name: "Gobbo Quest", slug: "gobbo-quest", description: "A simple web-based RPG", image: "/Portfolio/gobbo-quest.webp", tech: [SiJavascript], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 2 }, 
 { name: "Flashcard Generator", slug: "flashcard-generator", description: "An AI-powered flashcard generator in Vue.js", image: "/Portfolio/flashcard-generator.webp", tech: [FaVuejs, IoIosGitNetwork], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 13 }, 
 { name: "EXPCorp.", slug: "exp-corp", description: "A fictional company website specialized in VR experiences", image: "/Portfolio/exp-corp.webp", tech: [FaReact, SiTailwindcss, FaDatabase], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 8 },
-{ name: "Unreal Engine Scene", slug: "unreal-engine-scene", description: "A cinematic scene in Unreal Engine 5.8", image: "/Portfolio/unreal-engine-scene.webp", tech: [SiUnrealengine], hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400", order: 0 },
 ];
 
 const sortOptions = [
