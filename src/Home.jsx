@@ -27,7 +27,7 @@ function Home() {
                                 .typeString("Full-Stack Web Developer")
                                 .pauseFor(1500)
                                 .deleteChars(24)
-                                .typeString("UX/UI Designer")
+                                .typeString("UI/UX Designer")
                                 .pauseFor(1500)
                                 .deleteChars(14)
                                 .typeString("Game Developer")
