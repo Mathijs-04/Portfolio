@@ -1,6 +1,7 @@
-import { useId, useRef, useState } from "react";
-import { motion } from "framer-motion";
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
+import { useCallback, useEffect, useId, useRef, useState } from "react";
+import { createPortal } from "react-dom";
+import { AnimatePresence, motion } from "framer-motion";
+import { ArrowsPointingOutIcon, ChevronLeftIcon, ChevronRightIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import useIsDesktop from "./hooks/useIsDesktop.js";
 import useElementWidth from "./hooks/useElementWidth.js";
 
@@ -20,6 +21,55 @@ function circularDiff(i, current, len) {
     return diff;
 }
 
+function FullscreenImage({ src, alt, onClose }) {
+    useEffect(() => {
+        const handleKey = (e) => {
+            if (e.key === "Escape") onClose();
+        };
+        const previousOverflow = document.body.style.overflow;
+        document.body.style.overflow = "hidden";
+        window.addEventListener("keydown", handleKey);
+        return () => {
+            document.body.style.overflow = previousOverflow;
+            window.removeEventListener("keydown", handleKey);
+        };
+    }, [onClose]);
+
+    return createPortal(
+        <motion.div
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-md p-4 sm:p-8"
+            role="dialog"
+            aria-modal="true"
+            aria-label={alt}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            onClick={onClose}
+        >
+            <motion.img
+                src={src}
+                alt={alt}
+                draggable={false}
+                className="max-h-full max-w-full object-contain rounded-xl shadow-2xl"
+                initial={{ scale: 0.92 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.92 }}
+                transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                onClick={(e) => e.stopPropagation()}
+            />
+            <button
+                onClick={onClose}
+                aria-label="Close fullscreen"
+                className="absolute top-4 right-4 bg-slate-800/90 hover:bg-slate-800 text-white rounded-full border border-gray-400/50 hover:border-blue-400 transition-all duration-300 p-2"
+            >
+                <XMarkIcon strokeWidth={2} className="h-6 w-6" />
+            </button>
+        </motion.div>,
+        document.body
+    );
+}
+
 function CarouselComponent({ images }) {
     const isDesktop = useIsDesktop();
     const [containerRef, width] = useElementWidth();
@@ -34,6 +84,8 @@ function CarouselComponent({ images }) {
     const dragStartX = useRef(null);
     const dragStartTime = useRef(0);
     const draggedRef = useRef(false);
+    const [fullscreenIndex, setFullscreenIndex] = useState(null);
+    const closeFullscreen = useCallback(() => setFullscreenIndex(null), []);
 
     const goPrev = () => setVirtualIndex((v) => v - 1);
     const goNext = () => setVirtualIndex((v) => v + 1);
@@ -92,6 +144,9 @@ function CarouselComponent({ images }) {
                 onPointerMove={handlePointerMove}
                 onPointerUp={handlePointerUp}
                 onPointerCancel={handlePointerUp}
+                onDoubleClick={() => {
+                    if (!draggedRef.current) setFullscreenIndex(currentReal);
+                }}
             >
                 {width > 0 && slotOffsets.map((offset) => {
                     const v = virtualIndex + offset;
@@ -127,6 +182,17 @@ function CarouselComponent({ images }) {
                                 draggable={false}
                                 className="h-full w-full object-cover rounded-xl pointer-events-none"
                             />
+                            {diff === 0 && (
+                                <button
+                                    onClick={() => setFullscreenIndex(realIdx)}
+                                    onPointerDown={(e) => e.stopPropagation()}
+                                    onDoubleClick={(e) => e.stopPropagation()}
+                                    aria-label="View fullscreen"
+                                    className="absolute bottom-3 right-3 bg-slate-800/90 hover:bg-slate-800 text-white rounded-full border border-gray-400/50 hover:border-blue-400 transition-all duration-300 p-2 cursor-pointer"
+                                >
+                                    <ArrowsPointingOutIcon strokeWidth={2} className="h-5 w-5" />
+                                </button>
+                            )}
                         </motion.div>
                     );
                 })}
@@ -136,6 +202,7 @@ function CarouselComponent({ images }) {
                         <button
                             onClick={goPrev}
                             onPointerDown={(e) => e.stopPropagation()}
+                            onDoubleClick={(e) => e.stopPropagation()}
                             aria-label="Previous slide"
                             className="absolute top-2/4 left-4 -translate-y-2/4 z-20 bg-slate-800/90 hover:bg-slate-800 text-white rounded-full border border-gray-400/50 hover:border-blue-400 transition-all duration-300 p-2"
                         >
@@ -144,6 +211,7 @@ function CarouselComponent({ images }) {
                         <button
                             onClick={goNext}
                             onPointerDown={(e) => e.stopPropagation()}
+                            onDoubleClick={(e) => e.stopPropagation()}
                             aria-label="Next slide"
                             className="absolute top-2/4 right-4 -translate-y-2/4 z-20 bg-slate-800/90 hover:bg-slate-800 text-white rounded-full border border-gray-400/50 hover:border-blue-400 transition-all duration-300 p-2"
                         >
@@ -152,6 +220,16 @@ function CarouselComponent({ images }) {
                     </>
                 )}
             </div>
+
+            <AnimatePresence>
+                {fullscreenIndex !== null && (
+                    <FullscreenImage
+                        src={images[fullscreenIndex]}
+                        alt={`Slide ${fullscreenIndex + 1}`}
+                        onClose={closeFullscreen}
+                    />
+                )}
+            </AnimatePresence>
 
             {len > 1 && (
                 <div className="flex items-center justify-center gap-2 mt-4">
