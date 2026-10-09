@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router";
-import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
-import usePointerCapable from "./hooks/usePointerCapable.js";
+import Typewriter from "typewriter-effect";
+import usePointerCapable from "../hooks/usePointerCapable.js";
 
 function Home() {
     const navigate = useNavigate();
@@ -15,12 +15,13 @@ function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
             >
-                <h1 className="text-6xl font-panchang font-bold max-md:text-4xl">Mathijs van der Meijde</h1>
-                <div className="mt-4 text-4xl text-white font-panchang font-semibold text-left overflow-hidden max-md:text-base max-md:text-center">
+                <h1 className="text-6xl font-panchang font-bold max-lg:text-4xl">Mathijs van der Meijde</h1>
+                <div className="mt-4 text-4xl text-white font-panchang font-semibold text-left overflow-hidden max-lg:text-base max-lg:text-center">
                     <Typewriter
                         options={{ loop: true, delay: "natural" }}
                         onInit={(typewriter) => {
-                            typewriter.pauseFor(1500)
+                            typewriter
+                                .pauseFor(1500)
                                 .typeString("Creative Technologist")
                                 .pauseFor(1500)
                                 .deleteChars(21)
@@ -48,7 +49,7 @@ function Home() {
                 >
                     {[
                         { key: "projects", label: "My Projects" },
-                        { key: "experience", label: "My Experience" },
+                        { key: "skills", label: "My Skills" },
                         { key: "about", label: "About Me" },
                     ].map(({ key, label }) => (
                         <motion.button
@@ -56,9 +57,11 @@ function Home() {
                             onClick={() => navigate(`/${key}`)}
                             whileHover={canHover ? { scale: 1.05 } : undefined}
                             whileTap={{ scale: 0.97 }}
-                            className="group relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#351B54] via-[#2D4180] to-[#2568A8] md:group-hover:from-[#351B54] md:group-hover:via-[#2D4180] md:group-hover:to-[#2568A8] md:hover:text-white w-48 flex-shrink-0 max-md:w-full btn-white-text"
+                            className="group relative inline-flex select-none items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg bg-gradient-to-br from-[#351B54] via-[#2D4180] to-[#2568A8] md:group-hover:from-[#351B54] md:group-hover:via-[#2D4180] md:group-hover:to-[#2568A8] md:hover:text-white w-48 flex-shrink-0 max-md:w-full btn-white-text"
                         >
-                            <span className="relative px-10 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent w-full font-panchang font-bold text-[10px] max-md:px-4 h-12 flex items-center justify-center text-white">{label}</span>
+                            <span className="relative px-10 py-2.5 transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900 rounded-md md:group-hover:bg-transparent md:group-hover:dark:bg-transparent w-full font-panchang font-bold text-[10px] max-md:px-4 h-12 flex items-center justify-center text-white">
+                                {label}
+                            </span>
                             <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] md:group-hover:duration-1000 md:group-hover:[transform:skew(-12deg)_translateX(100%)] max-md:hidden">
                                 <div className="relative h-full w-8 bg-white/20"></div>
                             </div>
