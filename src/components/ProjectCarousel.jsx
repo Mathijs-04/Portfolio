@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { AnimatePresence, motion } from "framer-motion";
 import { ArrowsPointingOutIcon, ChevronLeftIcon, ChevronRightIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import useIsDesktop from "./hooks/useIsDesktop.js";
-import useElementWidth from "./hooks/useElementWidth.js";
+import { AnimatePresence, motion } from "framer-motion";
+import useElementWidth from "../hooks/useElementWidth.js";
+import useIsDesktop from "../hooks/useIsDesktop.js";
 
 const DESKTOP_SLIDE_WIDTH = 0.74;
 const DESKTOP_STEP = 0.42;
@@ -66,11 +66,11 @@ function FullscreenImage({ src, alt, onClose }) {
                 <XMarkIcon strokeWidth={2} className="h-6 w-6" />
             </button>
         </motion.div>,
-        document.body
+        document.body,
     );
 }
 
-function CarouselComponent({ images }) {
+function ProjectCarousel({ images, name = "Project" }) {
     const isDesktop = useIsDesktop();
     const [containerRef, width] = useElementWidth();
     const uid = useId();
@@ -114,13 +114,16 @@ function CarouselComponent({ images }) {
         const velocity = Math.abs(delta) / elapsed;
 
         if (Math.abs(delta) > width * SWIPE_DISTANCE_RATIO || velocity > SWIPE_VELOCITY) {
-            if (delta < 0) goNext(); else goPrev();
+            if (delta < 0) goNext();
+            else goPrev();
         }
 
         dragStartX.current = null;
         setIsDragging(false);
         setDragX(0);
-        setTimeout(() => { draggedRef.current = false; }, 0);
+        setTimeout(() => {
+            draggedRef.current = false;
+        }, 0);
     };
 
     const slideWidthRatio = isDesktop ? DESKTOP_SLIDE_WIDTH : 1;
@@ -148,54 +151,65 @@ function CarouselComponent({ images }) {
                     if (!draggedRef.current) setFullscreenIndex(currentReal);
                 }}
             >
-                {width > 0 && slotOffsets.map((offset) => {
-                    const v = virtualIndex + offset;
-                    const diff = offset;
-                    const realIdx = ((v % len) + len) % len;
+                {width > 0 &&
+                    slotOffsets.map((offset) => {
+                        const v = virtualIndex + offset;
+                        const diff = offset;
+                        const realIdx = ((v % len) + len) % len;
 
-                    const x = diff * width * step + dragX;
-                    const scale = diff === 0 ? 1 : scalePeek;
-                    const rotateY = diff === 0 ? 0 : diff > 0 ? -rotatePeek : rotatePeek;
-                    const opacity = Math.abs(diff) >= 2 ? 0 : diff === 0 ? 1 : 0.55;
+                        const x = diff * width * step + dragX;
+                        const scale = diff === 0 ? 1 : scalePeek;
+                        const rotateY = diff === 0 ? 0 : diff > 0 ? -rotatePeek : rotatePeek;
+                        const opacity = Math.abs(diff) >= 2 ? 0 : diff === 0 ? 1 : 0.55;
 
-                    return (
-                        <motion.div
-                            key={v}
-                            className="absolute"
-                            style={{ width: slideWidth, height: slideHeight, left: slideLeft, top: slideTop, zIndex: 10 - Math.abs(diff) }}
-                            initial={false}
-                            animate={{ x, scale, rotateY, opacity }}
-                            transition={isDragging ? { duration: 0 } : {
-                                x: { type: "spring", stiffness: 300, damping: 32 },
-                                scale: { type: "spring", stiffness: 300, damping: 32 },
-                                rotateY: { type: "spring", stiffness: 300, damping: 32 },
-                                opacity: { type: "tween", duration: 0.25, ease: "easeOut" },
-                            }}
-                            onClick={() => {
-                                if (draggedRef.current || diff === 0) return;
-                                setVirtualIndex(v);
-                            }}
-                        >
-                            <img
-                                src={images[realIdx]}
-                                alt={`Slide ${realIdx + 1}`}
-                                draggable={false}
-                                className="h-full w-full object-cover rounded-xl pointer-events-none"
-                            />
-                            {diff === 0 && (
-                                <button
-                                    onClick={() => setFullscreenIndex(realIdx)}
-                                    onPointerDown={(e) => e.stopPropagation()}
-                                    onDoubleClick={(e) => e.stopPropagation()}
-                                    aria-label="View fullscreen"
-                                    className="absolute bottom-3 right-3 bg-slate-800/90 hover:bg-slate-800 text-white rounded-full border border-gray-400/50 hover:border-blue-400 transition-all duration-300 p-2 cursor-pointer"
-                                >
-                                    <ArrowsPointingOutIcon strokeWidth={2} className="h-5 w-5" />
-                                </button>
-                            )}
-                        </motion.div>
-                    );
-                })}
+                        return (
+                            <motion.div
+                                key={v}
+                                className="absolute"
+                                style={{
+                                    width: slideWidth,
+                                    height: slideHeight,
+                                    left: slideLeft,
+                                    top: slideTop,
+                                    zIndex: 10 - Math.abs(diff),
+                                }}
+                                initial={false}
+                                animate={{ x, scale, rotateY, opacity }}
+                                transition={
+                                    isDragging
+                                        ? { duration: 0 }
+                                        : {
+                                              x: { type: "spring", stiffness: 300, damping: 32 },
+                                              scale: { type: "spring", stiffness: 300, damping: 32 },
+                                              rotateY: { type: "spring", stiffness: 300, damping: 32 },
+                                              opacity: { type: "tween", duration: 0.25, ease: "easeOut" },
+                                          }
+                                }
+                                onClick={() => {
+                                    if (draggedRef.current || diff === 0) return;
+                                    setVirtualIndex(v);
+                                }}
+                            >
+                                <img
+                                    src={images[realIdx]}
+                                    alt={`${name} screenshot ${realIdx + 1} of ${len}`}
+                                    draggable={false}
+                                    className="h-full w-full object-cover rounded-xl pointer-events-none"
+                                />
+                                {diff === 0 && (
+                                    <button
+                                        onClick={() => setFullscreenIndex(realIdx)}
+                                        onPointerDown={(e) => e.stopPropagation()}
+                                        onDoubleClick={(e) => e.stopPropagation()}
+                                        aria-label="View fullscreen"
+                                        className="absolute bottom-3 right-3 bg-slate-800/90 hover:bg-slate-800 text-white rounded-full border border-gray-400/50 hover:border-blue-400 transition-all duration-300 p-2 cursor-pointer"
+                                    >
+                                        <ArrowsPointingOutIcon strokeWidth={2} className="h-5 w-5" />
+                                    </button>
+                                )}
+                            </motion.div>
+                        );
+                    })}
 
                 {len > 1 && (
                     <>
@@ -225,14 +239,14 @@ function CarouselComponent({ images }) {
                 {fullscreenIndex !== null && (
                     <FullscreenImage
                         src={images[fullscreenIndex]}
-                        alt={`Slide ${fullscreenIndex + 1}`}
+                        alt={`${name} screenshot ${fullscreenIndex + 1} of ${len}`}
                         onClose={closeFullscreen}
                     />
                 )}
             </AnimatePresence>
 
             {len > 1 && (
-                <div className="flex items-center justify-center gap-2 mt-4">
+                <div className="flex items-center justify-center gap-2 mt-4 select-none">
                     {images.map((_, i) => (
                         <button
                             key={i}
@@ -256,4 +270,4 @@ function CarouselComponent({ images }) {
     );
 }
 
-export default CarouselComponent;
+export default ProjectCarousel;
