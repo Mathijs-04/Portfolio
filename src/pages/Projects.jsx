@@ -29,7 +29,7 @@ const projects = [
     {
         name: "Portfolio",
         slug: "portfolio",
-        description: "A showcase of my work and skills, built with React and Tailwind",
+        description: "A showcase of my work and skills",
         image: "/Portfolio/portfolio.webp",
         tech: [FaReact, SiTailwindcss],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",

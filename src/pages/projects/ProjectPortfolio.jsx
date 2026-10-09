@@ -7,7 +7,12 @@ import ProjectCarousel from "../../components/ProjectCarousel.jsx";
 
 function ProjectPortfolio() {
     const navigate = useNavigate();
-    const carouselImages = ["/Portfolio/portfolio.webp", "/Portfolio/portfolio-2.webp", "/Portfolio/portfolio-3.webp"];
+    const carouselImages = [
+        "/Portfolio/portfolio.webp",
+        "/Portfolio/portfolio-2.webp",
+        "/Portfolio/portfolio-3.webp",
+        "/Portfolio/portfolio-4.webp",
+    ];
 
     return (
         <div className="gradient-background min-h-screen">
@@ -29,17 +34,25 @@ function ProjectPortfolio() {
                         <SiTailwindcss className="text-2xl text-blue-400" />
                     </div>
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">
-                        A showcase of my work and skills, built with React and Tailwind
+                        A showcase of my work and skills
                     </p>
                     <p className="text-justify font-body mb-4">
-                        This <Highlight>portfolio website</Highlight> is a collection of my favorite projects, my
-                        experience so far, and some personal information. The base of this project consists of{" "}
-                        <Highlight>React</Highlight> and <Highlight>Tailwind</Highlight>, but I have experimented with
-                        implementing some cool extras. I have tried out some new techniques, like using a{" "}
-                        <Highlight>JavaScript Typewriter</Highlight> package, using an animated gradient background,
-                        making image carousels and importing various icons through React. Besides creating a place to
-                        show my work, this portfolio was also intended to explore new possibilities of{" "}
-                        <Highlight>web development</Highlight>.
+                        This <Highlight>portfolio website</Highlight> presents a selection of my projects, my professional
+                        experience and an overview of my skills. It is also a place where I experiment with modern{" "}
+                        <Highlight>web development</Highlight> techniques, and it continues to grow alongside my work.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        The site is a single-page application built with <Highlight>React</Highlight> and bundled with{" "}
+                        <Highlight>Vite</Highlight>. Navigation between pages is handled by{" "}
+                        <Highlight>React Router</Highlight>, and the design is styled with <Highlight>Tailwind CSS</Highlight>{" "}
+                        to keep the layout consistent across desktop and mobile devices.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        For motion and interactivity, I use <Highlight>Framer Motion</Highlight> for page and scroll
+                        animations, the <Highlight>typewriter-effect</Highlight> package for the animated text on the home
+                        page, and a custom image carousel with fullscreen viewing. Icons come from{" "}
+                        <Highlight>react-icons</Highlight>, and the code is checked
+                        with <Highlight>ESLint</Highlight>.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Portfolio">
                         Link to the GitHub Repository
