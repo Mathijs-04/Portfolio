@@ -1,16 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <script>
-        const path = window.location.pathname;
-
-        window.location.href = '/Portfolio/';
-    </script>
-</head>
-<body>
-<p>Redirecting...</p>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mathijs van der Meijde | Creative Technologist</title>
+        <meta
+            name="description"
+            content="Portfolio of Mathijs van der Meijde, Full-Stack Developer at NOBEARS and Creative Media &amp; Game Technologies student at Hogeschool Rotterdam. Explore projects in web development, 3D, AI and games."
+        />
+        <meta name="author" content="Mathijs van der Meijde" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Mathijs van der Meijde" />
+        <meta property="og:title" content="Mathijs van der Meijde | Creative Technologist" />
+        <meta
+            property="og:description"
+            content="Portfolio of Mathijs van der Meijde, Full-Stack Developer at NOBEARS and Creative Media &amp; Game Technologies student at Hogeschool Rotterdam. Explore projects in web development, 3D, AI and games."
+        />
+        <meta property="og:url" content="https://mathijs-04.github.io/Portfolio/" />
+        <meta property="og:image" content="https://mathijs-04.github.io/Portfolio/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Portrait of Mathijs van der Meijde next to his name and roles" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Mathijs van der Meijde | Creative Technologist" />
+        <meta
+            name="twitter:description"
+            content="Portfolio of Mathijs van der Meijde, Full-Stack Developer at NOBEARS and Creative Media &amp; Game Technologies student at Hogeschool Rotterdam. Explore projects in web development, 3D, AI and games."
+        />
+        <meta name="twitter:image" content="https://mathijs-04.github.io/Portfolio/og-image.png" />
+        <style>
+            html,
+            body {
+                margin: 0;
+                background: #0d0d0d;
+            }
+        </style>
+        <script>
+            var pathSegmentsToKeep = 1;
+            var l = window.location;
+            l.replace(
+                l.protocol +
+                    "//" +
+                    l.hostname +
+                    (l.port ? ":" + l.port : "") +
+                    l.pathname
+                        .split("/")
+                        .slice(0, 1 + pathSegmentsToKeep)
+                        .join("/") +
+                    "/?/" +
+                    l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/").replace(/&/g, "~and~") +
+                    (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+                    l.hash,
+            );
+        </script>
+    </head>
+    <body></body>
 </html>
