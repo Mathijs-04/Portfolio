@@ -14,6 +14,7 @@ import ProjectComingSoon from "./pages/projects/ProjectComingSoon.jsx";
 import ProjectDNDGPT from "./pages/projects/ProjectDNDGPT.jsx";
 import ProjectDiceRoller from "./pages/projects/ProjectDiceRoller.jsx";
 import ProjectDungeonDefender from "./pages/projects/ProjectDungeonDefender.jsx";
+import ProjectEchoesOfTheRealm from "./pages/projects/ProjectEchoesOfTheRealm.jsx";
 import ProjectEXPCorp from "./pages/projects/ProjectEXPCorp.jsx";
 import ProjectFitnessFinder from "./pages/projects/ProjectFitnessFinder.jsx";
 import ProjectFlashcardGenerator from "./pages/projects/ProjectFlashcardGenerator.jsx";
@@ -69,6 +70,7 @@ const router = createBrowserRouter(
                 { path: "/projects/elder-scrolls-theme-player", element: <ProjectThemePlayer /> },
                 { path: "/projects/arcane-archive", element: <ProjectArcaneArchive /> },
                 { path: "/projects/unreal-engine-scene", element: <ProjectUnrealEngineScene /> },
+                { path: "/projects/echoes-of-the-realm", element: <ProjectEchoesOfTheRealm /> },
                 { path: "*", element: <NotFound /> },
             ],
         },

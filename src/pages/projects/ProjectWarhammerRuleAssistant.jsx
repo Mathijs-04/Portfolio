@@ -72,7 +72,7 @@ function ProjectWarhammerRuleAssistant() {
                     <br />
                     <br />
                     <ExternalLink href="https://mathijs-04.github.io/PLE-Onepager/">
-                        Link to Promo Onepager
+                        Link to Promo Page
                     </ExternalLink>
                 </div>
             </div>
