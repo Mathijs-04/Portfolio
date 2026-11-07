@@ -27,6 +27,7 @@ import ProjectOpenHiring from "./pages/projects/ProjectOpenHiring.jsx";
 import ProjectPimcoreConverter from "./pages/projects/ProjectPimcoreConverter.jsx";
 import ProjectPortfolio from "./pages/projects/ProjectPortfolio.jsx";
 import ProjectPortfolioY1 from "./pages/projects/ProjectPortfolioY1.jsx";
+import ProjectReleaseRadar from "./pages/projects/ProjectReleaseRadar.jsx";
 import ProjectSchildMagieZwaard from "./pages/projects/ProjectSchildMagieZwaard.jsx";
 import ProjectSignTrail from "./pages/projects/ProjectSignTrail.jsx";
 import ProjectThemePlayer from "./pages/projects/ProjectThemePlayer.jsx";
@@ -71,6 +72,7 @@ const router = createBrowserRouter(
                 { path: "/projects/arcane-archive", element: <ProjectArcaneArchive /> },
                 { path: "/projects/unreal-engine-scene", element: <ProjectUnrealEngineScene /> },
                 { path: "/projects/echoes-of-the-realm", element: <ProjectEchoesOfTheRealm /> },
+                { path: "/projects/release-radar", element: <ProjectReleaseRadar /> },
                 { path: "*", element: <NotFound /> },
             ],
         },

@@ -260,6 +260,15 @@ const projects = [
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 8,
     },
+    {
+        name: "Release Radar",
+        slug: "release-radar",
+        description: "Your personalized game release calendar",
+        image: "/Portfolio/release-radar.webp",
+        tech: [FaReact],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 27,
+    },
 ];
 
 const sortOptions = [
