@@ -63,6 +63,15 @@ const projects = [
         order: 26,
     },
     {
+        name: "Release Radar",
+        slug: "release-radar",
+        description: "Your personalized game release calendar",
+        image: "/Portfolio/release-radar.webp",
+        tech: [FaReact],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 27,
+    },
+    {
         name: "Object_1",
         slug: "object-1",
         description: "An AI-driven 3D experiment",
@@ -79,6 +88,15 @@ const projects = [
         tech: [FaLaravel, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 6,
+    },
+    {
+        name: "Dungeon Defender",
+        slug: "dungeon-defender",
+        description: "A web-based game built with Excalibur.js",
+        image: "/Portfolio/dungeon.webp",
+        tech: [ExcaliburIcon, SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 4,
     },
     {
         name: "Hosting Recommender",
@@ -151,15 +169,6 @@ const projects = [
         tech: [SiUnrealengine],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 5,
-    },
-    {
-        name: "Dungeon Defender",
-        slug: "dungeon-defender",
-        description: "A web-based game built with Excalibur.js",
-        image: "/Portfolio/dungeon.webp",
-        tech: [ExcaliburIcon, SiJavascript],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        order: 4,
     },
     {
         name: "The Elder Scrolls Theme Player",
@@ -259,15 +268,6 @@ const projects = [
         tech: [FaReact, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 8,
-    },
-    {
-        name: "Release Radar",
-        slug: "release-radar",
-        description: "Your personalized game release calendar",
-        image: "/Portfolio/release-radar.webp",
-        tech: [FaReact],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        order: 27,
     },
 ];
 
