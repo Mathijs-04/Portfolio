@@ -10,6 +10,7 @@ import ProjectAITravelPlanner from "./pages/projects/ProjectAITravelPlanner.jsx"
 import ProjectAdventurersArmory from "./pages/projects/ProjectAdventurersArmory.jsx";
 import ProjectArcaneArchive from "./pages/projects/ProjectArcaneArchive.jsx";
 import ProjectBlijeBij from "./pages/projects/ProjectBlijeBij.jsx";
+import ProjectBuhurt from "./pages/projects/ProjectBuhurt.jsx";
 import ProjectComingSoon from "./pages/projects/ProjectComingSoon.jsx";
 import ProjectDNDGPT from "./pages/projects/ProjectDNDGPT.jsx";
 import ProjectDiceRoller from "./pages/projects/ProjectDiceRoller.jsx";
@@ -73,6 +74,7 @@ const router = createBrowserRouter(
                 { path: "/projects/unreal-engine-scene", element: <ProjectUnrealEngineScene /> },
                 { path: "/projects/echoes-of-the-realm", element: <ProjectEchoesOfTheRealm /> },
                 { path: "/projects/release-radar", element: <ProjectReleaseRadar /> },
+                { path: "/projects/buhurt", element: <ProjectBuhurt /> },
                 { path: "*", element: <NotFound /> },
             ],
         },

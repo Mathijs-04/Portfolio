@@ -27,15 +27,6 @@ function ExcaliburIcon() {
 
 const projects = [
     {
-        name: "Portfolio",
-        slug: "portfolio",
-        description: "A showcase of my work and skills",
-        image: "/Portfolio/portfolio.webp",
-        tech: [FaReact, SiTailwindcss],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        order: 7,
-    },
-    {
         name: "Warhammer Rule Assistant",
         slug: "warhammer-rule-assistant",
         description: "The ultimate rule assistant for Warhammer players",
@@ -63,6 +54,24 @@ const projects = [
         order: 26,
     },
     {
+        name: "Buhurt",
+        slug: "buhurt",
+        description: "A tribute to the greatest sport of all time",
+        image: "/Portfolio/buhurt.webp",
+        tech: [SiHtml5, SiCss3, SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 28,
+    },
+    {
+        name: "Portfolio",
+        slug: "portfolio",
+        description: "A showcase of my work and skills",
+        image: "/Portfolio/portfolio.webp",
+        tech: [FaReact, SiTailwindcss],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 7,
+    },
+    {
         name: "Release Radar",
         slug: "release-radar",
         description: "Your personalized game release calendar",
@@ -79,15 +88,6 @@ const projects = [
         tech: [SiJavascript, FaReact, IoIosGitNetwork],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 23,
-    },
-    {
-        name: "Mighty Models",
-        slug: "mighty-models",
-        description: "A Laravel website where users share their tabletop miniatures",
-        image: "/Portfolio/mighty-models.webp",
-        tech: [FaLaravel, SiTailwindcss, FaDatabase],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        order: 6,
     },
     {
         name: "Dungeon Defender",
@@ -115,6 +115,15 @@ const projects = [
         tech: [FaVuejs, SiPython, SiFastapi, SiPhp, SiOpenai, SiDocker],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 18,
+    },
+    {
+        name: "Mighty Models",
+        slug: "mighty-models",
+        description: "A Laravel website where users share their tabletop miniatures",
+        image: "/Portfolio/mighty-models.webp",
+        tech: [FaLaravel, SiTailwindcss, FaDatabase],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 6,
     },
     {
         name: "Open Hiring",
@@ -153,6 +162,15 @@ const projects = [
         order: 14,
     },
     {
+        name: "The Elder Scrolls Theme Player",
+        slug: "elder-scrolls-theme-player",
+        description: "A music player for The Elder Scrolls",
+        image: "/Portfolio/theme-player.webp",
+        tech: [SiHtml5, SiCss3, SiJavascript],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 22,
+    },
+    {
         name: "Unreal Engine Scene",
         slug: "unreal-engine-scene",
         description: "A cinematic scene in Unreal Engine 5.8",
@@ -169,15 +187,6 @@ const projects = [
         tech: [SiUnrealengine],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 5,
-    },
-    {
-        name: "The Elder Scrolls Theme Player",
-        slug: "elder-scrolls-theme-player",
-        description: "A music player for The Elder Scrolls",
-        image: "/Portfolio/theme-player.webp",
-        tech: [SiHtml5, SiCss3, SiJavascript],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        order: 22,
     },
     {
         name: "The Adventurers Armory",
