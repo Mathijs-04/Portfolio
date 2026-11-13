@@ -1,4 +1,4 @@
-import{r as m}from"./react-BNUlTOfN.js";import"./vendor-BD-Xgrup.js";/**
+import{r as m}from"./react-BNUlTOfN.js";import"./vendor-DxrBN-1s.js";/**
  * react-router v7.1.3
  *
  * Copyright (c) Remix Software Inc.
