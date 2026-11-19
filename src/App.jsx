@@ -9,6 +9,7 @@ import Skills from "./pages/Skills.jsx";
 import ProjectAITravelPlanner from "./pages/projects/ProjectAITravelPlanner.jsx";
 import ProjectAdventurersArmory from "./pages/projects/ProjectAdventurersArmory.jsx";
 import ProjectArcaneArchive from "./pages/projects/ProjectArcaneArchive.jsx";
+import ProjectBiotopia from "./pages/projects/ProjectBiotopia.jsx";
 import ProjectBlijeBij from "./pages/projects/ProjectBlijeBij.jsx";
 import ProjectBuhurt from "./pages/projects/ProjectBuhurt.jsx";
 import ProjectComingSoon from "./pages/projects/ProjectComingSoon.jsx";
@@ -75,6 +76,7 @@ const router = createBrowserRouter(
                 { path: "/projects/echoes-of-the-realm", element: <ProjectEchoesOfTheRealm /> },
                 { path: "/projects/release-radar", element: <ProjectReleaseRadar /> },
                 { path: "/projects/buhurt", element: <ProjectBuhurt /> },
+                { path: "/projects/biotopia", element: <ProjectBiotopia /> },
                 { path: "*", element: <NotFound /> },
             ],
         },

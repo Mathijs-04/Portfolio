@@ -16,6 +16,7 @@ import {
     SiFastapi,
     SiDocker,
     SiPhp,
+    SiThreedotjs,
 } from "react-icons/si";
 import ExcaliburLogo from "/excalibur-logo-blue.webp";
 import Highlight from "../components/Highlight.jsx";
@@ -126,13 +127,13 @@ const projects = [
         order: 6,
     },
     {
-        name: "Open Hiring",
-        slug: "open-hiring",
-        description: "A Laravel-based job listing platform for inclusive hiring",
-        image: "/Portfolio/open-hiring.webp",
-        tech: [FaLaravel, SiTailwindcss, FaDatabase],
+        name: "Biotopia",
+        slug: "biotopia",
+        description: "An award-winning Hackathon project",
+        image: "/Portfolio/biotopia.webp",
+        tech: [SiThreedotjs],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        order: 10,
+        order: 29,
     },
     {
         name: "AI Travel Planner",
@@ -225,13 +226,13 @@ const projects = [
         order: 12,
     },
     {
-        name: "Full-Stack Game Collection",
-        slug: "game-collection",
-        description: "A MERN-stack collection with a dedicated Front- and Back-End",
-        image: "/Portfolio/game-collection.webp",
-        tech: [FaReact, FaNodeJs, SiMongodb, SiExpress, SiTailwindcss],
+        name: "Open Hiring",
+        slug: "open-hiring",
+        description: "A Laravel-based job listing platform for inclusive hiring",
+        image: "/Portfolio/open-hiring.webp",
+        tech: [FaLaravel, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        order: 9,
+        order: 10,
     },
     {
         name: "SignTrail",
@@ -241,6 +242,15 @@ const projects = [
         tech: [FaReact, SiTailwindcss, FaDatabase, IoIosGitNetwork, ExcaliburIcon],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 13,
+    },
+    {
+        name: "Full-Stack Game Collection",
+        slug: "game-collection",
+        description: "A MERN-stack collection with a dedicated Front- and Back-End",
+        image: "/Portfolio/game-collection.webp",
+        tech: [FaReact, FaNodeJs, SiMongodb, SiExpress, SiTailwindcss],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 9,
     },
     {
         name: "Schild, Magie, Zwaard",
@@ -261,15 +271,6 @@ const projects = [
         order: 2,
     },
     {
-        name: "Flashcard Generator",
-        slug: "flashcard-generator",
-        description: "An AI-powered flashcard generator in Vue.js",
-        image: "/Portfolio/flashcard-generator.webp",
-        tech: [FaVuejs, IoIosGitNetwork],
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
-        order: 15,
-    },
-    {
         name: "EXPCorp.",
         slug: "exp-corp",
         description: "A fictional company website specialized in VR experiences",
@@ -277,6 +278,15 @@ const projects = [
         tech: [FaReact, SiTailwindcss, FaDatabase],
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         order: 8,
+    },
+    {
+        name: "Flashcard Generator",
+        slug: "flashcard-generator",
+        description: "An AI-powered flashcard generator in Vue.js",
+        image: "/Portfolio/flashcard-generator.webp",
+        tech: [FaVuejs, IoIosGitNetwork],
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
+        order: 15,
     },
 ];
 
