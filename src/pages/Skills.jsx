@@ -21,7 +21,11 @@ import {
     SiVuedotjs,
     SiFastapi,
     SiFigma,
+    SiTypescript,
+    SiOpenai,
+    SiThreedotjs,
 } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 import Highlight from "../components/Highlight.jsx";
 import usePointerCapable from "../hooks/usePointerCapable.js";
 
@@ -55,16 +59,22 @@ const skills = [
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
-        name: "PHP",
-        icon: <FaPhp className="text-indigo-500" />,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(99,102,241,0.6)] hover:border-indigo-500",
-        link: "https://www.php.net/",
+        name: "TypeScript",
+        icon: <SiTypescript className="text-[#3178C6]" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(49,120,198,0.6)] hover:border-[#3178C6]",
+        link: "https://www.typescriptlang.org/",
     },
     {
         name: "React",
         icon: <FaReact className="text-blue-400" />,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(96,165,250,0.6)] hover:border-blue-400",
         link: "https://react.dev/",
+    },
+    {
+        name: "React Native",
+        icon: <TbBrandReactNative className="text-[#61DAFB]" strokeWidth={1.25} />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(97,218,251,0.6)] hover:border-[#61DAFB]",
+        link: "https://reactnative.dev/",
     },
     {
         name: "Vue.js",
@@ -79,28 +89,22 @@ const skills = [
         link: "https://tailwindcss.com/",
     },
     {
+        name: "PHP",
+        icon: <FaPhp className="text-indigo-500" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(99,102,241,0.6)] hover:border-indigo-500",
+        link: "https://www.php.net/",
+    },
+    {
         name: "Laravel",
         icon: <FaLaravel className="text-red-500" />,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(239,68,68,0.6)] hover:border-red-500",
         link: "https://laravel.com/",
     },
     {
-        name: "SQL",
-        icon: <FaDatabase className="text-blue-600" />,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(37,99,235,0.6)] hover:border-blue-600",
-        link: "https://www.postgresql.org/",
-    },
-    {
         name: "Node.js",
         icon: <FaNodeJs className="text-green-500" />,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(34,197,94,0.6)] hover:border-green-500",
         link: "https://nodejs.org/",
-    },
-    {
-        name: "MongoDB",
-        icon: <SiMongodb className="text-green-600" />,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(22,163,74,0.6)] hover:border-green-600",
-        link: "https://www.mongodb.com/",
     },
     {
         name: "Express",
@@ -121,16 +125,28 @@ const skills = [
         link: "https://fastapi.tiangolo.com/",
     },
     {
-        name: "Unreal Engine 5",
-        icon: <SiUnrealengine className="text-gray-300" />,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(209,213,219,0.6)] hover:border-gray-300",
-        link: "https://www.unrealengine.com/",
+        name: "OpenAI",
+        icon: <SiOpenai className="text-white" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(255,255,255,0.6)] hover:border-white",
+        link: "https://platform.openai.com/",
     },
     {
-        name: "GitHub",
-        icon: <FaGithub className="text-white" />,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(255,255,255,0.6)] hover:border-white",
-        link: "https://github.com/",
+        name: "Postman",
+        icon: <SiPostman className="text-orange-500" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(249,115,22,0.6)] hover:border-orange-500",
+        link: "https://www.postman.com/",
+    },
+    {
+        name: "SQL",
+        icon: <FaDatabase className="text-blue-600" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(37,99,235,0.6)] hover:border-blue-600",
+        link: "https://www.postgresql.org/",
+    },
+    {
+        name: "MongoDB",
+        icon: <SiMongodb className="text-green-600" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(22,163,74,0.6)] hover:border-green-600",
+        link: "https://www.mongodb.com/",
     },
     {
         name: "Docker",
@@ -139,16 +155,28 @@ const skills = [
         link: "https://www.docker.com/",
     },
     {
+        name: "GitHub",
+        icon: <FaGithub className="text-white" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(255,255,255,0.6)] hover:border-white",
+        link: "https://github.com/",
+    },
+    {
+        name: "Three.js",
+        icon: <SiThreedotjs className="text-gray-100" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(243,244,246,0.6)] hover:border-gray-100",
+        link: "https://threejs.org/",
+    },
+    {
         name: "Excalibur.js",
         icon: <img src="/Portfolio/excalibur-logo.webp" alt="Excalibur.js Logo" className="w-10 h-10" />,
         hoverClass: "hover:shadow-[0_0_15px_5px_rgba(250,204,21,0.6)] hover:border-yellow-400",
         link: "https://excaliburjs.com/",
     },
     {
-        name: "Postman",
-        icon: <SiPostman className="text-orange-500" />,
-        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(249,115,22,0.6)] hover:border-orange-500",
-        link: "https://www.postman.com/",
+        name: "Unreal Engine 5",
+        icon: <SiUnrealengine className="text-gray-300" />,
+        hoverClass: "hover:shadow-[0_0_15px_5px_rgba(209,213,219,0.6)] hover:border-gray-300",
+        link: "https://www.unrealengine.com/",
     },
     {
         name: "Figma",
