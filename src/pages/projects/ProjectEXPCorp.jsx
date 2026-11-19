@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router";
-import { FaReact, FaDatabase } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiPhp, SiMysql } from "react-icons/si";
 import ExternalLink from "../../components/ExternalLink.jsx";
 import Highlight from "../../components/Highlight.jsx";
 import ProjectCarousel from "../../components/ProjectCarousel.jsx";
@@ -30,23 +29,29 @@ function ProjectEXPCorp() {
                 <div className="bg-slate-800 p-6 max-md:p-4 rounded-lg mb-5">
                     <ProjectCarousel images={carouselImages} name="EXPCorp." />
                     <div className="flex space-x-3 mb-4">
-                        <FaReact className="text-2xl text-blue-400" />
-                        <SiTailwindcss className="text-2xl text-blue-400" />
-                        <FaDatabase className="text-2xl text-blue-400" />
+                        <SiHtml5 className="text-2xl text-blue-400" />
+                        <SiCss3 className="text-2xl text-blue-400" />
+                        <SiJavascript className="text-2xl text-blue-400" />
+                        <SiPhp className="text-2xl text-blue-400" />
+                        <SiMysql className="text-2xl text-blue-400" />
                     </div>
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">
                         A fictional company website specialized in VR experiences
                     </p>
                     <p className="text-justify font-body mb-4">
                         <Highlight>EXPCorp.</Highlight> is a website for a <Highlight>fictional company</Highlight> that
-                        offers virtual experiences to the elderly. This concept was created based on a brainstorming
-                        session during which our team shared ideas about dystopian and utopian scenarios. We decided to
-                        work on a fictional scenario in which <Highlight>Virtual Reality</Highlight> takes over the
-                        world. Our next step was developing a website that suited that scenario, and EXPCorp. was born.
-                        EXPCorp. offers nine unique virtual experiences that can be used with or without a{" "}
-                        <Highlight>VR headset</Highlight>. The website also features a product page and an interactive
-                        question system to determine which VR gear suits you best. EXPCorp. was never intended to be a
-                        solution, but rather a means to make people think about the future of technology.
+                        offers virtual experiences to the elderly. The concept came from a team brainstorm about{" "}
+                        <Highlight>dystopian and utopian scenarios</Highlight>, in which we chose a future where{" "}
+                        <Highlight>Virtual Reality</Highlight> takes over the world. We then developed a website that
+                        suited that scenario, and EXPCorp. was born.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        The website offers nine unique virtual experiences that can be used with or without a{" "}
+                        <Highlight>VR headset</Highlight>, a product page, and an interactive{" "}
+                        <Highlight>questionnaire</Highlight> that determines which VR gear suits you best. It was built
+                        with <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight>, <Highlight>JavaScript</Highlight>,{" "}
+                        <Highlight>PHP</Highlight> and <Highlight>MySQL</Highlight>. EXPCorp. was never meant to be a
+                        solution, but rather a way to make people think about the future of technology.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/TLE1-SPRINT3">
                         Link to the GitHub Repository

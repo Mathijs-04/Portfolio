@@ -28,11 +28,14 @@ function ProjectUnrealEngineScene() {
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">
                         A cinematic scene in Unreal Engine 5.8
                     </p>
-                    <p className="text-justify font-body">
+                    <p className="text-justify font-body mb-4">
                         This <Highlight>cinematic cave scene</Highlight> in <Highlight>Unreal Engine 5.8</Highlight> was
-                        a short experiment for a 3D Design school course. With this project, I wanted to experiment with
-                        Unreal&apos;s <Highlight>lighting systems</Highlight> and its{" "}
-                        <Highlight>cinematography</Highlight> options. I also experimented with the{" "}
+                        a short experiment for a <Highlight>3D Design</Highlight> course at school. In a dark cave, a
+                        hooded statue watches over a skull with a single burning candle.
+                    </p>
+                    <p className="text-justify font-body">
+                        With this project, I wanted to explore Unreal&apos;s <Highlight>lighting systems</Highlight> and
+                        its <Highlight>cinematography</Highlight> options. I also experimented with the{" "}
                         <Highlight>Blueprint</Highlight> system to make a realistic-looking candle flame.
                     </p>
                 </div>

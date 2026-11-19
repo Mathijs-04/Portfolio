@@ -30,16 +30,18 @@ function ProjectUnrealEngine() {
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">
                         A 3D landscape built in Unreal Engine 5
                     </p>
+                    <p className="text-justify font-body mb-4">
+                        This <Highlight>fantasy environment</Highlight> with castles was my first ever project in{" "}
+                        <Highlight>Unreal Engine 5</Highlight>. I wanted to learn more about Unreal Engine and 3D
+                        development, and followed a beginner tutorial by <Highlight>Unreal Sensei</Highlight> along the
+                        way.
+                    </p>
                     <p className="text-justify font-body">
-                        This <Highlight>Unreal Engine 5</Highlight> environment is my first ever project in Unreal
-                        Engine. I wanted to learn more about Unreal Engine 5 and 3D Development, so I created this
-                        fantasy environment with castles in it. While making this environment I experimented with
-                        various tools and techniques in Unreal Engine 5, like <Highlight>Nanite</Highlight>,{" "}
-                        <Highlight>Lumen</Highlight>, <Highlight>Landscaping</Highlight>,{" "}
-                        <Highlight>Modular Design</Highlight>, and the UE5 <Highlight>Blueprint</Highlight> system.
-                        During this project, I followed an Unreal Engine 5 Beginner Tutorial by{" "}
-                        <Highlight>Unreal Sensei</Highlight>. I was positively surprised by the number of possibilities
-                        UE5 has, and want to work on more of these projects in the future.
+                        While building the environment, I experimented with various tools and techniques, like{" "}
+                        <Highlight>Nanite</Highlight>, <Highlight>Lumen</Highlight>, <Highlight>landscaping</Highlight>,{" "}
+                        <Highlight>modular design</Highlight> and the <Highlight>Blueprint</Highlight> system. I was
+                        positively surprised by the number of possibilities Unreal Engine 5 offers, and I want to work
+                        on more projects like this in the future.
                     </p>
                 </div>
             </div>

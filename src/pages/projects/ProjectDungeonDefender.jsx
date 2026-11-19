@@ -38,12 +38,15 @@ function ProjectDungeonDefender() {
                         A web-based game built with Excalibur.js
                     </p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>Dungeon Defender</Highlight> is a <Highlight>2D Arcade Game</Highlight> made with{" "}
-                        <Highlight>JavaScript</Highlight> in the gaming framework <Highlight>Excalibur.js</Highlight>.
-                        This was the first ever game I developed entirely by myself. In Dungeon Defender, the goal is to
-                        fight off as many enemies as possible and defend the dungeon. Defeating enemies gives you more
-                        points. When you are hit three times, the game ends and you will have to try again. Excalibur.js
-                        games run entirely in your browser, so no downloads are required.
+                        <Highlight>Dungeon Defender</Highlight> is a <Highlight>2D arcade game</Highlight> made with{" "}
+                        <Highlight>JavaScript</Highlight> and the game framework <Highlight>Excalibur.js</Highlight>. It
+                        was the first game I ever developed entirely by myself. The goal is to fight off as many enemies
+                        as possible and defend the dungeon.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        Every enemy you defeat gives you more points, but when you are hit three times, the game ends
+                        and you will have to try again. Excalibur.js games run entirely in your{" "}
+                        <Highlight>browser</Highlight>, so no downloads are required. Jump right in and give it a try!
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Dungeon-Defender">
                         Link to the GitHub Repository

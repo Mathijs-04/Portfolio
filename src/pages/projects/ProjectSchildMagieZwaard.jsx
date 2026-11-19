@@ -37,14 +37,18 @@ function ProjectSchildMagieZwaard() {
                     </p>
                     <p className="text-justify font-body mb-4">
                         <Highlight>Schild, Magie, Zwaard</Highlight> is a simple web-based game powered by a{" "}
-                        <Highlight>Neural Network</Highlight>. It is a variation of{" "}
-                        <Highlight>Rock, Paper, Scissors</Highlight>, created as an experiment in building my own AI
-                        model using Neural Networks. The project consists of a Front-End where players interact with the
-                        game and a Back-End that collects data, trains the model, and evaluates its performance. The
-                        game uses live <Highlight>hand-tracking</Highlight> via your webcam. The Neural Network analyzes
-                        gestures in real time to predict the player’s move, creating a competitive experience against
-                        the computer. Through this project, I have learned a lot about Neural Networks, including how to
-                        design, train, and deploy your very own Model.
+                        <Highlight>neural network</Highlight>. It is a variation of{" "}
+                        <Highlight>Rock, Paper, Scissors</Highlight>, created as an experiment in building my own{" "}
+                        <Highlight>AI model</Highlight>. The game uses live <Highlight>hand tracking</Highlight> through
+                        your webcam, and the neural network analyzes your gestures in real time to predict your move,
+                        creating a competitive experience against the computer.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        The project consists of a <Highlight>Front-End</Highlight> where players interact with the game
+                        and a <Highlight>Back-End</Highlight> that collects data, trains the model and evaluates its
+                        performance. Through this project, I learned a lot about neural networks, including how to{" "}
+                        <Highlight>design</Highlight>, <Highlight>train</Highlight> and <Highlight>deploy</Highlight>{" "}
+                        your very own model.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/PRG8-Interface">
                         Link to the GitHub Repository

@@ -37,22 +37,18 @@ function ProjectPortfolio() {
                         A showcase of my work and skills
                     </p>
                     <p className="text-justify font-body mb-4">
-                        This <Highlight>portfolio website</Highlight> presents a selection of my projects, my professional
-                        experience and an overview of my skills. It is also a place where I experiment with modern{" "}
-                        <Highlight>web development</Highlight> techniques, and it continues to grow alongside my work.
+                        This <Highlight>portfolio website</Highlight> presents a selection of my projects, my
+                        professional experience and an overview of my skills. It is also a place where I experiment with
+                        modern web development techniques, and it continues to grow alongside my work.
                     </p>
                     <p className="text-justify font-body mb-4">
-                        The site is a single-page application built with <Highlight>React</Highlight> and bundled with{" "}
-                        <Highlight>Vite</Highlight>. Navigation between pages is handled by{" "}
-                        <Highlight>React Router</Highlight>, and the design is styled with <Highlight>Tailwind CSS</Highlight>{" "}
-                        to keep the layout consistent across desktop and mobile devices.
-                    </p>
-                    <p className="text-justify font-body mb-4">
-                        For motion and interactivity, I use <Highlight>Framer Motion</Highlight> for page and scroll
-                        animations, the <Highlight>typewriter-effect</Highlight> package for the animated text on the home
-                        page, and a custom image carousel with fullscreen viewing. Icons come from{" "}
-                        <Highlight>react-icons</Highlight>, and the code is checked
-                        with <Highlight>ESLint</Highlight>.
+                        The site is a <Highlight>single-page application</Highlight> built with{" "}
+                        <Highlight>React</Highlight> and bundled with <Highlight>Vite</Highlight>. Navigation is handled
+                        by <Highlight>React Router</Highlight>, and <Highlight>Tailwind CSS</Highlight> keeps the layout
+                        consistent across desktop and mobile. For motion and interactivity, I use{" "}
+                        <Highlight>Framer Motion</Highlight> for page and scroll animations, a{" "}
+                        <Highlight>typewriter effect</Highlight> for the animated text on the home page, and a custom{" "}
+                        <Highlight>image carousel</Highlight> with fullscreen viewing.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Portfolio">
                         Link to the GitHub Repository

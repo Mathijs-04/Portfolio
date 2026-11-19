@@ -37,13 +37,16 @@ function ProjectArcaneArchive() {
                     </p>
                     <p className="text-justify font-body mb-4">
                         <Highlight>The Arcane Archive</Highlight> is a web-based <Highlight>Dungeon Synth</Highlight>{" "}
-                        music player. Dungeon Synth is a niche type of <Highlight>electronic music</Highlight> featuring
-                        fantasy-style ambient music. I really like this genre and the distinct visual style that comes
-                        with it. I liked the style so much that I decided to try my own hand at making a design with
-                        this style. I built this application for a design project for the User Experience Design Course
-                        at school. The biggest challenge of this project was translating this very distinct{" "}
-                        <Highlight>Dark Fantasy</Highlight> style to a simple webpage, but I think it turned out great.
-                        It features a couple of my favorite tracks, so go check it out!
+                        music player. Dungeon Synth is a niche genre of electronic music with a fantasy-style, ambient
+                        sound. I really like this genre and the distinct visual style that comes with it, so much that I
+                        wanted to try my own hand at a design in that style.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        I built this application for the <Highlight>User Experience Design</Highlight> course at school,
+                        using plain <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight> and{" "}
+                        <Highlight>JavaScript</Highlight>. The biggest challenge was translating such a distinct{" "}
+                        <Highlight>dark fantasy style</Highlight> into a simple webpage, but I think it turned out
+                        great. The player features a couple of my favorite tracks, so go check it out!
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/The-Arcane-Archive">
                         Link to the GitHub Repository

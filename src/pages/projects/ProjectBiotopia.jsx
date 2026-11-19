@@ -36,24 +36,18 @@ function ProjectBiotopia() {
                         An award-winning Hackathon project
                     </p>
                     <p className="text-justify font-body mb-4">
-                        Biotopia is a <Highlight>3D web experience</Highlight> built with{" "}
+                        <Highlight>Biotopia</Highlight> is a <Highlight>3D web experience</Highlight> built with{" "}
                         <Highlight>Three.js</Highlight> during the <Highlight>Hackathon Immersive Tech 2026</Highlight>{" "}
-                        in Rotterdam, where I worked on it for three days in a team of six. It is an educational
-                        experience that teaches young people about life in their gardens and the importance of{" "}
-                        <Highlight>flowers</Highlight> and <Highlight>insects</Highlight>.
+                        in Rotterdam, where I worked on it for three days in a team of six. Together with{" "}
+                        <Highlight>Bioto</Highlight>, the company behind the <Highlight>Plantenluisteraar</Highlight>,
+                        we used live environmental data from a real garden in Rotterdam to create a virtual version that
+                        responds to it: when more moisture is detected, for example, it starts to rain.
                     </p>
                     <p className="text-justify font-body mb-4">
-                        We built it in collaboration with <Highlight>Bioto</Highlight>, the company behind the{" "}
-                        <Highlight>Plantenluisteraar</Highlight>: a device that measures environmental data such as
-                        light, temperature and moisture. Using a <Highlight>live connection</Highlight> to one of these
-                        devices in a real garden in Rotterdam, we created a virtual version of that garden which responds
-                        to the measured data. When more moisture is detected, for example, it starts to rain.
-                    </p>
-                    <p className="text-justify font-body mb-4">
-                        To make the garden more immersive, you can also experience it as a{" "}
-                        <Highlight>butterfly</Highlight> or a <Highlight>bee</Highlight>. Fly around and land on all
-                        kinds of flowers to learn about their role in the ecosystem, or collect nectar as a bee to make
-                        honey. With this project, our team won <Highlight>first place</Highlight> in the category{" "}
+                        To make it more immersive and educational, you can explore the garden as a{" "}
+                        <Highlight>butterfly</Highlight> or a <Highlight>bee</Highlight>, land on flowers to learn about
+                        their role in the ecosystem, and collect nectar to make honey. With this project, our team won{" "}
+                        <Highlight>first place</Highlight> in the category{" "}
                         <Highlight>Best Use of Immersive Technology</Highlight>!
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Hackaton-Immersive-Tech">

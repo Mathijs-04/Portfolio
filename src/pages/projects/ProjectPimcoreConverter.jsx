@@ -40,18 +40,20 @@ function ProjectPimcoreConverter() {
                         A tool to import Excel data into Pimcore
                     </p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>Pimcore Converter</Highlight> is a tool made for e-commerce teams using{" "}
-                        <Highlight>Pimcore</Highlight>. Pimcore is used to store large quantities of product data. Many
-                        companies still store this data in large <Highlight>Excel</Highlight> sheets. Converting these
-                        into Pimcore manually is a huge task, which is why I built this tool. You can enter your Pimcore
-                        credentials in this tool and upload your Excel data, either by uploading the file or providing a{" "}
-                        <Highlight>Google Drive</Highlight> Link. The Converter uses AI to sample the product data and
-                        make sure the correct folders, classes and items are created in Pimcore. Since it processes in
-                        batches, there is no limit to the size of the data you can convert. The Front-End was built
-                        using <Highlight>Vue.js</Highlight>, the Back-End uses <Highlight>Python</Highlight>,{" "}
-                        <Highlight>FastAPI</Highlight>, <Highlight>Symfony PHP</Highlight> and a model from{" "}
-                        <Highlight>OpenAI</Highlight>. This tool works together with a small Pimcore Bundle, which
-                        handles our request within your Pimcore Environment.
+                        <Highlight>Pimcore Converter</Highlight> is a tool for e-commerce teams using{" "}
+                        <Highlight>Pimcore</Highlight>, a platform that stores large quantities of product data. Many
+                        companies still keep this data in large <Highlight>Excel</Highlight> sheets, and converting them
+                        into Pimcore by hand is a huge task. That is why I built this tool.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        You enter your Pimcore credentials and upload your Excel data, either as a file or through a{" "}
+                        <Highlight>Google Drive</Highlight> link. The Converter uses <Highlight>AI</Highlight> to sample
+                        the product data and makes sure the correct folders, classes and items are created in Pimcore.
+                        Since it processes in <Highlight>batches</Highlight>, there is no limit to the size of the data.
+                        The Front-End was built with <Highlight>Vue.js</Highlight>, the Back-End uses{" "}
+                        <Highlight>Python</Highlight>, <Highlight>FastAPI</Highlight>,{" "}
+                        <Highlight>Symfony PHP</Highlight> and a model from <Highlight>OpenAI</Highlight>, and a small{" "}
+                        <Highlight>Pimcore Bundle</Highlight> handles the requests within your Pimcore environment.
                     </p>
                 </div>
             </div>

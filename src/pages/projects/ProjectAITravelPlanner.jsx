@@ -42,17 +42,18 @@ function ProjectAITravelPlanner() {
                         An AI-powered travel planning application
                     </p>
                     <p className="text-justify font-body mb-4">
-                        This <Highlight>AI Travel Planner</Highlight> tool makes personalized travel plans to{" "}
-                        <Highlight>Kenya</Highlight>. The user gets asked a few questions about preferences, budget,
-                        transport, accommodation and duration of the trip. These answers get stored and are used to
-                        collect the correct data from the <Highlight>Qdrant Vector Database</Highlight>. These are
-                        integrated in the comprehensive system prompt, which includes all kinds of rules to make a
-                        correct travel plan. This vast prompt is sent to a model from <Highlight>OpenAI</Highlight>,
-                        which generates a travel plan based on the specifications. This plan is returned to the
-                        Front-End, where it is shown to the user. Here the user can interact with the plan, make small
-                        changes like changing accommodation and send it to their mail as confirmation. The Front-End
-                        uses <Highlight>Vue.js</Highlight>, while the Back-End consists of <Highlight>Python</Highlight>
-                        , <Highlight>FastAPI</Highlight>, a Qdrant Vector Database and calls to OpenAI. This was one of
+                        <Highlight>AI Travel Planner</Highlight> makes personalized <Highlight>travel plans</Highlight>{" "}
+                        for trips to <Highlight>Kenya</Highlight>. The user answers a few questions about preferences,
+                        budget, transport, accommodation and the duration of the trip. These answers are used to collect
+                        the right data from a <Highlight>Qdrant</Highlight> vector database, which is added to an
+                        extensive <Highlight>system prompt</Highlight> with all kinds of rules for a correct travel
+                        plan. A model from <Highlight>OpenAI</Highlight> then generates the plan.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        Back in the Front-End, the user can interact with the plan, make small changes such as a
+                        different accommodation, and send it to their email as confirmation. The Front-End uses{" "}
+                        <Highlight>Vue.js</Highlight>, while the Back-End consists of <Highlight>Python</Highlight>,{" "}
+                        <Highlight>FastAPI</Highlight>, the Qdrant vector database and calls to OpenAI. This was one of
                         the most comprehensive and challenging projects I have worked on so far!
                     </p>
                 </div>

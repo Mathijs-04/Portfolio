@@ -36,12 +36,15 @@ function ProjectPortfolioY1() {
                         A collection of my first-year projects
                     </p>
                     <p className="text-justify font-body mb-4">
-                        This was my previous <Highlight>portfolio website</Highlight>, which I used before making my
-                        current one. This portfolio showcased most of my first-year projects and some of my second-year
-                        projects I had worked on. This website was made entirely in plain <Highlight>HTML</Highlight>,{" "}
-                        <Highlight>CSS</Highlight>, and <Highlight>JavaScript</Highlight>. One of the main reasons I
-                        decided to make a new portfolio was to challenge myself to build my portfolio using more
-                        advanced <Highlight>web development</Highlight> tools and techniques.
+                        This was my <Highlight>previous portfolio</Highlight> website, which I used before making my
+                        current one. It showcased most of my <Highlight>first-year projects</Highlight> and some of the
+                        second-year projects I had worked on.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        The website was made entirely in plain <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight>{" "}
+                        and <Highlight>JavaScript</Highlight>. One of the main reasons I decided to make a new portfolio
+                        was to challenge myself to build it with more <Highlight>advanced web development</Highlight>{" "}
+                        tools and techniques.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Jaar-1-Portfolio">
                         Link to the GitHub Repository

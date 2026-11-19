@@ -38,14 +38,17 @@ function ProjectMightyModels() {
                     </p>
                     <p className="text-justify font-body mb-4">
                         <Highlight>Mighty Models</Highlight> is a website for showcasing your{" "}
-                        <Highlight>miniature models</Highlight> to the world. This was the first ever{" "}
-                        <Highlight>Laravel</Highlight> project I worked on. It was also one of my first experiences with{" "}
-                        <Highlight>Tailwind</Highlight>. For data storage, I have used an <Highlight>SQLite</Highlight>{" "}
-                        database. On Mighty Models, you can view and like models from other users and upload your own
-                        models to the website. It also features a login system, a like system, and a post system. Users
-                        can delete and edit their own posts, and the admin has the authority to hide posts. Mighty
-                        Models is one of my favorite projects I have worked on, not only because I like the end result,
-                        but also because I have learned a lot about web development and frameworks during the process.
+                        <Highlight>miniature models</Highlight> to the world. Users can view and like models from other
+                        users and upload their own. It features a <Highlight>login system</Highlight>, a{" "}
+                        <Highlight>like system</Highlight> and a <Highlight>post system</Highlight>: users can edit and
+                        delete their own posts, and the admin can hide posts.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        This was the first <Highlight>Laravel</Highlight> project I ever worked on, and one of my first
+                        experiences with <Highlight>Tailwind</Highlight>. For data storage, I used an{" "}
+                        <Highlight>SQLite</Highlight> database. Mighty Models is one of my favorite projects, not only
+                        because I like the end result, but also because I learned a lot about web development and
+                        frameworks along the way.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/PRG5-Eindopdracht">
                         Link to the GitHub Repository

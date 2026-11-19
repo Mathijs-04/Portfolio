@@ -46,14 +46,17 @@ function ProjectSignTrail() {
                         An educational sign language game for students
                     </p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>SignTrail</Highlight> is an educational game made for students learning{" "}
-                        <Highlight>sign language</Highlight>. In our game, your goal is to help your snail reach the
-                        finish as fast as possible by doing the right sign language gestures. Our application features a
-                        difficulty system, personal scoreboard, gesture overview page and official school login, to make
-                        sure it is only accessible for actual students. During this project, we worked with a separate
-                        Front-End and Back-End team. I was part of the Front-End team, and was responsible for making
-                        our website and game. One of the biggest challenges during this project was combining two{" "}
-                        <Highlight>JavaScript</Highlight> frameworks, <Highlight>React</Highlight> &{" "}
+                        <Highlight>SignTrail</Highlight> is an <Highlight>educational game</Highlight> for students
+                        learning <Highlight>sign language</Highlight>. Your goal is to help your snail reach the finish
+                        as fast as possible by making the right sign language gestures in front of your{" "}
+                        <Highlight>webcam</Highlight>. The game features a <Highlight>difficulty system</Highlight>, a{" "}
+                        <Highlight>personal scoreboard</Highlight>, a gesture overview page and an official{" "}
+                        <Highlight>school login</Highlight>, so it is only accessible to actual students.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        We worked with a separate Front-End and Back-End team. I was part of the{" "}
+                        <Highlight>Front-End team</Highlight> and was responsible for the website and the game. One of
+                        the biggest challenges was combining two JavaScript frameworks, <Highlight>React</Highlight> and{" "}
                         <Highlight>Excalibur.js</Highlight>, into a single product. It took some effort to get there,
                         but in the end, we made it work!
                     </p>

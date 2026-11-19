@@ -37,16 +37,17 @@ function ProjectGameCollection() {
                         A MERN-stack collection with a dedicated Front-End and Back-End
                     </p>
                     <p className="text-justify font-body mb-4">
-                        The <Highlight>Full-Stack Game Collection</Highlight> is one of the latest projects I have
-                        worked on. The goal of this project was to learn more about the differences between Front-End
-                        and Back-End web development. This project uses <Highlight>React</Highlight> and{" "}
-                        <Highlight>Tailwind</Highlight> as the most important Front-End components. The Back-End
-                        consists of <Highlight>Node.js</Highlight>, <Highlight>MongoDB</Highlight>, and{" "}
-                        <Highlight>Express</Highlight>. By combining the Front-End and Back-End, I have created a
-                        website that stores data of popular video games. The game data is stored by the Back-End and
-                        retrieved and visualized by the Front-End. Even though the final product itself doesn&apos;t
-                        look too spectacular, I think this project was one of the most educational projects I have
-                        worked on so far.
+                        The goal of this project was to learn more about the differences between{" "}
+                        <Highlight>Front-End</Highlight> and <Highlight>Back-End</Highlight> web development. By
+                        combining the two, I created a website that stores data of popular{" "}
+                        <Highlight>video games</Highlight>: the Back-End stores the game data, and the Front-End
+                        retrieves and visualizes it.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        The Front-End uses <Highlight>React</Highlight> and <Highlight>Tailwind</Highlight>, while the
+                        Back-End consists of <Highlight>Node.js</Highlight>, <Highlight>Express</Highlight> and{" "}
+                        <Highlight>MongoDB</Highlight>. Even though the final product doesn&apos;t look too spectacular,
+                        I think this was one of the most educational projects I have worked on so far.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/PRG6-Front-End">
                         Link to the Front-End GitHub Repository

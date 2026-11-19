@@ -31,13 +31,16 @@ function ProjectAdventurersArmory() {
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">A Fantasy Store Experience</p>
                     <p className="text-justify font-body mb-4">
                         <Highlight>The Adventurers Armory</Highlight> is a digital{" "}
-                        <Highlight>Fantasy Store Experience</Highlight>. It was made in <Highlight>Vue.js</Highlight> as
-                        a fun hobby project. I came up with the idea of creating a{" "}
-                        <Highlight>fictional webshop</Highlight> for fun, which evolved into the project you are seeing
-                        right now. It features a loading screen, a landing page, a storefront with over 30 unique items
-                        and a detail page with unique descriptions for each item. The website also features an audio
-                        system with sound effects and different background tracks to listen to. It also includes a
-                        full-screen button which enables users to get the full experience.
+                        <Highlight>fantasy store experience</Highlight>, made in <Highlight>Vue.js</Highlight> as a fun
+                        hobby project. What started as the idea of building a fictional webshop for fun evolved into the
+                        project you see here.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        It features a <Highlight>loading screen</Highlight>, a <Highlight>landing page</Highlight>, a
+                        storefront with over 30 unique items, and a <Highlight>detail page</Highlight> with its own
+                        description for every item. An <Highlight>audio system</Highlight> adds sound effects and
+                        different background tracks, and a full-screen button lets you get the full experience. The
+                        interface is built with <Highlight>PrimeVue</Highlight> components.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/The-Adventurers-Armory">
                         Link to the GitHub Repository

@@ -34,11 +34,16 @@ function ProjectThemePlayer() {
                         A music player for The Elder Scrolls
                     </p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>The Elder Scrolls Music Player</Highlight> is a website that plays the main theme
-                        music from all major games in <Highlight>The Elder Scrolls series</Highlight>. It was created as
-                        part of a <Highlight>coding challenge</Highlight> where I had to build a website using{" "}
-                        <Highlight>AI</Highlight> in just 1 minute. That&apos;s right, this entire website was made from
-                        start to finish in under 60 seconds!
+                        <Highlight>The Elder Scrolls Theme Player</Highlight> is a website that plays the main theme of
+                        every major game in <Highlight>The Elder Scrolls series</Highlight>. It was created for a{" "}
+                        <Highlight>coding challenge</Highlight> in which I had to build a website with{" "}
+                        <Highlight>AI</Highlight> in just one minute.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        That&apos;s right, this entire website was made from start to finish in{" "}
+                        <Highlight>under 60 seconds</Highlight>! It is built with plain <Highlight>HTML</Highlight>,{" "}
+                        <Highlight>CSS</Highlight> and <Highlight>JavaScript</Highlight>, so it runs in any browser.
+                        Give it a listen and pick your favorite theme.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Elder-Scrolls-Theme-Player">
                         Link to the GitHub Repository

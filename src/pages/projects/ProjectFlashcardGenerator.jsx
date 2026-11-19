@@ -36,22 +36,19 @@ function ProjectFlashcardGenerator() {
                         An AI-powered flashcard generator in Vue.js
                     </p>
                     <p className="text-justify font-body mb-4">
-                        This simple application generates a flashcard-style question and answer based on a topic of your
-                        choice. This project was made using the <Highlight>Vue.js</Highlight> framework and{" "}
-                        <Highlight>HuggingFace</Highlight>&#39;s model <Highlight>Mistral-7B-Instruct-v0.2</Highlight>.
-                        I started this project to learn the basics of the Vue.js framework and experiment with running a{" "}
-                        <Highlight>LLM</Highlight> locally. The model I chose for this project is downloaded and cached
-                        in the user&#39;s browser and uses <Highlight>WebGPU</Highlight> to run. The more powerful your
-                        GPU, the faster the flashcards will be generated. Since the entire model needs to be downloaded
-                        locally, the first load takes a lot longer than usual. After that, the model is cached and will
-                        load much quicker. Since the model is running locally in your browser, none of the input data
-                        will be stored. Not all browsers support WebGPU, but it is supported by most popular browsers
-                        like <Highlight>Chrome</Highlight>, <Highlight>Edge</Highlight>, <Highlight>Firefox</Highlight>,
-                        and <Highlight>Safari</Highlight>. Since this is a relatively simple model and I haven&#39;t yet
-                        been able to make my prompt engineering watertight, the quality of the flashcard varies greatly
-                        based on the topic, and sometimes it outright refuses to generate one. You could also convince
-                        the model to break the rules and generate content other than flashcards, so I suggest you try
-                        and experiment a bit with it!
+                        This application generates a <Highlight>flashcard-style</Highlight> question and answer on a
+                        topic of your choice. I started it to learn the basics of <Highlight>Vue.js</Highlight> and to
+                        experiment with running an <Highlight>LLM locally</Highlight>. It uses the{" "}
+                        <Highlight>Mistral-7B-Instruct-v0.2</Highlight> model, which is downloaded and cached in your
+                        browser and runs on your GPU through <Highlight>WebGPU</Highlight>. Because the model runs
+                        locally, none of your input is stored, and a more powerful GPU generates flashcards faster.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        The first load takes a while, since the entire model needs to be downloaded, but after that it
+                        loads much quicker. WebGPU is supported by most popular browsers, like Chrome, Edge, Firefox and
+                        Safari. My <Highlight>prompt engineering</Highlight> isn&apos;t watertight yet, so the quality
+                        of the flashcards varies by topic, and sometimes the model refuses outright or can be convinced
+                        to break the rules. Feel free to experiment with it!
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Vue.js-Flashcards">
                         Link to the GitHub Repository

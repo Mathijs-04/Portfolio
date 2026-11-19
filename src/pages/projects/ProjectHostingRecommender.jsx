@@ -38,14 +38,17 @@ function ProjectHostingRecommender() {
                         A company website which recommends hosting packages
                     </p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>Hosting Recommender</Highlight> is an internal company tool. This tool helps
-                        employees find the right hosting package for customers, based on a few simple questions. Based
-                        on the answers to these questions, the correct package is recommended, along with pricing and
-                        technical specifications. This tool was built in a single day as an experiment, but is now being
-                        used throughout the entire company. The Front-End was built using <Highlight>Vue.js</Highlight>,
-                        the Back-End uses <Highlight>Python</Highlight>. If users do not understand a question or have
-                        additional questions, they can ask the <Highlight>chatbot</Highlight> for help. This chatbot is
-                        powered using a model from <Highlight>OpenAI</Highlight>.
+                        <Highlight>Hosting Recommender</Highlight> is an <Highlight>internal company tool</Highlight>{" "}
+                        that helps employees find the right <Highlight>hosting package</Highlight> for customers. Based
+                        on the answers to a few simple questions, it recommends the right package, along with pricing
+                        and technical specifications. If users don&apos;t understand a question or have additional
+                        questions, they can ask the built-in <Highlight>chatbot</Highlight> for help, which is powered
+                        by a model from <Highlight>OpenAI</Highlight>.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        The Front-End was built with <Highlight>Vue.js</Highlight> and the Back-End uses{" "}
+                        <Highlight>Python</Highlight>. I built this tool in a <Highlight>single day</Highlight> as an
+                        experiment, but it is now being used throughout the entire company.
                     </p>
                 </div>
             </div>

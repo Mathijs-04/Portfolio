@@ -46,25 +46,22 @@ function ProjectWarhammerRuleAssistant() {
                     </p>
                     <p className="text-justify font-body mb-4">
                         <Highlight>Warhammer Rule Assistant</Highlight> is a tool for Warhammer players who want to
-                        spend more time fighting battles and less time searching through rulebooks. I have been working
-                        on this application for the past few months as part of my third-year school project. With this
-                        tool, users can answer rule-related questions within seconds instead of constantly pausing games
-                        to look up specific rules. The application contains vectorized Warhammer rules for both{" "}
-                        <Highlight>Age of Sigmar</Highlight> and <Highlight>40,000</Highlight>. When a user asks a
-                        question, the relevant vector data is attached to the prompt and sent to an AI model, which
-                        generates an answer based on the official rules. Each answer includes a short explanation, a
-                        more detailed explanation, and the official source.
+                        spend more time fighting battles and less time searching through rulebooks. I built it as my
+                        third-year school project. Players get answers to their rules questions within seconds, instead
+                        of pausing the game to look things up. The application contains the{" "}
+                        <Highlight>vectorized rules</Highlight> of both <Highlight>Age of Sigmar</Highlight> and{" "}
+                        <Highlight>Warhammer 40.000</Highlight>. The relevant rules are attached to each question and
+                        sent to an <Highlight>AI model</Highlight>, which answers with a short explanation, a detailed
+                        explanation and the official source.
                     </p>
                     <p className="text-justify font-body mb-4">
-                        The application also features a PDF viewer with official rulebooks, which are connected to
-                        answers through highlighted keywords. When a user clicks one of these keywords, they are sent to
-                        the correct rulebook and page where that rule is mentioned. Besides answering rules questions,
-                        this tool also helps players build ready-to-use armies. The Front-End was built with{" "}
-                        <Highlight>Vue.js</Highlight> and <Highlight>Tailwind</Highlight>, while the{" "}
-                        <Highlight>Python</Highlight> Back-End uses <Highlight>FastAPI</Highlight> to manage calls to{" "}
-                        <Highlight>OpenAI</Highlight> and retrieve vector data. <Highlight>Laravel</Highlight> acts as
-                        the bridge between the Front-End and Back-End. This project has been one of the most
-                        challenging, but also one of the most fun, projects I have worked on so far!
+                        Highlighted keywords in each answer link to the right page of the official rulebooks in a
+                        built-in <Highlight>PDF viewer</Highlight>, and the tool also helps players build ready-to-use{" "}
+                        <Highlight>armies</Highlight>. The Front-End uses <Highlight>Vue.js</Highlight> and{" "}
+                        <Highlight>Tailwind</Highlight>, a <Highlight>Python</Highlight> Back-End with{" "}
+                        <Highlight>FastAPI</Highlight> handles the calls to <Highlight>OpenAI</Highlight> and the vector
+                        data, and <Highlight>Laravel</Highlight> connects the two. One of the most challenging, but also
+                        most fun, projects I have worked on so far!
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/PLE-MVP">
                         Link to the GitHub Repository

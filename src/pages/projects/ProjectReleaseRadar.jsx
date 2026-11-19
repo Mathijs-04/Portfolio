@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
 import { FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import ExternalLink from "../../components/ExternalLink.jsx";
 import Highlight from "../../components/Highlight.jsx";
 import ProjectCarousel from "../../components/ProjectCarousel.jsx";
@@ -29,28 +30,25 @@ function ProjectReleaseRadar() {
                     <ProjectCarousel images={carouselImages} name="Release Radar" />
                     <div className="flex space-x-3 mb-4">
                         <FaReact className="text-2xl text-blue-400" />
+                        <SiTypescript className="text-2xl text-blue-400" />
                     </div>
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">
                         Your personalized game release calendar
                     </p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>Release Radar</Highlight> is your{" "}
-                        <Highlight>personalized game release calendar</Highlight>. I created this prototype to solve a
-                        problem I ran into myself: there are a lot of upcoming games I look forward to, but they all
-                        release at different times, on different platforms, and some don&apos;t even have a release
-                        date yet. I couldn&apos;t keep track of them all, so I built Release Radar.
+                        <Highlight>Release Radar</Highlight> is your personalized{" "}
+                        <Highlight>game release calendar</Highlight>. I created this prototype to solve a problem I ran
+                        into myself: there are a lot of upcoming games I look forward to, but they all release at
+                        different times, on different platforms, and some don&apos;t even have a release date yet. I
+                        couldn&apos;t keep track of them all, so I built Release Radar.
                     </p>
                     <p className="text-justify font-body mb-4">
-                        It&apos;s a simple <Highlight>React</Highlight> app hosted on{" "}
-                        <Highlight>GitHub Pages</Highlight>. You can add all of your anticipated game releases, along
-                        with extra information such as images and notes. Once your games are added, they are displayed
-                        in a <Highlight>timeline</Highlight> or <Highlight>agenda view</Highlight>. Existing listings
-                        can also be edited, for example when a game gets delayed.
-                    </p>
-                    <p className="text-justify font-body mb-4">
-                        All data is stored in your browser&apos;s <Highlight>local storage</Highlight>, and you can{" "}
-                        <Highlight>export and import</Highlight> it as JSON, either as a backup or to transfer it to
-                        another device. This prototype is free to use and available through the link below!
+                        It&apos;s a simple <Highlight>React</Highlight> app written in <Highlight>TypeScript</Highlight>{" "}
+                        and hosted on <Highlight>GitHub Pages</Highlight>. You can add your anticipated games with extra
+                        information such as images and notes, view them in a <Highlight>timeline</Highlight> or{" "}
+                        <Highlight>agenda</Highlight>, and edit them when a game gets delayed. All data is stored
+                        locally in your browser and can be exported and imported as <Highlight>JSON</Highlight>, as a
+                        backup or to move it to another device. It is free to use, so give it a try!
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Release-Radar">
                         Link to the GitHub Repository

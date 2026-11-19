@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router";
 import { FaReact } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
+import { SiExpo, SiExpress } from "react-icons/si";
 import ExternalLink from "../../components/ExternalLink.jsx";
 import Highlight from "../../components/Highlight.jsx";
 import ProjectCarousel from "../../components/ProjectCarousel.jsx";
@@ -34,6 +34,7 @@ function ProjectBlijeBij() {
                     <ProjectCarousel images={carouselImages} name="De Blije Bij" />
                     <div className="flex space-x-3 mb-4">
                         <FaReact className="text-blue-500 text-2xl" />
+                        <SiExpo className="text-2xl text-blue-400" />
                         <SiExpress className="text-2xl text-blue-400" />
                     </div>
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">
@@ -42,13 +43,16 @@ function ProjectBlijeBij() {
                     <p className="text-justify font-body mb-4">
                         <Highlight>De Blije Bij</Highlight> is a{" "}
                         <Highlight>sustainability-focused garden app</Highlight> built with{" "}
-                        <Highlight>React Native</Highlight> and <Highlight>Expo Go</Highlight>. The app helps users make
-                        their gardens more eco-friendly by offering sustainable advice based on the size, types of
-                        plants, amount of light and soil type of their garden. Users can design their own garden using
-                        our grid system, view statistics on the sustainability of their garden, and discover new plants
-                        in a built-in plant encyclopedia. All plant data is fetched through a custom-made{" "}
-                        <Highlight>Express</Highlight> API. The app was made for a school project about sustainable
-                        start-ups and was developed in a team of six students.{" "}
+                        <Highlight>React Native</Highlight> and <Highlight>Expo Go</Highlight>. It helps users make
+                        their gardens more eco-friendly with advice based on the size, plants, amount of light and soil
+                        type of their garden.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        Users can design their own garden with our <Highlight>grid system</Highlight>, view statistics
+                        on its sustainability, and discover new plants in a built-in{" "}
+                        <Highlight>plant encyclopedia</Highlight>. All plant data is fetched through a custom-made{" "}
+                        <Highlight>Express API</Highlight>. The app was made for a school project about{" "}
+                        <Highlight>sustainable start-ups</Highlight> and was developed in a team of six students.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/TLE-STARTUP">
                         Link to the GitHub Repository

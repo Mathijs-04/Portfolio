@@ -31,17 +31,19 @@ function ProjectDNDGPT() {
                     </div>
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">Your AI Dungeon Master</p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>D&D-GPT</Highlight> is an AI Dungeon Master for{" "}
-                        <Highlight>Dungeons & Dragons 5e</Highlight>, powered by <Highlight>ChatGPT-3.5</Highlight>.
-                        During a school course on AI <Highlight>Large Language Models</Highlight>, I decided to create
-                        my own AI assistant. To align with my personal interests, I developed an assistant for Dungeons
-                        & Dragons. My AI has access to the entire D&D 5e ruleset and an API that fetches random
-                        monsters, enabling it to answer D&D-related questions and provide monster data on demand. User
-                        chat history is stored and can be reset with a single click. The Front-End was built using{" "}
+                        <Highlight>D&amp;D-GPT</Highlight> is an <Highlight>AI Dungeon Master</Highlight> for{" "}
+                        <Highlight>Dungeons &amp; Dragons 5e</Highlight>, powered by <Highlight>GPT-3.5</Highlight>.
+                        During a school course on <Highlight>Large Language Models</Highlight>, I decided to create my
+                        own AI assistant and, to match my personal interests, made one for Dungeons &amp; Dragons. It
+                        has access to the entire D&amp;D 5e ruleset and an API that fetches random monsters, so it can
+                        answer D&amp;D questions and provide monster data on demand.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        User chat history is stored and can be reset with a single click. The Front-End was built with{" "}
                         <Highlight>React</Highlight>, while the Back-End, which communicates with the{" "}
-                        <Highlight>OpenAI API</Highlight>, was developed with <Highlight>Express</Highlight>. During
-                        this project, I have learned a lot about how Large Language Models work, and how easy it is to
-                        experiment with them yourself.
+                        <Highlight>OpenAI API</Highlight> through <Highlight>LangChain</Highlight>, was developed with{" "}
+                        <Highlight>Express</Highlight>. During this project, I learned a lot about how Large Language
+                        Models work, and how easy it is to experiment with them yourself.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/PRG8-LLM">
                         Link to the GitHub Repository

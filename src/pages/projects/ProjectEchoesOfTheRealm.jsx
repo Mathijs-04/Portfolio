@@ -40,32 +40,19 @@ function ProjectEchoesOfTheRealm() {
                     </p>
                     <p className="text-justify font-body mb-4">
                         <Highlight>Echoes of the Realm</Highlight> is a web-based{" "}
-                        <Highlight>Fantasy Soundscape Generator</Highlight>. Tired of endlessly searching YouTube for
-                        the perfect ambience to accompany your tabletop adventures, only to be interrupted by ads or
-                        forced to find a new playlist every time your party enters a different setting? Then Echoes of
-                        the Realm is exactly what you need! This simple online tool lets users pick a setting and
-                        adjust the <Highlight>danger level</Highlight>, from a cozy campfire to a dreadful dungeon. The
-                        sound never stops playing; it adjusts itself based on your needs.
+                        <Highlight>fantasy soundscape generator</Highlight>. Tired of searching YouTube for the perfect
+                        ambience for your tabletop adventures, only to be interrupted by ads? Then this is exactly what
+                        you need! Pick one of six locations and set the <Highlight>danger level</Highlight>, from a cozy
+                        campfire to a dreadful dungeon. The sound never stops playing and adjusts itself to your needs.
                     </p>
                     <p className="text-justify font-body mb-4">
-                        I made this project for a <Highlight>sound design</Highlight> course at school. It works as
-                        follows: the sound engine runs in the browser on the <Highlight>Web Audio API</Highlight>,
-                        blending about 34 looping beds and 45 one-shot effects into a continuous soundscape. Every clip
-                        carries a <Highlight>mood score</Highlight> from calm to intense. You choose one of six
-                        locations and a danger slider, and the selection follows that vibe with{" "}
-                        <Highlight>weighted randomness</Highlight>, so it feels right but never identical.
-                    </p>
-                    <p className="text-justify font-body mb-4">
-                        One main ambient loop plus one or two layers form the bed, with slow{" "}
-                        <Highlight>crossfades</Highlight> when layers drift to new material every minute or two.
-                        One-shots are gated by location, mood, and simple context (day versus night beds, a storm
-                        already playing, and similar rules), and they fire more often as danger rises. Each event is
-                        placed at random as near, mid, or far using volume, pan, filtering, and{" "}
-                        <Highlight>reverb</Highlight>, while the overall wetness grows with danger so tense moments feel
-                        larger and more enclosed.
-                    </p>
-                    <p className="text-justify font-body mb-4">
-                        Feel free to try it out through the link below!
+                        I made this project for a <Highlight>sound design</Highlight> course at school. The sound engine
+                        runs in the browser on the <Highlight>Web Audio API</Highlight> and blends about 34 looping beds
+                        and 45 one-shot effects into one continuous soundscape. Every clip has a{" "}
+                        <Highlight>mood score</Highlight>, and <Highlight>weighted randomness</Highlight> picks clips
+                        that fit the vibe without ever sounding identical. One-shots fire more often as the danger
+                        rises, and each one is placed near or far using volume, panning and{" "}
+                        <Highlight>reverb</Highlight>. Feel free to try it out!
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Echoes-of-the-Realm">
                         Link to the GitHub Repository

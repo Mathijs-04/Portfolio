@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import { SiJavascript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import ExternalLink from "../../components/ExternalLink.jsx";
 import Highlight from "../../components/Highlight.jsx";
 import ProjectCarousel from "../../components/ProjectCarousel.jsx";
@@ -28,16 +28,18 @@ function ProjectGobboQuest() {
                 <div className="bg-slate-800 p-6 max-md:p-4 rounded-lg mb-5">
                     <ProjectCarousel images={carouselImages} name="Gobbo Quest" />
                     <div className="flex space-x-3 mb-4">
-                        <SiJavascript className="text-2xl text-blue-400" />
+                        <SiTypescript className="text-2xl text-blue-400" />
                     </div>
                     <p className="text-xl text-justify mb-4 font-body font-extrabold">A simple web-based RPG</p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>Gobbo Quest</Highlight> is a simple <Highlight>top-down arcade game</Highlight> made
-                        with <Highlight>MakeCode Arcade</Highlight>. This game was made in a few hours with three other
-                        students as an introduction to the game development course. Gobbo Quest is a short top-down{" "}
-                        <Highlight>dungeon crawler</Highlight> in which you have to explore a dungeon, slay enemies, and
-                        defeat the boss. Gobbo Quest works on both PC and mobile and runs in the browser. This project
-                        was a fun way to explore the basic concepts of game development.
+                        <Highlight>Gobbo Quest</Highlight> is a short top-down <Highlight>dungeon crawler</Highlight>{" "}
+                        made with <Highlight>MakeCode Arcade</Highlight>. You explore a dungeon, slay enemies and defeat
+                        the boss. The game runs in the <Highlight>browser</Highlight> and works on both PC and mobile.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        We made this game in just a <Highlight>few hours</Highlight> with a team of four students, as an
+                        introduction to the <Highlight>game development</Highlight> course. It was a fun way to explore
+                        the basic concepts of game development.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Gobbo-Quest-V2">
                         Link to the GitHub Repository

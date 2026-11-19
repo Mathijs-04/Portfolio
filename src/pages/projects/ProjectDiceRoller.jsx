@@ -34,14 +34,16 @@ function ProjectDiceRoller() {
                         An online dice rolling tool for wargaming enthusiasts
                     </p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>WARHAMMER Dice Roller</Highlight> is a simple online tool to roll many dice at once.
-                        I was inspired to work on this small hobby project because of my own frustrations during the{" "}
-                        <Highlight>WARHAMMER Tabletop Game</Highlight>. When playing WARHAMMER, players have to roll a
-                        lot of dice, and it can be quite time-consuming. I wanted to ease the pain by creating a simple
-                        website to roll a lot of dice at once. By using the online WARHAMMER Dice Roller, you spend less
-                        time rolling dice, and more time conquering the world! This simple website was developed using{" "}
-                        <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight>, and <Highlight>JavaScript</Highlight>,
-                        and works on both PC and Mobile.
+                        <Highlight>WARHAMMER Dice Roller</Highlight> is a simple online tool to{" "}
+                        <Highlight>roll many dice at once</Highlight>. I was inspired to build this small hobby project
+                        by my own frustrations while playing the <Highlight>WARHAMMER</Highlight> tabletop game, where
+                        players have to roll a lot of dice, which can be quite time-consuming.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        With the WARHAMMER Dice Roller, you spend less time rolling dice and more time conquering the
+                        world! The website was developed with <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight>{" "}
+                        and <Highlight>JavaScript</Highlight>, and works on both <Highlight>PC</Highlight> and{" "}
+                        <Highlight>mobile</Highlight>.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/Dice-Roller">
                         Link to the GitHub Repository

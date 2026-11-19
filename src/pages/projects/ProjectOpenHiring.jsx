@@ -40,17 +40,18 @@ function ProjectOpenHiring() {
                         A Laravel-based job listing platform for inclusive hiring
                     </p>
                     <p className="text-justify font-body mb-4">
-                        <Highlight>The Open Hiring Project</Highlight> was one of the most challenging, but also fun
-                        projects I have worked on so far. Open Hiring was developed for none other than digital agency{" "}
-                        <Highlight>iO Digital</Highlight>. iO gave us the challenge to work on an unconventional
-                        application platform for <Highlight>inclusive hiring</Highlight>. With Open Hiring, you skip the
-                        traditional application process and get to work right away. Our employer-focused version of the
-                        Open Hiring system was developed in just 15 days in a team of five students. The website uses{" "}
-                        <Highlight>Laravel</Highlight>, <Highlight>Tailwind</Highlight>, and{" "}
-                        <Highlight>SQLite</Highlight>, and features an extended login system, company pages system,
-                        vacancy posting system, an employee invite system, and lastly a vacancy overview. I enjoyed
-                        overcoming the challenges this project posed, and am thankful for getting to work on this
-                        project.
+                        <Highlight>Open Hiring</Highlight> was developed for none other than digital agency{" "}
+                        <Highlight>iO Digital</Highlight>. They gave us the challenge to build an unconventional
+                        application platform for <Highlight>inclusive hiring</Highlight>: with Open Hiring, you skip the
+                        traditional application process and get to work right away.
+                    </p>
+                    <p className="text-justify font-body mb-4">
+                        Our employer-focused version of the platform was developed in just{" "}
+                        <Highlight>15 days</Highlight> in a team of five students. The website uses{" "}
+                        <Highlight>Laravel</Highlight>, <Highlight>Tailwind</Highlight> and{" "}
+                        <Highlight>SQLite</Highlight>, and features an extended login system, company pages, vacancy
+                        posting, an employee invite system and a vacancy overview. It was one of the most challenging,
+                        but also most fun, projects I have worked on, and I am thankful I got to work on it.
                     </p>
                     <ExternalLink href="https://github.com/Mathijs-04/TLE1-Agency">
                         Link to the GitHub Repository
